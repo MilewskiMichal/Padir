@@ -1,0 +1,10 @@
+# Poswiadczenia do WordPressa. Plik zyje tylko na dysku sesji, z uprawnieniami
+# 600, i nigdy nie trafia do repozytorium ani na czat.
+wp.creds.json
+**/wp.creds.json
+
+# Robocze zrzuty stron i renderowane podglady
+lustro-*.html
+lustro-*.css
+lustro-media/
+*.png
