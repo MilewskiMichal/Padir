@@ -1,0 +1,694 @@
+{
+ "zatwierdzone": [
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea-768x512.jpg",
+   "media_id": 2315,
+   "zrodlo": "realizacje",
+   "co_widac": "Złoty lustrzany napis „Tea” stoi na jasnym blacie. Litery połączone u podstawy, na krawędzi widać warstwy pod lustrem (czarną i białą). Szaro-fioletowe tło, czerwony refleks z lewej. Gotowy wyrób, ostry.",
+   "praca_padir": "tak",
+   "jakosc": 4,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "hero (kwadrat ze środka dobry, cały napis w kadrze)",
+    "galeria",
+    "karta materiału: plexi lustrzana"
+   ],
+   "alt": "Napis przestrzenny Tea ze złotej plexi lustrzanej",
+   "tytul_realizacji": "Napis przestrzenny „Tea”",
+   "material": "Plexi lustrzana",
+   "wymiary": "1000x667",
+   "uwagi": "Karta realizacji z plakietką Frezowanie. Ten sam kadr w większej rozdzielczości: media 1249 i 1555 (2560 px). Zdjęcie stoi dziś na /frezowanie-cnc/ (1011)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team-768x512.jpg",
+   "media_id": 2316,
+   "zrodlo": "realizacje",
+   "co_widac": "Ten sam typ wyrobu co „Tea”: złoty lustrzany napis „Team” ustawiony ukośnie, litery połączone u podstawy. Ostatnia litera „m” wychodzi poza kadr, na lustrze kolorowe refleksy (czerwony, zielony).",
+   "praca_padir": "tak",
+   "jakosc": 3,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "galeria",
+    "karta materiału: plexi lustrzana (jeśli „Tea” jest w hero)"
+   ],
+   "alt": "Napis przestrzenny Team ze złotej plexi lustrzanej",
+   "tytul_realizacji": "Napis przestrzenny „Team”",
+   "material": "Plexi lustrzana",
+   "wymiary": "1000x667",
+   "uwagi": "Do hero się nie nadaje: kwadrat ze środka ucina „T” i „m”, zostaje samo „eam”. Ten sam kadr w 2560 px: media 1055 i 1556."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowana-litera-przestrzenna.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowana-litera-przestrzenna-768x433.jpg",
+   "media_id": 2317,
+   "zrodlo": "realizacje",
+   "co_widac": "Wrzeciono frezarki CNC z frezem palcowym nad bukowym klockiem przyklejonym taśmą do płyty ofiarnej. W klocku wyfrezowany kontur litery (widziana do góry nogami, wygląda na „A”). Z prawej niebieski wąż chłodziwa z pomarańczową dyszą, u góry czarna szczotka osłony, na płycie ślady wcześniejszych frezowań.",
+   "praca_padir": "tak",
+   "jakosc": 4,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "hero (kwadrat dobry: wrzeciono i litera w kadrze)",
+    "galeria",
+    "na czym to polega",
+    "karta materiału: drewno"
+   ],
+   "alt": "Frezowanie litery przestrzennej z bukowego klocka na frezarce CNC",
+   "tytul_realizacji": "Frezowana litera przestrzenna",
+   "material": "Buk",
+   "wymiary": "1000x564",
+   "uwagi": "Zdjęcie stoi dziś na /frezowanie-cnc/ (1011). Format 16:9."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-napis-ajala.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-napis-ajala-768x433.jpg",
+   "media_id": 2318,
+   "zrodlo": "realizacje",
+   "co_widac": "Frez grawerski (stożkowy, w ruchu, lekko rozmyty) nad jasną płytą z konglomeratu. Wyfrezowane kontury liter napisu, pierwsza litera „A” wybrana głębiej jako kieszeń. Na płycie pył i wióry.",
+   "praca_padir": "tak",
+   "jakosc": 4,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "hero (kwadrat dobry)",
+    "galeria",
+    "karta materiału: konglomerat kwarcowy / kamień"
+   ],
+   "alt": "Frezowanie napisu w płycie z konglomeratu kwarcowego",
+   "tytul_realizacji": "Frezowany napis „Ajala”",
+   "material": "Konglomerat kwarcowy",
+   "wymiary": "1000x564",
+   "uwagi": "Format 16:9. Jedyne zdjęcie frezowania w materiale kamiennym."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-medalion-republika-portionii.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-medalion-republika-portionii-768x433.jpg",
+   "media_id": 2319,
+   "zrodlo": "realizacje",
+   "co_widac": "Okrągły medalion z grubej płyty MDF pod wrzecionem, na błyszczącym stole. Na obwodzie wypukłe litery (tło wybrane frezem): „REPUBLIKA PORTONII · 2015”. W środku biała tarcza z wyfrezowanym wzorem fal, kwiatem o sześciu płatkach i literami.",
+   "praca_padir": "tak",
+   "jakosc": 4,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "hero (kwadrat dobry)",
+    "galeria",
+    "karta materiału: MDF"
+   ],
+   "alt": "Medalion z płyty MDF z wypukłym napisem po frezowaniu CNC",
+   "tytul_realizacji": "Medalion „Republika Portionii”",
+   "material": "MDF",
+   "wymiary": "1000x564",
+   "uwagi": "Na medalionie czytelnie wyfrezowano „PORTONII”, a karta realizacji ma tytuł „Republika Portionii”. W alcie i podpisie lepiej nie powtarzać nazwy, dopóki klient nie potwierdzi pisowni."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-relief-duka.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-relief-duka-768x433.jpg",
+   "media_id": 2320,
+   "zrodlo": "realizacje",
+   "co_widac": "Biały blok z tworzywa z wyfrezowaną kieszenią, w jej dnie napis „DUKA” w formie płaskorzeźby. Szczęki suwmiarki obejmują kieszeń, u góry podziałka suwmiarki. W tle płyta MDF.",
+   "praca_padir": "tak",
+   "jakosc": 4,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "galeria",
+    "sekcja o dokładności / proces (pomiar suwmiarką)",
+    "karta materiału: tworzywa"
+   ],
+   "alt": "Wyfrezowany napis DUKA w bloku z tworzywa, mierzony suwmiarką",
+   "tytul_realizacji": "Frezowany relief „Duka”",
+   "material": "Tworzywo",
+   "wymiary": "1000x564",
+   "uwagi": "Do hero słabo: kwadrat ze środka ucina literę „D”. Ten sam kadr jako media 2362 (padir-hero-frezowany-relief-duka.jpg, 1632x920), można go użyć jako pełnego zdjęcia do lightboxa."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/cnc-drewno.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/cnc-drewno-768x433.jpg",
+   "media_id": 2256,
+   "zrodlo": "media",
+   "co_widac": "Wrzeciono z frezem palcowym prowadzi łukowy rowek w jasnej klejonce drewnianej. Wokół wióry, z prawej pomarańczowa dysza chłodziwa, u góry czarna szczotka osłony. To ta sama głowica i dysza co na karcie litery z buku (2317).",
+   "praca_padir": "tak",
+   "jakosc": 4,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "na czym to polega",
+    "hero (zapasowo, kwadrat dobry)",
+    "park maszynowy (zastępczo, zbliżenie wrzeciona)",
+    "karta materiału: drewno"
+   ],
+   "alt": "Frez CNC prowadzi łukowy rowek w klejonce drewnianej",
+   "tytul_realizacji": null,
+   "material": null,
+   "wymiary": "1632x920",
+   "uwagi": "Zdjęcie procesu, nie realizacja z tytułem: nie podpisywać jako „nasza realizacja”. Na /uslugi-dla-przemyslu/ (2264) ma alt „Frezowanie CNC detalu w pracowni Padir”. Format 16:9."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/10/IMG_20250909_084928_HDR-scaled.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/10/IMG_20250909_084928_HDR-768x575.jpg",
+   "media_id": 2148,
+   "zrodlo": "media",
+   "co_widac": "Wrzeciono z dwiema dyszami chłodziwa (niebieskie węże, pomarańczowe końcówki) frezuje prostokątną kieszeń w przezroczystej płycie (najpewniej plexi) na brązowym stole, wszędzie wióry. W tle pracownia: płyty MDF i sklejki, biały element z czarnymi pasami.",
+   "praca_padir": "tak",
+   "jakosc": 3,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "park maszynowy (zastępczo: widać wrzeciono i pracownię)",
+    "na czym to polega",
+    "karta materiału: plexi / tworzywa"
+   ],
+   "alt": "Frezowanie kieszeni w płycie z plexi na frezarce CNC",
+   "tytul_realizacji": null,
+   "material": null,
+   "wymiary": "2560x1916",
+   "uwagi": "Zdjęcie z telefonu (HDR), dysze lekko poruszone, tło nieuporządkowane. Dysze takie same jak na 2317 i 2256, więc to niemal na pewno pracownia Padiru, ale bez opisu w bibliotece. Zdjęcie procesu, nie realizacja."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_20250116_082620_HDR-scaled.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_20250116_082620_HDR-768x1026.jpg",
+   "media_id": 1739,
+   "zrodlo": "media",
+   "co_widac": "Zbliżenie wrzeciona z cienkim frezem, który robi otwór w białej płycie. Na płycie folia ochronna z nadrukiem ALTUGLAS (marka PMMA, czyli plexi), pod spodem płyta MDF.",
+   "praca_padir": "tak",
+   "jakosc": 3,
+   "orientacja": "pionowa",
+   "nadaje_sie_na": [
+    "na czym to polega (pionowy kadr)",
+    "karta materiału: plexi"
+   ],
+   "alt": "Cienki frez CNC wycina otwór w płycie z plexi",
+   "tytul_realizacji": null,
+   "material": null,
+   "wymiary": "1916x2560",
+   "uwagi": "Zdjęcie z telefonu (HDR), bez opisu w bibliotece. Wrzeciono takie jak na karcie medalionu (2319). Na folii widać markę producenta materiału, to nie jest klient. Zdjęcie procesu, nie realizacja."
+  }
+ ],
+ "odrzucone": [
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-hero-frezowany-relief-duka.jpg",
+   "media_id": 2362,
+   "powod": "Duplikat karty 2320 (ten sam kadr z suwmiarką, większy plik 1632x920). Wystarczy jeden, ten najwyżej jako pełne zdjęcie do lightboxa."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_1976-scaled.webp",
+   "media_id": 1055,
+   "powod": "Duplikat karty 2316 „Team” (ten sam kadr, 2560 px)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/12/IMG_1976-edit-min-scaled.jpg",
+   "media_id": 1556,
+   "powod": "Duplikat karty 2316 „Team” (ten sam kadr, 2560 px)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_1949-scaled.webp",
+   "media_id": 1249,
+   "powod": "Duplikat karty 2315 „Tea” (ten sam kadr, 2560 px)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/12/IMG_1950-edit-min-scaled.jpg",
+   "media_id": 1555,
+   "powod": "Duplikat karty 2315 „Tea” (ten sam kadr, 2560 px)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/smiglo-callfly-rotated.jpg",
+   "media_id": 2259,
+   "powod": "Polerowane aluminiowe śmigło z laserowym grawerem call&fly i dedykacją „135 LAT PIOTR! … Warszawa 30.06.2020”, obok linijka. Na kadrze widać grawer, nie frezowanie. Czy śmigło frezował Padir, wiadomo tylko z altu na stronie 2264 („Frezowane śmigło, realizacja Padir”). Mały plik 828x621. Na razie poza stroną, ewentualnie po potwierdzeniu z klientem."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/IMG_0060-rotated.jpg",
+   "media_id": 2279,
+   "powod": "Dwie aluminiowe płyty-szablony w przyrządzie na stole lasera, grawerowane litery C, D, E i opisy otworów, jasny punkt wiązki. To znakowanie laserem, nie frezowanie (alt na stronie 2264 mówi „Detal po obróbce CNC”, co nie zgadza się z kadrem)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/wbet-ds18.jpg",
+   "media_id": 2262,
+   "powod": "Ciemna stalowa tuleja toczona (ślady toczenia, radełko) z laserowym oznaczeniem WBET-DS-18. Nie widać frezowania, nie wiadomo, kto obrabiał detal. Temat znakowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/tlok-1.jpeg",
+   "media_id": 2260,
+   "powod": "Tłoki na stole lasera z oznaczeniami (strzałka, kody 2D, numery partii). Temat graweru i korekty oznaczeń, nie frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/tlok-2.jpeg",
+   "media_id": 2261,
+   "powod": "Tłoki na stole lasera z oznaczeniami (strzałka, kody 2D, numery partii). Temat graweru i korekty oznaczeń, nie frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/after-ref.jpeg",
+   "media_id": 2263,
+   "powod": "Tłoki na stole lasera z oznaczeniami (strzałka, kody 2D, numery partii). Temat graweru i korekty oznaczeń, nie frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/before-2.jpeg",
+   "media_id": 2255,
+   "powod": "Tłoki na stole lasera z oznaczeniami (strzałka, kody 2D, numery partii). Temat graweru i korekty oznaczeń, nie frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/07/AdobeStock_439101752-scaled.webp",
+   "media_id": 1012,
+   "powod": "Zdjęcie stockowe (AdobeStock): frez nad drewnem w chmurze pyłu. Dziś na /frezowanie-cnc/ (1011). Nie jest pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/pexels-pixabay-48799-scaled.jpg",
+   "media_id": 1312,
+   "powod": "Zdjęcie stockowe (Pexels): głowica frezowa z płytkami na ciemnym tle (2081 to ten sam kadr). Dziś 1312 stoi na 1011. Nie jest pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/09/Group-8-scaled.webp",
+   "media_id": 2081,
+   "powod": "Zdjęcie stockowe (Pexels): głowica frezowa z płytkami na ciemnym tle (2081 to ten sam kadr). Dziś 1312 stoi na 1011. Nie jest pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/07/AdobeStock_243435162-scaled.webp",
+   "media_id": 1017,
+   "powod": "Zdjęcie stockowe (AdobeStock): frez w deskach, lecące wióry. Stoi w szablonie frezowania i we wpisie 967. Nie jest pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/AdobeStock_243435162-scaled.webp",
+   "media_id": 1028,
+   "powod": "Zdjęcie stockowe (AdobeStock): frez w deskach, lecące wióry. Stoi w szablonie frezowania i we wpisie 967. Nie jest pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/07/industrial-metal-drill-machine-metalworking-workshop-scaled.jpg",
+   "media_id": 1291,
+   "powod": "Zdjęcia stockowe obróbki skrawaniem (frezarka do metalu w hali, głowica frezowa w wiórach stali, frez w drewnie). Nie są pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/07/AdobeStock_132087243-scaled.jpeg",
+   "media_id": 1045,
+   "powod": "Zdjęcia stockowe obróbki skrawaniem (frezarka do metalu w hali, głowica frezowa w wiórach stali, frez w drewnie). Nie są pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/02/frezowanie.png",
+   "media_id": 107,
+   "powod": "Zdjęcia stockowe obróbki skrawaniem (frezarka do metalu w hali, głowica frezowa w wiórach stali, frez w drewnie). Nie są pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/cnc.png",
+   "media_id": 751,
+   "powod": "Pracownik przy centrum obróbczym Morbidelli w cudzym zakładzie stolarskim: zdjęcie producenta lub stock. Nie wolno go pokazać jako maszyny Padiru, bo serwis nie podaje, że Padir ma taką maszynę."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/02/3d-grawer-machine.png",
+   "media_id": 105,
+   "powod": "Zdjęcia stockowe ze starego motywu: portal z głowicą laserową w fioletowym świetle. Nie są pracą Padiru i nie pokazują frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/grawer-maszyna.png",
+   "media_id": 763,
+   "powod": "Zdjęcia stockowe ze starego motywu: portal z głowicą laserową w fioletowym świetle. Nie są pracą Padiru i nie pokazują frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/08/DALL·E-2024-08-29-15.46.24-A-detailed-illustration-of-laser-engraving-in-action.-Show-a-close-up-of-a-laser-engraving-machine-like-the-Trotec-SP-2000-operating-on-a-wooden-sur.webp",
+   "media_id": 1120,
+   "powod": "Obrazy wygenerowane przez AI (DALL·E): 1120 udaje laser Trotec SP2000 nad drewnem, 1113 to grafika „eko”. Nie mogą udawać realizacji ani maszyny."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/DALL·E-2024-08-29-11.59.13-An-eye-catching-16_9-graphic-without-text-focusing-on-the-theme-of-Laser-Engraving-as-an-Environmentally-Responsible-Solution.-The-graphic-should-f.webp",
+   "media_id": 1113,
+   "powod": "Obrazy wygenerowane przez AI (DALL·E): 1120 udaje laser Trotec SP2000 nad drewnem, 1113 to grafika „eko”. Nie mogą udawać realizacji ani maszyny."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-litera-dekoracyjna-z-drewna.jpg",
+   "media_id": 2356,
+   "powod": "Ażurowa litera „R” z kwiatowym wzorem ze sklejki: cięcie laserowe (karta „Wycinanie”), stoi w materiałach wzorca 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_2843-scaled.webp",
+   "media_id": 1052,
+   "powod": "Ażurowa litera „R” z kwiatowym wzorem ze sklejki: cięcie laserowe (karta „Wycinanie”), stoi w materiałach wzorca 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/x-scaled.webp",
+   "media_id": 1636,
+   "powod": "Ażurowa litera „R” z kwiatowym wzorem ze sklejki: cięcie laserowe (karta „Wycinanie”), stoi w materiałach wzorca 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-podswietlana-litera-r.jpg",
+   "media_id": 2324,
+   "powod": "Podświetlana biała litera „R” z LED. Teoretycznie mogłaby być frezowana, ale karta realizacji ma plakietkę „Wycinanie” i zdjęcie stoi w galerii wzorca 1019. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_2264-1-scaled.webp",
+   "media_id": 1053,
+   "powod": "Podświetlana biała litera „R” z LED. Teoretycznie mogłaby być frezowana, ale karta realizacji ma plakietkę „Wycinanie” i zdjęcie stoi w galerii wzorca 1019. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/07/IMG_2264-scaled.jpg",
+   "media_id": 1033,
+   "powod": "Podświetlana biała litera „R” z LED. Teoretycznie mogłaby być frezowana, ale karta realizacji ma plakietkę „Wycinanie” i zdjęcie stoi w galerii wzorca 1019. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-logo-przestrzenne-boko.jpg",
+   "media_id": 2333,
+   "powod": "Logo BOKO z plexi lustrzanej: karta „Wycinanie” i case study wzorca 1019. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-litery.jpg",
+   "media_id": 2520,
+   "powod": "Logo BOKO z plexi lustrzanej: karta „Wycinanie” i case study wzorca 1019. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-slup.jpg",
+   "media_id": 2525,
+   "powod": "Logo BOKO z plexi lustrzanej: karta „Wycinanie” i case study wzorca 1019. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-wnetrze.jpg",
+   "media_id": 2521,
+   "powod": "Logo BOKO z plexi lustrzanej: karta „Wycinanie” i case study wzorca 1019. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-oznakowanie-tylko-dla-personelu.jpg",
+   "media_id": 2352,
+   "powod": "„Tylko dla personelu”: litery ze sklejki, karta „Wycinanie”, stoi w galerii wzorca 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-ekspozytor-guerlain.jpg",
+   "media_id": 2328,
+   "powod": "Ekspozytor Guerlain: hero wzorca 1019, karta „Wycinanie”."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7207-scaled.jpg",
+   "media_id": 2054,
+   "powod": "Ekspozytor Guerlain: hero wzorca 1019, karta „Wycinanie”."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-pszczola-z-plexi-lustrzanej.jpg",
+   "media_id": 2325,
+   "powod": "Pszczoła z plexi lustrzanej: cięcie, w galerii wzorca 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_9348-1.webp",
+   "media_id": 1245,
+   "powod": "Pszczoła z plexi lustrzanej: cięcie, w galerii wzorca 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-plakieta-mysliwska-skalisko.jpg",
+   "media_id": 2354,
+   "powod": "Plakieta myśliwska z reliefem dzika na sklejce: karta „Grawerowanie”, relief wygląda na odlew. Nie ma podstaw, żeby pokazać ją jako frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-ladowarka-enel-x.jpg",
+   "media_id": 2357,
+   "powod": "Ładowarka enel X i statuetka INSOFT: grawer i cięcie, nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-statuetka-jubileuszowa-insoft.jpg",
+   "media_id": 2340,
+   "powod": "Ładowarka enel X i statuetka INSOFT: grawer i cięcie, nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/08/IMG_3084_11zon-scaled.webp",
+   "media_id": 1071,
+   "powod": "Wyroby cięte laserem (giętka sklejka z nacięciami, ażurowe drzewka z sowami, ruchome zębatki). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/08/IMG_2885_11zon-scaled.webp",
+   "media_id": 1070,
+   "powod": "Wyroby cięte laserem (giętka sklejka z nacięciami, ażurowe drzewka z sowami, ruchome zębatki). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_3256-min-scaled.webp",
+   "media_id": 1942,
+   "powod": "Wyroby cięte laserem (giętka sklejka z nacięciami, ażurowe drzewka z sowami, ruchome zębatki). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_3264-min-scaled.webp",
+   "media_id": 1941,
+   "powod": "Wyroby cięte laserem (giętka sklejka z nacięciami, ażurowe drzewka z sowami, ruchome zębatki). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_3272-min-1-scaled.webp",
+   "media_id": 1940,
+   "powod": "Wyroby cięte laserem (giętka sklejka z nacięciami, ażurowe drzewka z sowami, ruchome zębatki). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_3269-min-scaled.webp",
+   "media_id": 1939,
+   "powod": "Wyroby cięte laserem (giętka sklejka z nacięciami, ażurowe drzewka z sowami, ruchome zębatki). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_2510-1-scaled-e1736621657380.webp",
+   "media_id": 1251,
+   "powod": "Wyroby cięte laserem (giętka sklejka z nacięciami, ażurowe drzewka z sowami, ruchome zębatki). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_2520-scaled.webp",
+   "media_id": 1250,
+   "powod": "Wyroby cięte laserem (giętka sklejka z nacięciami, ażurowe drzewka z sowami, ruchome zębatki). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/hero-laser-ciecie-tkaniny.jpg",
+   "media_id": 2535,
+   "powod": "Pracownia przy laserze wielkoformatowym (cięcie tkaniny na Zamek Sułkowskich, ścianka Bondi Sands). To laser, nie frezarka."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-maszyna.jpg",
+   "media_id": 2506,
+   "powod": "Pracownia przy laserze wielkoformatowym (cięcie tkaniny na Zamek Sułkowskich, ścianka Bondi Sands). To laser, nie frezarka."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-bondi-ciecie.jpg",
+   "media_id": 2527,
+   "powod": "Pracownia przy laserze wielkoformatowym (cięcie tkaniny na Zamek Sułkowskich, ścianka Bondi Sands). To laser, nie frezarka."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-trotec.jpg",
+   "media_id": 2524,
+   "powod": "Głowica lasera Trotec (zdjęcie producenta) i głowica lasera nad detalem: wzorzec 1019, park laserów. Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-glowica.jpg",
+   "media_id": 2529,
+   "powod": "Głowica lasera Trotec (zdjęcie producenta) i głowica lasera nad detalem: wzorzec 1019, park laserów. Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/drewno-grawerowanie.jpg",
+   "media_id": 524,
+   "powod": "Zdjęcia stockowe laserów (dioda nad drewnem, laser włóknowy na metalu). Nie są pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/grawer-metal-laser.png",
+   "media_id": 877,
+   "powod": "Zdjęcia stockowe laserów (dioda nad drewnem, laser włóknowy na metalu). Nie są pracą Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/team-hands.png",
+   "media_id": 457,
+   "powod": "Zdjęcia stockowe ludzi (ręce przy biurku, grupa w atrium biurowca). Bez związku z frezowaniem."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/team-padir.png",
+   "media_id": 191,
+   "powod": "Zdjęcia stockowe ludzi (ręce przy biurku, grupa w atrium biurowca). Bez związku z frezowaniem."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image.png",
+   "media_id": 2045,
+   "powod": "Ekspozytory POS w drogeriach (BOSS, YSL, Versace). Technika nieznana, marki nie występują w kontekście frezowania (reguła o klientach z nazwy)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image.jpeg",
+   "media_id": 2048,
+   "powod": "Ekspozytory POS w drogeriach (BOSS, YSL, Versace). Technika nieznana, marki nie występują w kontekście frezowania (reguła o klientach z nazwy)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-1.jpeg",
+   "media_id": 2049,
+   "powod": "Ekspozytory POS w drogeriach (BOSS, YSL, Versace). Technika nieznana, marki nie występują w kontekście frezowania (reguła o klientach z nazwy)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-2.jpeg",
+   "media_id": 2050,
+   "powod": "Ekspozytory POS w drogeriach (BOSS, YSL, Versace). Technika nieznana, marki nie występują w kontekście frezowania (reguła o klientach z nazwy)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-1.png",
+   "media_id": 2051,
+   "powod": "Ekspozytory POS w drogeriach (BOSS, YSL, Versace). Technika nieznana, marki nie występują w kontekście frezowania (reguła o klientach z nazwy)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-2.png",
+   "media_id": 2052,
+   "powod": "Ekspozytory POS w drogeriach (BOSS, YSL, Versace). Technika nieznana, marki nie występują w kontekście frezowania (reguła o klientach z nazwy)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-3.png",
+   "media_id": 2053,
+   "powod": "Ekspozytory POS w drogeriach (BOSS, YSL, Versace). Technika nieznana, marki nie występują w kontekście frezowania (reguła o klientach z nazwy)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7046-scaled.jpg",
+   "media_id": 2065,
+   "powod": "Grawer (butelki z imionami, granitowa płyta z zamkiem, zegarek, klawiatura). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/69A6E5DE-29D8-4BEA-9765-6E0862C9017F.jpg",
+   "media_id": 2066,
+   "powod": "Grawer (butelki z imionami, granitowa płyta z zamkiem, zegarek, klawiatura). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_1710-scaled.jpg",
+   "media_id": 1380,
+   "powod": "Grawer (butelki z imionami, granitowa płyta z zamkiem, zegarek, klawiatura). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_0074_11zon.webp",
+   "media_id": 1808,
+   "powod": "Grawer (butelki z imionami, granitowa płyta z zamkiem, zegarek, klawiatura). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_20240627_140752_11zon-scaled.webp",
+   "media_id": 1809,
+   "powod": "Grawer (butelki z imionami, granitowa płyta z zamkiem, zegarek, klawiatura). Nie frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/07/5550760-scaled.webp",
+   "media_id": 1252,
+   "powod": "Abstrakcyjny gradient, nie zdjęcie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/02/padir-logo.png",
+   "media_id": 25,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/sokolow.png",
+   "media_id": 291,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/time-trend.png",
+   "media_id": 292,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/pkp.png",
+   "media_id": 293,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/igf.png",
+   "media_id": 294,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/dajar.png",
+   "media_id": 295,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/kopernik.png",
+   "media_id": 296,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-klienci.png",
+   "media_id": 2523,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-willson-brown.png",
+   "media_id": 2528,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-uniwersytet.jpg",
+   "media_id": 2526,
+   "powod": "Logo Padiru i logotypy klientów (pas „Współpracujemy”). To nie zdjęcia realizacji. Pas z wzorca wolno powtórzyć tylko w ogólnym kontekście, bez sugestii, że te marki zamawiały frezowanie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/07/126523.png",
+   "media_id": 1005,
+   "powod": "Ikony kontaktu (telefon, koperta, dom) ze stopki dzisiejszej strony 1011, nie zdjęcia."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/free-mail-808-475025.png",
+   "media_id": 1006,
+   "powod": "Ikony kontaktu (telefon, koperta, dom) ze stopki dzisiejszej strony 1011, nie zdjęcia."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/Home_mpk.png",
+   "media_id": 1007,
+   "powod": "Ikony kontaktu (telefon, koperta, dom) ze stopki dzisiejszej strony 1011, nie zdjęcia."
+  }
+ ],
+ "propozycja_ukladu": {
+  "hero": [
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea.jpg",
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowana-litera-przestrzenna.jpg",
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-napis-ajala.jpg",
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-medalion-republika-portionii.jpg"
+  ],
+  "galeria": [
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-relief-duka.jpg",
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team.jpg",
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowana-litera-przestrzenna.jpg",
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-napis-ajala.jpg",
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-medalion-republika-portionii.jpg",
+   "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea.jpg"
+  ],
+  "inne": {
+   "uwaga_o_galerii": "Frezowanie ma tylko 6 kart realizacji, więc galeria ma 6 kafli (2 rzędy po 3), a nie 12-17. Cztery z nich stoją też w hero, dokładnie tak jak na wzorcu 1019, gdzie wszystkie zdjęcia z hero powtarzają się w galerii. Nie dopychać galerii zdjęciami procesu ani grawerem.",
+   "galeria_opcjonalnie": {
+    "url": [
+     "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/cnc-drewno.jpg",
+     "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/10/IMG_20250909_084928_HDR-scaled.jpg"
+    ],
+    "warunek": "Tylko jako kafle z podpisem typu „W pracowni / drewno”, „W pracowni / plexi”, nigdy jako realizacja z tytułem. Lepiej trzymać je w sekcjach o procesie."
+   },
+   "na_czym_to_polega": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/cnc-drewno.jpg",
+   "na_czym_to_polega_zapas": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_20250116_082620_HDR-scaled.jpg",
+   "dokladnosc_proces": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-relief-duka.jpg",
+   "park_maszynowy": {
+    "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/10/IMG_20250909_084928_HDR-scaled.jpg",
+    "warunek": "Brak zdjęcia całej frezarki i brak modelu w źródłach. 2148 pokazuje tylko wrzeciono i pracownię; przy sekcji żółta ramka z pytaniem o maszynę i nowe zdjęcie."
+   },
+   "karty_materialow": {
+    "drewno": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/cnc-drewno.jpg",
+    "MDF": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-medalion-republika-portionii.jpg",
+    "konglomerat kwarcowy": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-napis-ajala.jpg",
+    "plexi lustrzana": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team.jpg",
+    "plexi / PMMA": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_20250116_082620_HDR-scaled.jpg",
+    "tworzywa": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-relief-duka.jpg",
+    "uwaga": "MDF i konglomerat mają tylko po jednym zdjęciu, które stoi też w hero; powtórka jest nieunikniona. Wersja bez powtórek to 4 karty: drewno (2256), plexi lustrzana (2316), plexi (1739), tworzywa (2320). Aluminium, mosiądz i miedź nie mają żadnego zdjęcia."
+   },
+   "case_study": null,
+   "case_study_uwaga": "Brak materiału: każda realizacja CNC ma jedno zdjęcie. Sekcja case study wymaga zdjęć od klienta albo trzeba ją pominąć.",
+   "logotypy": [
+    "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-klienci.png",
+    "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-willson-brown.png",
+    "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-uniwersytet.jpg"
+   ],
+   "warunkowo_po_potwierdzeniu": [
+    "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/smiglo-callfly-rotated.jpg"
+   ]
+  }
+ },
+ "braki": [
+  "Dobrych zdjęć frezowania jest mało: 6 kart realizacji i 3 zdjęcia procesu z pracowni (2256, 2148, 1739), razem 9 różnych kadrów. Proponuję galerię 6 kafli zamiast 12-17.",
+  "Brak zdjęcia całej frezarki CNC Padiru, a źródła nie podają modelu ani pola roboczego. Do sekcji park maszynowy trzeba poprosić klienta o zdjęcie maszyny i dane (żółta ramka). Zdjęcia 751 (Morbidelli) nie wolno użyć jako maszyny Padiru.",
+  "Brak jakiegokolwiek zdjęcia frezowania metali (aluminium, mosiądz, miedź), choć strona /uslugi-dla-przemyslu/ (2264) deklaruje obróbkę 3- i 5-osiową w tych materiałach. Jedyny kandydat, śmigło call&fly (2259), pokazuje grawer i nie wiadomo, czy Padir je frezował.",
+  "Brak materiału na case study: żadna realizacja CNC nie ma więcej niż jednego zdjęcia.",
+  "Medalion 2319: na wyrobie wyfrezowano „REPUBLIKA PORTONII”, a karta ma tytuł „Republika Portionii”. Pisownię potwierdzić z klientem, zanim trafi do podpisu lub altu.",
+  "Zdjęcia procesu 2148 i 1739 nie mają opisu w bibliotece. Te same dysze i wrzeciono co na kartach realizacji, więc to prawie na pewno pracownia Padiru, ale warto, żeby klient to potwierdził.",
+  "Na stronie 2264 alty nie zgadzają się z kadrami: IMG_0060 (2279) opisano jako „Detal po obróbce CNC”, a widać znakowanie laserem; wbet-ds18 (2262) opisano raz jako „Element wycięty laserowo”, raz jako „Element z aluminium po obróbce”, a to toczona tuleja stalowa z oznaczeniem. To poza zakresem szkicu, ale warto przekazać prowadzącemu.",
+  "Na stronie /wycinanie-laserowe/ (1019) żadne zdjęcie nie pokazuje frezowania. Jedyny wątpliwy przypadek to podświetlana litera „R” (2324), ale karta ma plakietkę „Wycinanie” i zdjęcie stoi w galerii wzorca, więc go nie powtarzam.",
+  "Większe pliki tych samych kadrów: Tea 1249/1555, Team 1055/1556 (2560 px), Duka 2362 (1632 px). Domyślnie używać plików kart realizacji, żeby zgadzały się z galerią /przykladkowe-realizacje/.",
+  "Dobrze byłoby dostać od klienta zdjęcia gotowych wyrobów z frezarki (np. litery z buku, napis z konglomeratu po montażu) i detali z metalu. Bez nich strona frezowania będzie wyraźnie skromniejsza od wzorca."
+ ],
+ "kontaktowki": [
+  "praca/frezowanie/kont-1.png",
+  "praca/frezowanie/kont-2-zblizenia.png",
+  "praca/frezowanie/kont-3.png",
+  "praca/frezowanie/kont-4.png",
+  "praca/frezowanie/kont-5.png",
+  "praca/frezowanie/kont-6-zblizenia.png",
+  "praca/frezowanie/kont-7-kwadraty.png",
+  "praca/frezowanie/kont-8-medalion-napis.png",
+  "praca/frezowanie/kont-9-smiglo.png",
+  "praca/frezowanie/kont-10.png",
+  "praca/frezowanie/kont-11.png"
+ ],
+ "nie_obejrzane": "Ikony SVG 565, 568, 569 z dzisiejszej strony 1011 (kontaktówka nie renderuje SVG; po nazwach to ikony motywu, nie zdjęcia) oraz 1810 IMG_1994 (nie pobrało się; nie było go w żadnym ze źródeł kandydatów)."
+}

@@ -71,6 +71,17 @@ def lokalizuj(h):
         css = pobierz(pelny)
         if css is None:
             continue
+        # fonty motywu (Poppins): bez nich przegladarka bierze czcionke
+        # zastepcza i podglad wyglada inaczej niz strona
+        for f in sorted(set(re.findall(
+                r'https://grawerowanie-laserowe\.pl/[^"\'\s)]+\.(?:ttf|woff2?|otf)', css, re.I))):
+            plik_fontu = os.path.join(MEDIA, hashlib.md5(f.encode()).hexdigest()[:12] + os.path.splitext(f)[1])
+            if not os.path.exists(plik_fontu):
+                d = pobierz(f, binarnie=True)
+                if d:
+                    open(plik_fontu, "wb").write(d)
+            if os.path.exists(plik_fontu):
+                css = css.replace(f, "file://" + plik_fontu)
         nazwa = os.path.join(MEDIA, hashlib.md5(pelny.encode()).hexdigest()[:12] + ".css")
         open(nazwa, "w", encoding="utf-8").write(css)
         h = h.replace(u, "file://" + nazwa)
@@ -197,6 +208,8 @@ def main():
             s.goto("file://" + sciezka, wait_until="load", timeout=180000)
             s.wait_for_timeout(1500)
             m = s.evaluate(POMIAR_JS)
+            m["poppins_wczytane"] = s.evaluate(
+                "[...document.fonts].filter(f => f.family.includes('Poppins') && f.status === 'loaded').length")
             s.screenshot(path=f"{prefiks}-{w}.png", full_page=True)
             pomiary[w] = m
             print(f"  {w:>4} px: w bok {m['przewijanie_w_bok']}, zdjęć {m['zdjec']}, "

@@ -53,6 +53,13 @@ def main():
     for znak, nazwa in (("—", "myślnik"), ("–", "półpauza"), ("−", "minus")):
         for m in re.finditer(znak, t):
             blad("pauza", f"{nazwa} zamiast dywizu: …{okolica(t, m.start())}…")
+    #    WordPress (wptexturize) sam zamienia w widocznym tekscie „ - ” ze
+    #    spacjami na polpauze, a „--” na pauze. Zrodlo wyglada czysto, strona
+    #    juz nie. Zakresy piszemy bez spacji: „8:30-16:00”.
+    widoczny = re.sub(r"<(style|script)\b.*?</\1>|<!--.*?-->|<[^>]+>", " ", t, flags=re.S | re.I)
+    for m in re.finditer(r"(?<=\S) - (?=\S)|(?<!-)--(?!-)", widoczny):
+        blad("pauza", f"WordPress zamieni „{m.group(0).strip() or '-'}” na pauzę: "
+                      f"…{okolica(widoczny, m.start())}…")
 
     # 2. Podwojny ampersand: WordPress zamienia go w tresci na encje
     #    i psuje skladnie skryptu oraz tekst.
