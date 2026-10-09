@@ -34,31 +34,55 @@ ZAMIANY = [
     (".pdw .pdw-form .wpcf7-form>p{margin:0}",
      ".pdw .pdw-form{container-type:inline-size}\n"
      ".pdw .pdw-form .wpcf7-form>p{margin:0}\n"
-     ".pdw .pdw-form .wpcf7-form br{display:none}"),
+     ".pdw .pdw-form .form-label+br,.pdw .pdw-form .wpcf7-form-control-wrap+br{display:none}"),
     ("color:#9FB3E0;margin:24px 0 9px}",
      "color:#9FB3E0;margin:20px 0 4px}"),
     ("font:300 15px Poppins,sans-serif;outline:none;border-radius:0}",
-     "font:300 15px Poppins,sans-serif;outline:none;border-radius:0;margin:0}"),
+     "font:300 15px Poppins,sans-serif;outline:none;border-radius:0;margin:0;display:block}"),
+    # 8em przy 15 px to 120 px, ale rosnie razem z powiekszonym tekstem.
+    # Margines 6 px i maska na gornym paddingu: przewiniety tekst nie
+    # przykleja sie do etykiety „Tresc zapytania”.
     (".pdw .pdw-form .form-textarea{min-height:96px;line-height:1.5;resize:vertical}",
-     ".pdw .pdw-form .form-textarea{min-height:96px;height:120px;line-height:1.5;resize:vertical}"),
+     ".pdw .pdw-form .form-textarea{min-height:96px;height:8em;line-height:1.5;resize:vertical;margin-top:6px;"
+     "-webkit-mask-image:linear-gradient(transparent,#000 8px);mask-image:linear-gradient(transparent,#000 8px)}"),
     (".pdw .pdw-form .form-policy{display:block;margin:28px 0 26px}",
      ".pdw .pdw-form .form-policy{display:block;margin:22px 0 20px}"),
+    # UCSS wycial regule CF7 z display:block, wiec komunikat dziedziczyl
+    # wysokosc linii 37 px i po zawinieciu rozpadal sie na dwa.
+    (".pdw .pdw-form .wpcf7-not-valid-tip{color:#FFC9C9;",
+     ".pdw .pdw-form .wpcf7-not-valid-tip{display:block;color:#FFC9C9;"),
     (".pdw .pdw-form .wpcf7-spinner{filter:invert(1)}",
      ".pdw .pdw-form .wpcf7-spinner{filter:invert(1)}\n"
+     ".pdw .pdw-form .wpcf7-form.submitting .wpcf7-response-output,.pdw .pdw-form .wpcf7-form.resetting .wpcf7-response-output{display:none}\n"
+     ".pdw .pdw-form .wpcf7-form.submitting .form-btn{opacity:.5;cursor:progress}\n"
+     # pole-pulapka WP Armour: jego regule ukrywajaca tez wycial UCSS
+     ".pdw .pdw-form .altEmail_container{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}\n"
+     # na telefonie 44 px paddingu z kazdej strony zabieralo formularzowi miejsce
+     ".pdw div:has(>.pdw-form){padding-left:clamp(24px,6vw,44px)!important;padding-right:clamp(24px,6vw,44px)!important}\n"
+     # dwie kolumny tylko wtedy, gdy drugie i trzecie pole to e-mail i telefon;
+     # po zmianie szablonu 480 formularz po prostu zostaje w jednej kolumnie
      "@container (min-width:440px){\n"
-     ".pdw .pdw-form .wpcf7-form>p:first-of-type{display:grid;grid-template-columns:1fr 1fr;column-gap:24px}\n"
-     ".pdw .pdw-form .wpcf7-form>p:first-of-type>*{grid-column:1/-1}\n"
-     ".pdw .pdw-form .wpcf7-form>p:first-of-type>label:nth-of-type(2){grid-column:1;grid-row:3}\n"
-     ".pdw .pdw-form .wpcf7-form>p:first-of-type>span:nth-of-type(2){grid-column:1;grid-row:4}\n"
-     ".pdw .pdw-form .wpcf7-form>p:first-of-type>label:nth-of-type(3){grid-column:2;grid-row:3}\n"
-     ".pdw .pdw-form .wpcf7-form>p:first-of-type>span:nth-of-type(3){grid-column:2;grid-row:4}\n"
+     ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(2)[data-name=your-email]):has(>span:nth-of-type(3)[data-name=tel-394]){display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);column-gap:24px}\n"
+     ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>*{grid-column:1/-1}\n"
+     ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>label:nth-of-type(2){grid-column:1;grid-row:3}\n"
+     ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>span:nth-of-type(2){grid-column:1;grid-row:4}\n"
+     ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>label:nth-of-type(3){grid-column:2;grid-row:3}\n"
+     ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>span:nth-of-type(3){grid-column:2;grid-row:4}\n"
      "}"),
 ]
-ZNACZNIK = ".pdw .pdw-form .wpcf7-form br{display:none}"
+ZNACZNIK = ".pdw .pdw-form .form-label+br"
+STARA_WERSJA = ".pdw .pdw-form .wpcf7-form br{display:none}"
+# Tylko strona 1019: siatka sekcji kontaktu bez min(100%, ...), przez co przy
+# 320-360 px karta wystawala za ekran. Szkice maja juz poprawna wersje.
+SIATKA = ("padding: 0px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px; align-items: start;",
+          "padding: 0px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 56px; align-items: start;")
 
 
-def przerob(tresc):
-    """Zwraca (nowa_tresc, uwagi). Zmienia wylacznie arkusz z regulami .pdw-form."""
+def przerob(tresc, siatka=False):
+    """Zwraca (nowa_tresc, uwagi). Zmienia arkusz z regulami .pdw-form,
+    a przy siatka=True takze siatke sekcji kontaktu (tylko strona 1019)."""
+    if STARA_WERSJA in tresc:
+        sys.exit("PRZERYWAM: tu jest pierwsza wersja poprawki. Przywróć treść sprzed niej i uruchom ponownie.")
     if ZNACZNIK in tresc:
         return tresc, ["już poprawione wcześniej, nic do zrobienia"]
     arkusze = [m for m in re.finditer(r"<style\b[^>]*>.*?</style>", tresc, re.S) if ".pdw-form" in m.group(0)]
@@ -76,7 +100,17 @@ def przerob(tresc):
     nowa = tresc[:m.start()] + arkusz + tresc[m.end():]
     assert nowa[:m.start()] == tresc[:m.start()]
     assert nowa[m.start() + len(arkusz):] == tresc[m.end():]
-    return nowa, [f"arkusz: {len(m.group(0))} -> {len(arkusz)} znaków, zmienionych reguł: {len(ZAMIANY)}"]
+    uwagi = [f"arkusz: {len(m.group(0))} -> {len(arkusz)} znaków, zmienionych reguł: {len(ZAMIANY)}"]
+    if siatka:
+        stara_s, nowa_s = SIATKA
+        if nowa.count(stara_s) != 1:
+            sys.exit(f"PRZERYWAM: siatka sekcji kontaktu występuje {nowa.count(stara_s)} razy zamiast 1")
+        i = nowa.find(stara_s)
+        if 'class="pdw-form"' not in nowa[i:i + 1200]:
+            sys.exit("PRZERYWAM: znaleziona siatka nie należy do sekcji z formularzem")
+        nowa = nowa.replace(stara_s, nowa_s, 1)
+        uwagi.append("siatka sekcji kontaktu: minmax(320px, 1fr) -> minmax(min(100%, 320px), 1fr)")
+    return nowa, uwagi
 
 
 def sprawdzarka(tresc, szkic):
@@ -111,7 +145,7 @@ def main():
     if st != 200:
         sys.exit(f"nie pobrano strony {ident}: HTTP {st}")
     stara = p["content"]["raw"]
-    nowa, uwagi = przerob(stara)
+    nowa, uwagi = przerob(stara, siatka=(ident == 1019))
     print(f"strona {ident} [{p['status']}] {p['link']}")
     for u in uwagi:
         print("  " + u)
