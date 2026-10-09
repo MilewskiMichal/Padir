@@ -8,3 +8,8 @@ lustro-*.html
 lustro-*.css
 lustro-media/
 *.png
+
+# Kopie tresci serwisu pobrane do analizy i pamiec podreczna zdjec
+zrodla/
+pamiec-zdjec/
+podglad-media/
