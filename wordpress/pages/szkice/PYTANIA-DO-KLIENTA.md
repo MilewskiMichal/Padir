@@ -12,6 +12,7 @@ Podgląd szkiców (po zalogowaniu do panelu WordPressa):
 - 13.10: Grawerowanie, FAQ. Szkło bez progu 12 sztuk. Grawer w ciągu 2 dni albo od ręki za dodatkową opłatą. Najniższa cena za realizację to 100 zł.
 - 13.10: Żółte ramki usunięte z obu szkiców.
 - 13.10: Grawerowanie, sekcja „Zastosowania” w dwóch częściach: „Branże, w których grawerujemy” (przemysł, HoReCa, marketing) i „Najczęściej grawerowane przedmioty” (kieliszki, prezenty, noże, powerbanki i pendrive'y, kubki i butelki termiczne, tabliczki znamionowe) z przyciskiem do realizacji. Brakuje zdjęcia powerbanku (jest pendrive) i drugiego zdjęcia tabliczki znamionowej (to samo stoi w karcie „Laminat”). Karta marketingu linkuje do /uslugi-dla-marketingu/, więc tę stronę trzeba opublikować najpierw albo razem.
+- 13.10: Grawerowanie, park maszynowy: sekcja skopiowana 1:1 ze strony Wycinanie laserowe (5 laserów Trotec). Jedyna różnica: dywizy zamiast półpauz w zakresach mocy. Karta lasera fiber zniknęła razem ze starą sekcją. Uwaga: w pasku liczb stoi „400 W maks. moc cięcia”, a karta SP2000 podaje 180-500 W (tak samo na żywej stronie Wycinanie).
 - 13.10: Frezowanie. Napisy „Tea” i „Team” były cięte laserem (plexi lustrzana na sklejce), więc wypadły ze szkicu frezowania. W hero zastąpił je relief „Duka”, a galeria ma 4 prace z frezarki.
 
 ## Grawerowanie laserowe (szkic 2584)
