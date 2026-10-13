@@ -1,45 +1,6 @@
 {
  "zatwierdzone": [
   {
-   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea.jpg",
-   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea-768x512.jpg",
-   "media_id": 2315,
-   "zrodlo": "realizacje",
-   "co_widac": "Złoty lustrzany napis „Tea” stoi na jasnym blacie. Litery połączone u podstawy, na krawędzi widać warstwy pod lustrem (czarną i białą). Szaro-fioletowe tło, czerwony refleks z lewej. Gotowy wyrób, ostry.",
-   "praca_padir": "tak",
-   "jakosc": 4,
-   "orientacja": "pozioma",
-   "nadaje_sie_na": [
-    "hero (kwadrat ze środka dobry, cały napis w kadrze)",
-    "galeria",
-    "karta materiału: plexi lustrzana"
-   ],
-   "alt": "Napis przestrzenny Tea ze złotej plexi lustrzanej",
-   "tytul_realizacji": "Napis przestrzenny „Tea”",
-   "material": "Plexi lustrzana",
-   "wymiary": "1000x667",
-   "uwagi": "Karta realizacji z plakietką Frezowanie. Ten sam kadr w większej rozdzielczości: media 1249 i 1555 (2560 px). Zdjęcie stoi dziś na /frezowanie-cnc/ (1011)."
-  },
-  {
-   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team.jpg",
-   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team-768x512.jpg",
-   "media_id": 2316,
-   "zrodlo": "realizacje",
-   "co_widac": "Ten sam typ wyrobu co „Tea”: złoty lustrzany napis „Team” ustawiony ukośnie, litery połączone u podstawy. Ostatnia litera „m” wychodzi poza kadr, na lustrze kolorowe refleksy (czerwony, zielony).",
-   "praca_padir": "tak",
-   "jakosc": 3,
-   "orientacja": "pozioma",
-   "nadaje_sie_na": [
-    "galeria",
-    "karta materiału: plexi lustrzana (jeśli „Tea” jest w hero)"
-   ],
-   "alt": "Napis przestrzenny Team ze złotej plexi lustrzanej",
-   "tytul_realizacji": "Napis przestrzenny „Team”",
-   "material": "Plexi lustrzana",
-   "wymiary": "1000x667",
-   "uwagi": "Do hero się nie nadaje: kwadrat ze środka ucina „T” i „m”, zostaje samo „eam”. Ten sam kadr w 2560 px: media 1055 i 1556."
-  },
-  {
    "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowana-litera-przestrzenna.jpg",
    "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowana-litera-przestrzenna-768x433.jpg",
    "media_id": 2317,
@@ -611,6 +572,47 @@
    "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/Home_mpk.png",
    "media_id": 1007,
    "powod": "Ikony kontaktu (telefon, koperta, dom) ze stopki dzisiejszej strony 1011, nie zdjęcia."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea-768x512.jpg",
+   "media_id": 2315,
+   "zrodlo": "realizacje",
+   "co_widac": "Złoty lustrzany napis „Tea” stoi na jasnym blacie. Litery połączone u podstawy, na krawędzi widać warstwy pod lustrem (czarną i białą). Szaro-fioletowe tło, czerwony refleks z lewej. Gotowy wyrób, ostry.",
+   "praca_padir": "tak",
+   "jakosc": 4,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "hero (kwadrat ze środka dobry, cały napis w kadrze)",
+    "galeria",
+    "karta materiału: plexi lustrzana"
+   ],
+   "alt": "Napis przestrzenny Tea ze złotej plexi lustrzanej",
+   "tytul_realizacji": "Napis przestrzenny „Tea”",
+   "material": "Plexi lustrzana",
+   "wymiary": "1000x667",
+   "uwagi": "Karta realizacji z plakietką Frezowanie. Ten sam kadr w większej rozdzielczości: media 1249 i 1555 (2560 px). Zdjęcie stoi dziś na /frezowanie-cnc/ (1011).",
+   "powod_odrzucenia": "Informacja od klienta (13.10.2026): napis wycięty laserem, plexi lustrzana na sklejce. To nie jest praca z frezarki."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team-768x512.jpg",
+   "media_id": 2316,
+   "zrodlo": "realizacje",
+   "co_widac": "Ten sam typ wyrobu co „Tea”: złoty lustrzany napis „Team” ustawiony ukośnie, litery połączone u podstawy. Ostatnia litera „m” wychodzi poza kadr, na lustrze kolorowe refleksy (czerwony, zielony).",
+   "praca_padir": "tak",
+   "jakosc": 3,
+   "orientacja": "pozioma",
+   "nadaje_sie_na": [
+    "galeria",
+    "karta materiału: plexi lustrzana (jeśli „Tea” jest w hero)"
+   ],
+   "alt": "Napis przestrzenny Team ze złotej plexi lustrzanej",
+   "tytul_realizacji": "Napis przestrzenny „Team”",
+   "material": "Plexi lustrzana",
+   "wymiary": "1000x667",
+   "uwagi": "Do hero się nie nadaje: kwadrat ze środka ucina „T” i „m”, zostaje samo „eam”. Ten sam kadr w 2560 px: media 1055 i 1556.",
+   "powod_odrzucenia": "Informacja od klienta (13.10.2026): napis wycięty laserem, plexi lustrzana na sklejce. To nie jest praca z frezarki."
   }
  ],
  "propozycja_ukladu": {
