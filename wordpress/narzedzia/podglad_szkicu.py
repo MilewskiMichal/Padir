@@ -32,6 +32,8 @@ sys.path.insert(0, HERE)
 from wp import call
 
 RAMA = "https://grawerowanie-laserowe.pl/wycinanie-laserowe/"
+# strony branzowe (.pdl) skladamy w ramie strony HoReCa
+RAMA_PDL = "https://grawerowanie-laserowe.pl/uslugi-dla-horeca/"
 OP = urllib.request.build_opener(urllib.request.ProxyHandler(
     {"https": os.environ.get("HTTPS_PROXY")} if os.environ.get("HTTPS_PROXY") else {}))
 MEDIA = os.path.join(HERE, "podglad-media")
@@ -102,7 +104,7 @@ def lokalizuj(h):
     return h, len(adresy)
 
 
-POMIAR_JS = r"""async () => {
+POMIAR_JS = r"""async (K) => {
   for (let y = 0; y < document.body.scrollHeight; y += 500) {
     window.scrollTo(0, y); await new Promise(r => setTimeout(r, 60));
   }
@@ -110,7 +112,7 @@ POMIAR_JS = r"""async () => {
   await new Promise(r => setTimeout(r, 1200));
   const L = c => { const [r, g, b] = c.map(v => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); }); return 0.2126*r + 0.7152*g + 0.0722*b; };
   const rgb = s => { const m = s.match(/rgba?\(([^)]+)\)/); if (!m) return null; const p = m[1].split(',').map(x => parseFloat(x)); return {c: p.slice(0,3), a: p.length > 3 ? p[3] : 1}; };
-  const pdw = document.querySelector('.pdw');
+  const pdw = document.querySelector(K);
   const zle = [], nadZdjeciem = [];
   if (pdw) pdw.querySelectorAll('*').forEach(el => {
     const tekst = [...el.childNodes].filter(n => n.nodeType === 3).map(n => n.textContent.trim()).join(' ').trim();
@@ -149,14 +151,14 @@ POMIAR_JS = r"""async () => {
     const prog = duzy ? 3.0 : 4.5;
     if (wsp < prog) zle.push({wsp: Math.round(wsp * 100) / 100, prog, kolor: s.color, tlo: 'rgb(' + tlo.join(',') + ')', tekst: tekst.slice(0, 60), px});
   });
-  const imgs = [...document.querySelectorAll('.pdw img')].filter(i => !i.classList.contains('pdw-lb-img'));
+  const imgs = [...document.querySelectorAll(K + ' img')].filter(i => !i.classList.contains('pdw-lb-img'));
   return {
     przewijanie_w_bok: document.documentElement.scrollWidth - window.innerWidth,
     zdjec: imgs.length,
     niezaladowane: imgs.filter(i => !i.complete || i.naturalWidth === 0).map(i => (i.getAttribute('src') || '').split('/').pop()),
     zly_kontrast: zle,
     tekst_nad_zdjeciem: nadZdjeciem.slice(0, 10),
-    h1: [...document.querySelectorAll('.pdw h1')].map(h => h.textContent.trim()),
+    h1: [...document.querySelectorAll(K + ' h1')].map(h => h.textContent.trim()),
     wysokosc: document.body.scrollHeight,
   };
 }"""
@@ -175,9 +177,11 @@ def main():
     if st != 200:
         sys.exit(f"nie pobrano strony {ident}: HTTP {st}")
     szkic = p["content"]["rendered"]
-    i = szkic.find('<div class="pdw"')
+    kontener = "pdl" if '<div class="pdl"' in szkic else "pdw"
+    rama_url = RAMA_PDL if kontener == "pdl" else RAMA
+    i = szkic.find(f'<div class="{kontener}"')
     if i < 0:
-        sys.exit("w treści szkicu nie ma kontenera .pdw")
+        sys.exit("w treści szkicu nie ma kontenera .pdw ani .pdl")
     a, b = wytnij_div(szkic, i)
     pdw_szkicu = szkic[a:b]
     # arkusz i skrypt leza obok kontenera, nie w nim: bierzemy cala tresc
@@ -185,10 +189,10 @@ def main():
     arkusze = "".join(re.findall(r"<style\b.*?</style>", poza, re.S))
     skrypty = "".join(re.findall(r"<script\b.*?</script>", poza, re.S))
 
-    rama = pobierz(RAMA + "?odswiez=" + str(int(time.time())))
-    j = rama.find('<div class="pdw"')
+    rama = pobierz(rama_url + "?odswiez=" + str(int(time.time())))
+    j = rama.find(f'<div class="{kontener}"')
     if j < 0:
-        sys.exit("w ramie nie ma kontenera .pdw")
+        sys.exit(f"w ramie nie ma kontenera .{kontener}")
     c, d = wytnij_div(rama, j)
     # usuwamy z ramy arkusze i skrypty wzorca, zeby nie mieszaly sie ze szkicem
     przed = re.sub(r'<style data-no-optimize="1"[^>]*>.*?</style>', "", rama[:c], flags=re.S)
@@ -207,7 +211,7 @@ def main():
             s = br.new_page(viewport={"width": w, "height": 900})
             s.goto("file://" + sciezka, wait_until="load", timeout=180000)
             s.wait_for_timeout(1500)
-            m = s.evaluate(POMIAR_JS)
+            m = s.evaluate(POMIAR_JS, '.' + kontener)
             m["poppins_wczytane"] = s.evaluate(
                 "[...document.fonts].filter(f => f.family.includes('Poppins') && f.status === 'loaded').length")
             s.screenshot(path=f"{prefiks}-{w}.png", full_page=True)

@@ -32,8 +32,12 @@ STRONY = {
                      "tytul": "Grawerowanie laserowe (szkic do akceptacji)"},
     "frezowanie": {"slug": "frezowanie-cnc-szkic",
                    "tytul": "Frezowanie CNC (szkic do akceptacji)"},
+    # nowa strona branzowa, wiec slug od razu docelowy; przy publikacji
+    # trzeba tylko skrocic tytul
+    "marketing": {"slug": "uslugi-dla-marketingu",
+                  "tytul": "Usługi dla marketingu (szkic do akceptacji)", "pdl": True},
 }
-PRODUKCYJNE = {456, 1011, 1019, 1397}
+PRODUKCYJNE = {456, 1011, 1019, 1397, 2264, 2283}
 SZABLON = "page-no-title"
 
 
@@ -49,7 +53,8 @@ def main():
 
     print(f"szkic: {klucz}  ({len(tresc)} znaków)")
     wynik = subprocess.run([sys.executable, "-I", os.path.join(HERE, "sprawdz_szkic.py"),
-                            plik, "--szkic"], capture_output=True, text=True)
+                            plik, "--szkic"] + (["--pdl"] if cfg.get("pdl") else []),
+                           capture_output=True, text=True)
     print("  " + wynik.stdout.strip().splitlines()[0])
     if wynik.returncode != 0:
         print(wynik.stdout)

@@ -1,6 +1,6 @@
 # Pytania do klienta ze szkiców
 
-Każde pytanie to żółta ramka „Do potwierdzenia z klientem” w szkicu. Po odpowiedzi ramka znika, a treść obok zostaje uzupełniona albo usunięta.
+Żółte ramki zniknęły ze szkiców 13.10 (decyzja zleceniodawcy). Pytania zostają tutaj jako notatka do rozmowy z klientem: strony już ich nie pokazują, a treść bez potwierdzenia po prostu na nich nie stoi.
 
 Podgląd szkiców (po zalogowaniu do panelu WordPressa):
 
@@ -10,6 +10,8 @@ Podgląd szkiców (po zalogowaniu do panelu WordPressa):
 ## Już ustalone
 
 - 13.10: Grawerowanie, FAQ. Szkło bez progu 12 sztuk. Grawer w ciągu 2 dni albo od ręki za dodatkową opłatą. Najniższa cena za realizację to 100 zł.
+- 13.10: Żółte ramki usunięte z obu szkiców.
+- 13.10: Grawerowanie, sekcja „Zastosowania” w dwóch częściach: „Branże, w których grawerujemy” (przemysł, HoReCa, marketing) i „Najczęściej grawerowane przedmioty” (kieliszki, prezenty, noże, powerbanki i pendrive'y, kubki i butelki termiczne, tabliczki znamionowe) z przyciskiem do realizacji. Brakuje zdjęcia powerbanku (jest pendrive) i drugiego zdjęcia tabliczki znamionowej (to samo stoi w karcie „Laminat”). Karta marketingu linkuje do /uslugi-dla-marketingu/, więc tę stronę trzeba opublikować najpierw albo razem.
 - 13.10: Frezowanie. Napisy „Tea” i „Team” były cięte laserem (plexi lustrzana na sklejce), więc wypadły ze szkicu frezowania. W hero zastąpił je relief „Duka”, a galeria ma 4 prace z frezarki.
 
 ## Grawerowanie laserowe (szkic 2584)

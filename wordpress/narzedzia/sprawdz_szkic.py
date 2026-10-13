@@ -5,11 +5,15 @@ Kazda regula tutaj to blad, ktory juz raz poszedl na produkcje albo prawie
 poszedl. Skrypt nie ocenia jakosci tekstu ani wygladu, tylko rzeczy,
 ktore da sie sprawdzic maszynowo i ktorych czlowiek nie zauwazy w podgladzie.
 
-    python3 -I sprawdz_szkic.py plik.html [--szkic] [--json]
+    python3 -I sprawdz_szkic.py plik.html [--szkic] [--pdl] [--json]
 
   --szkic   tryb wersji do akceptacji: zolte ramki `pdw-uwaga` sa dozwolone
             (i liczone), bo tak oznaczamy rzeczy do potwierdzenia z klientem.
             Bez tej flagi ich obecnosc to blad, bo nie moga trafic na produkcje.
+  --pdl     strona branzowa w szablonie .pdl (Uslugi dla przemyslu, HoReCa):
+            kontener <div class="pdl">, hero to <section class="pdl-hero">,
+            zamiast formularza przycisk do /kontakt/, a kolor h3 ustawia
+            arkusz (.pdl h3{...!important}).
   --json    wynik jako JSON (dla agentow).
 
 Kod wyjscia 0 = brak bledow, 1 = sa bledy. Ostrzezenia nie zmieniaja kodu.
@@ -24,6 +28,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ZRODLA = os.path.join(HERE, "zrodla")
 
 bledy, ostrzezenia, info = [], [], {}
+# Strony w przygotowaniu (szkice), do ktorych inne szkice juz linkuja.
+PLANOWANE = {"/uslugi-dla-marketingu/": "szkic strony branżowej Usługi dla marketingu"}
 
 
 def blad(regula, opis):
@@ -41,6 +47,7 @@ def okolica(t, i, szer=70):
 def main():
     argv = [a for a in sys.argv[1:] if not a.startswith("--")]
     szkic = "--szkic" in sys.argv
+    pdl = "--pdl" in sys.argv
     jako_json = "--json" in sys.argv
     if not argv:
         print(__doc__)
@@ -90,7 +97,10 @@ def main():
 
     # 5. Naglowki h3: motyw ma `div div div h3{color:...base!important}`,
     #    ktory maluje je na bialo. Tylko inline z !important to przebija.
-    for m in re.finditer(r"<h3\b([^>]*)>", t):
+    arkusz_h3 = pdl and re.search(r"\.pdl h3[^{]*\{[^}]*color:[^}]*!important", t)
+    if pdl and not arkusz_h3:
+        blad("h3-kolor", "w arkuszu .pdl brak reguły .pdl h3{color:...!important}")
+    for m in ([] if arkusz_h3 else re.finditer(r"<h3\b([^>]*)>", t)):
         a = m.group(1)
         st = re.search(r'style="([^"]*)"', a)
         if not st or "color" not in st.group(1) or "!important" not in st.group(1):
@@ -114,7 +124,9 @@ def main():
         pass
     imgs = list(re.finditer(r"<img\b[^>]*>", t))
     info["zdjec"] = len(imgs)
-    hero = re.search(r"<header\b.*?</header>", t, re.S)
+    hero = re.search(r'<section class="pdl-hero".*?</section>' if pdl else r"<header\b.*?</header>", t, re.S)
+    if pdl and not hero:
+        blad("hero", "brak <section class=\"pdl-hero\">")
     hero_rng = (hero.start(), hero.end()) if hero else (-1, -1)
     for m in imgs:
         tag = m.group(0)
@@ -203,10 +215,16 @@ def main():
         blad("html", f"…i jeszcze {len(lp.problemy) - 12} problemów ze znacznikami")
 
     # 9. Kontener i formularz.
-    if not re.search(r'<div class="pdw"', t):
-        blad("kontener", "brak kontenera <div class=\"pdw\">, arkusz jest zawężony do .pdw")
-    if '[contact-form-7 id="480"]' not in t:
-        blad("formularz", 'brak formularza [contact-form-7 id="480"]')
+    if pdl:
+        if not re.search(r'<div class="pdl"', t):
+            blad("kontener", "brak kontenera <div class=\"pdl\">, arkusz jest zawężony do .pdl")
+        if not re.search(r'href="(?:https://grawerowanie-laserowe\.pl)?/kontakt/"', t):
+            blad("kontakt", "brak przycisku do /kontakt/ (strony branżowe nie mają formularza)")
+    else:
+        if not re.search(r'<div class="pdw"', t):
+            blad("kontener", "brak kontenera <div class=\"pdw\">, arkusz jest zawężony do .pdw")
+        if '[contact-form-7 id="480"]' not in t:
+            blad("formularz", 'brak formularza [contact-form-7 id="480"]')
 
     # 10. Kotwice: kazde href="#x" musi miec id="x" na stronie.
     idy = set(re.findall(r'\bid="([^"]+)"', t))
@@ -228,7 +246,12 @@ def main():
             continue
         if not sciezka.endswith("/"):
             sciezka += "/"
-        if znane and sciezka != "/" and sciezka not in znane:
+        if sciezka in PLANOWANE and sciezka not in znane:
+            # strona w przygotowaniu: w szkicu wolno do niej linkowac, ale
+            # publikowac mozna dopiero po niej (albo razem z nia)
+            (ostrz if szkic else blad)("link", f"link do strony, której jeszcze nie ma: {sciezka} "
+                                               f"({PLANOWANE[sciezka]}); opublikuj ją najpierw")
+        elif znane and sciezka != "/" and sciezka not in znane:
             blad("link", f"link wewnętrzny do nieznanego adresu: {sciezka}")
         elif znane.get(sciezka) and znane[sciezka] != "publish":
             blad("link", f"link do strony, która nie jest opublikowana ({znane[sciezka]}): {sciezka}")
