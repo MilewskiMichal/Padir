@@ -1,0 +1,20 @@
+/* ===== Dopisek do arkusza .pdl (strona Uslugi dla marketingu, 13.10.2026) ===== */
+/* A. Kontrast WCAG AA (OBOWIAZKOWY). Tekst do 18,66 px pogrubionego i do 24 px zwyklego: min. 4,5:1.
+   --pdl-grey: podpisy liczb w hero (.pdl-stat span, 12,5 px/300). Bylo #9a9aa6 = 2,78:1 na bialym.
+               Teraz #6b6b76 = 5,26:1 na #fff i 4,83:1 na #F5F5F5.
+   --pdl-rust: plakietka Przed (bialy 11 px/700 na tle rust) i numery branz (.pdl-branza-num, 12,5 px/800 na bialym).
+               Bylo #DE6B24 = 3,37:1. Teraz #B55119 = 5,05:1 (bialy na nim i on na bialym), 4,64:1 na #F5F5F5.
+   Oba tokeny sa uzyte tylko w tych miejscach, wiec podmiana tokenu nie zmienia niczego innego. */
+.pdl{--pdl-grey:#6b6b76;--pdl-rust:#B55119;}
+
+/* B. Uklad (ZALECANY). */
+/* B1. .pdl p i .pdl h1..h4 {margin:0} maja wage (0,1,1), wyzsza niz .pdl-hero-copy>*+* i
+       .pdl-detail-copy>*+* (0,1,0), a .pdl-checks{margin:0} stoi pozniej. Naglowek, lead, tekst
+       i lista z ptaszkami stykaly sie bez odstepu (widac na zywej HoReCa i Przemysle). */
+.pdl .pdl-hero-copy>.pdl-lead,.pdl .pdl-hero-copy>.pdl-txt{margin-top:14px;}
+.pdl .pdl-detail-copy>.pdl-txt{margin-top:14px;}
+.pdl .pdl-detail-copy>.pdl-checks{margin-top:18px;}
+/* B2. Link w karcie CTA (.pdl-p--cta a) nie ma rozmiaru i dziedziczy 24 px z motywu. */
+.pdl-p--cta a{font-size:15.5px;line-height:1.4;}
+/* B3. Galeria na telefonie: 2 kolumny zamiast 8 duzych kwadratow jeden pod drugim (ok. 3200 px przewijania). */
+@media (max-width:640px){.pdl-gal{grid-template-columns:1fr 1fr;gap:10px;}}

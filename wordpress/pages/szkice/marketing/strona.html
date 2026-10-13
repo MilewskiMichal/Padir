@@ -1,0 +1,279 @@
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding:0">
+<!-- wp:html -->
+<div class="pdl">
+<style data-no-optimize="1" data-no-minify="1" data-no-ucss="1">
+.pdl{--pdl-navy:#12388C;--pdl-green:#175C43;--pdl-rust:#DE6B24;--pdl-ink:#141414;
+  --pdl-mute:#5f5f5f;--pdl-grey:#9a9aa6;--pdl-line:#ededed;--pdl-wash:#F5F5F5;
+  font-family:var(--wp--preset--font-family--poppins,'Poppins',sans-serif);color:var(--pdl-ink);}
+.pdl *,.pdl *::before,.pdl *::after{box-sizing:border-box;}
+.pdl img{max-width:100%;height:auto;}
+.pdl h1,.pdl h2,.pdl h3,.pdl h4{color:#141414!important;margin:0;letter-spacing:-.015em;}
+.pdl p{margin:0;}
+.pdl a{color:var(--pdl-navy);}
+.pdl-wrap{max-width:1220px;margin:0 auto;padding:0 24px;}
+.pdl-eyebrow{display:inline-block;font-weight:600;font-size:13px;line-height:1;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--pdl-navy);margin:0 0 16px;}
+.pdl-h1{font-weight:800;font-size:clamp(36px,5vw,58px);line-height:1.05;}
+.pdl-h2{font-weight:700;font-size:clamp(26px,3.6vw,38px);line-height:1.14;}
+.pdl-h3{font-weight:700;font-size:19px;line-height:1.3;}
+.pdl-h4{font-weight:700;font-size:16.5px;line-height:1.3;}
+.pdl-lead{font-weight:700;font-size:clamp(18px,2.2vw,22px);line-height:1.4;color:#141414;}
+.pdl-txt{font-weight:300;font-size:16.5px;line-height:1.75;color:var(--pdl-mute);}
+.pdl-txt-sm{font-weight:300;font-size:15px;line-height:1.7;color:var(--pdl-mute);}
+
+/* przyciski */
+.pdl-btns{display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+.pdl-btn{display:inline-flex;align-items:center;gap:9px;font-weight:700;font-size:15.5px;line-height:1;
+  text-decoration:none;padding:15px 26px;border-radius:16px 4px 16px 16px;transition:transform .18s,box-shadow .18s;}
+.pdl-btn--main{background:var(--pdl-navy);color:#fff!important;}
+.pdl-btn--main:hover{transform:translateY(-2px);box-shadow:0 14px 26px -14px rgba(18,56,140,.8);}
+.pdl-btn--ghost{border:1.5px solid #d9d9d9;color:var(--pdl-ink)!important;}
+.pdl-btn--ghost:hover{border-color:var(--pdl-navy);color:var(--pdl-navy)!important;}
+
+/* HERO */
+.pdl-hero{padding:52px 0 64px;}
+.pdl-hero-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:52px;align-items:center;}
+.pdl-hero-copy>*+*{margin-top:20px;}
+.pdl-stats{display:flex;gap:12px;flex-wrap:wrap;list-style:none;padding:0;margin:28px 0 0;}
+.pdl-stat{background:#fff;border:1px solid var(--pdl-line);border-radius:14px 4px 14px 14px;padding:11px 16px;}
+.pdl-stat b{display:block;font-weight:800;font-size:16px;color:var(--pdl-navy);}
+.pdl-stat span{font-weight:300;font-size:12.5px;color:var(--pdl-grey);}
+.pdl-hero-media{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.pdl-shot{position:relative;overflow:hidden;border-radius:28px 8px 28px 28px;aspect-ratio:3/4;background:#eef1f7;}
+.pdl-shot:nth-child(2){border-radius:8px 28px 28px 28px;margin-top:32px;}
+.pdl-shot img{width:100%;height:100%;object-fit:cover;display:block;}
+
+/* sekcje */
+.pdl-sec{padding:76px 0;}
+.pdl-sec--wash{background:var(--pdl-wash);}
+.pdl-head{max-width:760px;margin-bottom:40px;}
+.pdl-head .pdl-txt{margin-top:14px;}
+
+/* karty filarow */
+.pdl-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:22px;}
+.pdl-card{background:#fff;border:1px solid var(--pdl-line);border-radius:34px 10px 34px 34px;overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .24s cubic-bezier(.2,.7,.2,1),box-shadow .24s;}
+.pdl-card:hover{transform:translateY(-6px);box-shadow:0 26px 50px -30px rgba(20,20,20,.5);}
+.pdl-card-img{aspect-ratio:4/3;background:#eef1f7;overflow:hidden;}
+.pdl-card-img img{width:100%;height:100%;object-fit:cover;display:block;}
+.pdl-card-body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:11px;flex:1;}
+.pdl-card-link{margin-top:auto;font-weight:700;font-size:14.5px;color:var(--pdl-navy);text-decoration:none;}
+.pdl-card-link:hover{text-decoration:underline;}
+
+/* karty produktowe z lista */
+.pdl-prod{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,330px),1fr));gap:22px;}
+.pdl-p{background:#fff;border:1px solid var(--pdl-line);border-radius:34px 10px 34px 34px;padding:26px 28px;
+  display:flex;flex-direction:column;gap:12px;transition:border-color .2s;}
+.pdl-p:hover{border-color:#d2d2d2;}
+.pdl-p ul{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:8px;}
+.pdl-p li{position:relative;padding-left:20px;font-weight:300;font-size:14.5px;line-height:1.55;color:var(--pdl-mute);}
+.pdl-p li::before{content:"";position:absolute;left:0;top:8px;width:7px;height:7px;border-radius:2px;background:var(--pdl-navy);}
+.pdl-p--cta{background:var(--pdl-navy);border-color:transparent;}
+.pdl-p--cta .pdl-h3,.pdl-p--cta .pdl-txt-sm{color:#fff!important;}
+.pdl-p--cta a{color:#fff!important;font-weight:700;text-decoration:underline;text-underline-offset:4px;}
+
+/* przed / po */
+.pdl-ba{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:22px;margin-bottom:38px;}
+.pdl-ba-item{background:#fff;border:1px solid var(--pdl-line);border-radius:34px 10px 34px 34px;overflow:hidden;}
+.pdl-ba-item img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;}
+.pdl-ba-body{padding:20px 24px 24px;display:flex;flex-direction:column;gap:9px;}
+.pdl-tag{align-self:flex-start;font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+  color:#fff!important;padding:6px 12px;border-radius:20px;}
+.pdl-tag--before{background:var(--pdl-rust);}
+.pdl-tag--after{background:var(--pdl-green);}
+
+/* kroki (kolejnosc niesie informacje) */
+.pdl-steps{list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px;counter-reset:k;}
+.pdl-step{counter-increment:k;background:#fff;border:1px solid var(--pdl-line);
+  border-radius:24px 6px 24px 24px;padding:22px 22px 24px;}
+.pdl-step::before{content:counter(k,decimal-leading-zero);display:block;font-weight:800;font-size:13px;
+  color:var(--pdl-navy);letter-spacing:.08em;margin-bottom:10px;}
+
+/* sekcja szczegolowa */
+.pdl-detail{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:52px;align-items:center;}
+.pdl-detail--rev .pdl-detail-media{order:-1;}
+.pdl-detail-copy>*+*{margin-top:18px;}
+.pdl-detail-media img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:34px 10px 34px 34px;}
+.pdl-checks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px;}
+.pdl-checks li{position:relative;padding-left:26px;font-weight:300;font-size:15.5px;line-height:1.6;color:var(--pdl-mute);}
+.pdl-checks li::before{content:"";position:absolute;left:0;top:6px;width:12px;height:7px;
+  border:solid var(--pdl-green);border-width:0 0 2.5px 2.5px;transform:rotate(-45deg);}
+
+/* materialy */
+.pdl-mats{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:20px;}
+.pdl-mat{background:#fff;border:1px solid var(--pdl-line);border-radius:28px 8px 28px 28px;overflow:hidden;}
+.pdl-mat img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;}
+.pdl-mat-body{padding:18px 20px 22px;display:flex;flex-direction:column;gap:8px;}
+
+/* galeria */
+.pdl-gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:14px;}
+.pdl-gal img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:22px 6px 22px 22px;}
+
+/* branze */
+.pdl-branze{list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:20px;}
+.pdl-branza{background:#fff;border:1px solid var(--pdl-line);border-radius:28px 8px 28px 28px;padding:24px 26px;
+  display:flex;flex-direction:column;gap:10px;}
+.pdl-branza-num{font-weight:800;font-size:12.5px;letter-spacing:.1em;color:var(--pdl-rust);}
+.pdl-chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:4px;}
+.pdl-chip{font-weight:600;font-size:11px;letter-spacing:.04em;color:var(--pdl-navy);
+  background:#E6ECF7;border-radius:20px;padding:5px 11px;}
+
+/* FAQ */
+.pdl-faq{display:flex;flex-direction:column;gap:10px;max-width:900px;}
+.pdl-q{background:#fff;border:1px solid var(--pdl-line);border-radius:20px 6px 20px 20px;overflow:hidden;}
+.pdl-q summary{cursor:pointer;list-style:none;padding:20px 24px;font-weight:700;font-size:16px;line-height:1.4;
+  display:flex;justify-content:space-between;align-items:flex-start;gap:16px;}
+.pdl-q summary::-webkit-details-marker{display:none;}
+.pdl-q summary::after{content:"+";font-weight:400;font-size:24px;line-height:1;color:var(--pdl-navy);flex:none;}
+.pdl-q[open] summary::after{content:"\2212";}
+.pdl-q-a{padding:0 24px 22px;}
+
+/* pas CTA */
+.pdl-band{background:var(--pdl-navy);border-radius:44px 12px 44px 44px;padding:52px 44px;
+  display:flex;gap:32px;align-items:center;justify-content:space-between;flex-wrap:wrap;}
+.pdl-band .pdl-h2,.pdl-band .pdl-txt{color:#fff!important;}
+.pdl-band .pdl-txt{opacity:.86;margin-top:12px;max-width:52ch;}
+.pdl-band .pdl-btn--main{background:#fff;color:var(--pdl-navy)!important;}
+.pdl-band .pdl-btn--ghost{border-color:rgba(255,255,255,.5);color:#fff!important;}
+
+@media (max-width:640px){
+  .pdl-sec{padding:56px 0;}
+  .pdl-band{padding:36px 26px;border-radius:34px 10px 34px 34px;}
+  .pdl-hero-media{gap:10px;}
+  .pdl-shot:nth-child(2){margin-top:20px;}
+}
+@media (prefers-reduced-motion:reduce){.pdl *{animation:none!important;transition:none!important;}}
+
+/* ===== Dopisek do arkusza .pdl (strona Uslugi dla marketingu, 13.10.2026) ===== */
+/* A. Kontrast WCAG AA (OBOWIAZKOWY). Tekst do 18,66 px pogrubionego i do 24 px zwyklego: min. 4,5:1.
+   --pdl-grey: podpisy liczb w hero (.pdl-stat span, 12,5 px/300). Bylo #9a9aa6 = 2,78:1 na bialym.
+               Teraz #6b6b76 = 5,26:1 na #fff i 4,83:1 na #F5F5F5.
+   --pdl-rust: plakietka Przed (bialy 11 px/700 na tle rust) i numery branz (.pdl-branza-num, 12,5 px/800 na bialym).
+               Bylo #DE6B24 = 3,37:1. Teraz #B55119 = 5,05:1 (bialy na nim i on na bialym), 4,64:1 na #F5F5F5.
+   Oba tokeny sa uzyte tylko w tych miejscach, wiec podmiana tokenu nie zmienia niczego innego. */
+.pdl{--pdl-grey:#6b6b76;--pdl-rust:#B55119;}
+
+/* B. Uklad (ZALECANY). */
+/* B1. .pdl p i .pdl h1..h4 {margin:0} maja wage (0,1,1), wyzsza niz .pdl-hero-copy>*+* i
+       .pdl-detail-copy>*+* (0,1,0), a .pdl-checks{margin:0} stoi pozniej. Naglowek, lead, tekst
+       i lista z ptaszkami stykaly sie bez odstepu (widac na zywej HoReCa i Przemysle). */
+.pdl .pdl-hero-copy>.pdl-lead,.pdl .pdl-hero-copy>.pdl-txt{margin-top:14px;}
+.pdl .pdl-detail-copy>.pdl-txt{margin-top:14px;}
+.pdl .pdl-detail-copy>.pdl-checks{margin-top:18px;}
+/* B2. Link w karcie CTA (.pdl-p--cta a) nie ma rozmiaru i dziedziczy 24 px z motywu. */
+.pdl-p--cta a{font-size:15.5px;line-height:1.4;}
+/* B3. Galeria na telefonie: 2 kolumny zamiast 8 duzych kwadratow jeden pod drugim (ok. 3200 px przewijania). */
+@media (max-width:640px){.pdl-gal{grid-template-columns:1fr 1fr;gap:10px;}}
+/* szesc kart materialow: trzy w rzedzie zamiast 4 + 2 */
+.pdl .pdl-mats--3{grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));}
+</style>
+<section class="pdl-hero">
+  <div class="pdl-wrap pdl-hero-grid">
+    <div class="pdl-hero-copy">
+      <span class="pdl-eyebrow">Usługi dla marketingu</span>
+      <h1 class="pdl-h1">Statuetki, puchary<br>i upominki z logo.</h1>
+      <p class="pdl-lead">Dla działów marketingu i agencji, które szykują galę albo upominki dla klientów.</p>
+      <p class="pdl-txt">Lasery do graweru i cięcia oraz frezarka CNC stoją w naszej pracowni w Warszawie. Zamówisz u nas jedną statuetkę na jubileusz albo ściankę na firmowy event.</p>
+      <div class="pdl-btns"><a class="pdl-btn pdl-btn--main" href="/kontakt/">Wyceń zamówienie</a><a class="pdl-btn pdl-btn--ghost" href="#zakres">Co robimy</a></div>
+      <ul class="pdl-stats"><li class="pdl-stat"><b>od 2002 roku</b><span>obrabiamy laserem</span></li><li class="pdl-stat"><b>od 1 sztuki</b><span>minimum 100&nbsp;zł</span></li><li class="pdl-stat"><b>24 h</b><span>na wycenę graweru</span></li></ul>
+    </div>
+    <div class="pdl-hero-media"><div class="pdl-shot"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-statuetka-jubileuszowa-insoft.jpg" alt="Jubileuszowa statuetka z przezroczystej plexi ze złotą tabliczką INSOFT 25 lat" loading="eager" fetchpriority="high" decoding="async" data-no-lazy="1"></div><div class="pdl-shot"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-slup-768x1024.jpg" alt="Pionowe logo BOKO z pomarańczowych liter na lustrzanej plexi, na słupie w kawiarni" loading="eager" fetchpriority="high" decoding="async" data-no-lazy="1"></div></div>
+  </div>
+</section>
+<section class="pdl-sec pdl-sec--wash"><div class="pdl-wrap"><div class="pdl-head"><span class="pdl-eyebrow">Trzy światy</span><h2 class="pdl-h2">Firma, agencja, organizator.<br>Jedna pracownia.</h2><p class="pdl-txt">Dział marketingu zamawia co innego niż agencja, a jeszcze co innego organizator konkursu.</p></div><div class="pdl-cards"><article class="pdl-card">
+      <div class="pdl-card-img"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/5-edited-768x768.webp" alt="Matowa bordowa bombka z grawerem świątecznych życzeń od firmy" loading="lazy" decoding="async"></div>
+      <div class="pdl-card-body">
+        <h3 class="pdl-h3">Działy marketingu firm</h3>
+        <p class="pdl-txt-sm">Upominki z logo dla kontrahentów i zespołu, statuetka na rocznicę firmy, logo przestrzenne do recepcji. Każdy upominek w serii może dostać imię odbiorcy.</p>
+        <a class="pdl-card-link" href="#upominki">Upominki z logo &rarr;</a>
+      </div></article><article class="pdl-card">
+      <div class="pdl-card-img"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7207-768x576.jpg" alt="Ekspozytor kosmetyków z lustrzanej plexi i drewna w kształcie plastra miodu" loading="lazy" decoding="async"></div>
+      <div class="pdl-card-body">
+        <h3 class="pdl-h3">Agencje reklamowe i eventowe</h3>
+        <p class="pdl-txt-sm">Ścianki fotograficzne, napisy przestrzenne i ekspozytory według projektu agencji. Cięcie i frezowanie zamawiasz w jednym zleceniu, z jedną fakturą.</p>
+        <a class="pdl-card-link" href="#event">Ścianki i dekoracje na event &rarr;</a>
+      </div></article><article class="pdl-card">
+      <div class="pdl-card-img"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-bondi-plaza-768x960.jpg" alt="Złota lustrzana ścianka fotograficzna na letni event nad Wisłą" style="object-position:50% 35%" loading="lazy" decoding="async"></div>
+      <div class="pdl-card-body">
+        <h3 class="pdl-h3">Organizatorzy gal i konkursów</h3>
+        <p class="pdl-txt-sm">Statuetki i puchary dla laureatów. Na samo wydarzenie zrobimy też ściankę do zdjęć.</p>
+        <a class="pdl-card-link" href="#nagrody">Statuetki i puchary &rarr;</a>
+      </div></article></div></div></section>
+<section class="pdl-sec" id="zakres"><div class="pdl-wrap"><div class="pdl-head"><span class="pdl-eyebrow">Zakres</span><h2 class="pdl-h2">Wszystko, co marka<br>wręcza i pokazuje.</h2><p class="pdl-txt">Pięć grup zamówień dla firm i agencji. Lasery CO₂ grawerują i tną plexi, drewno, skórę i papier, laser fiber znakuje metal, a grubsze płyty i litery przestrzenne obrabia frezarka CNC.</p></div><div class="pdl-prod"><article class="pdl-p">
+          <h3 class="pdl-h3">Statuetki, puchary i nagrody</h3>
+          <p class="pdl-txt-sm">Statuetkę zaprojektujemy na jubileusz firmy czy galę konkursu. Robimy też puchary.</p>
+          <ul><li>Statuetki jubileuszowe, nagrody i wyróżnienia</li><li>Statuetki z plexi i drewna, wycinane i grawerowane</li><li>Jedna sztuka albo seria dla laureatów</li></ul></article><article class="pdl-p">
+          <h3 class="pdl-h3">Upominki i gadżety z logo</h3>
+          <p class="pdl-txt-sm">Logo, imię albo życzenia na rzeczach, które dajesz klientom i pracownikom.</p>
+          <ul><li>Kubki termiczne, szkło, noże, powerbanki</li><li>Skrzynki na wino, świece, notesy</li><li>Od jednej sztuki do dużej serii</li></ul></article><article class="pdl-p">
+          <h3 class="pdl-h3">Napisy, logo i oznakowanie</h3>
+          <p class="pdl-txt-sm">Litery, logotypy i napisy przestrzenne z plexi albo sklejki. Plexi wychodzi spod lasera z gładką, błyszczącą krawędzią.</p>
+          <ul><li>Do recepcji albo na stoisko</li><li>Pojedyncza litera albo cały napis</li><li>Oznakowanie wnętrz, np. „Tylko dla personelu”</li></ul></article><article class="pdl-p">
+          <h3 class="pdl-h3">Ścianki i dekoracje eventowe</h3>
+          <p class="pdl-txt-sm">Ścianki fotograficzne z płyt wielkoformatowych i dekoracje z plexi, sklejki i tkaniny. Duże formaty składamy z modułów.</p>
+          <ul><li>Lustrzana plexi, także złota</li><li>Elementy gotowe do szybkiego montażu</li><li>Cięcie według projektu agencji albo klienta</li></ul></article><article class="pdl-p">
+          <h3 class="pdl-h3">Ekspozytory i opakowania</h3>
+          <p class="pdl-txt-sm">Ekspozytory i standy POS na produkty oraz opakowania z wkładami. Przykłady opisaliśmy we wpisie o tym, <a href="/blog/tworzenie-ekspozycji-dla-marek-kosmetycznych/">jak robimy ekspozycje dla marek kosmetycznych</a>.</p>
+          <ul><li>Plexi lustrzana, drewno, sklejka</li><li>Cięcie, gięcie plexi, klejenie i grawer logo</li><li>Prototyp albo makieta do akceptacji</li></ul></article><article class="pdl-p pdl-p--cta">
+          <h3 class="pdl-h3">Masz tylko pomysł?</h3>
+          <p class="pdl-txt-sm">Wystarczy szkic, zdjęcie podobnej rzeczy albo opis. Doradzimy materiał i przygotujemy plik do cięcia albo graweru.</p>
+          <a href="/kontakt/">Opisz projekt &rarr;</a></article></div></div></section>
+<section class="pdl-sec pdl-sec--wash" id="nagrody"><div class="pdl-wrap">
+      <div class="pdl-detail pdl-detail--rev">
+        <div class="pdl-detail-copy">
+          <span class="pdl-eyebrow">Statuetki i nagrody</span>
+          <h2 class="pdl-h2">Statuetki z plexi<br>na galę i jubileusz.</h2>
+          <p class="pdl-txt">Kształt statuetki wycinamy laserem, a napisy grawerujemy. Na <span style="white-space:nowrap">25-lecie</span> firmy INSOFT powstała statuetka z przezroczystej plexi ze złotą tabliczką. W wyróżnieniu z tańczącą parą sylwetkę wycięliśmy z czarnej plexi, a taflę pod nią z przezroczystej. Zamawiasz statuetki lub puchary? Napisz, ilu masz laureatów i kiedy wręczasz nagrody.</p>
+          <ul class="pdl-checks"><li>Kształt z sylwetką, logo albo motywem okazji</li><li>Na każdej sztuce inne nazwisko, kategoria albo rok</li><li>Grawer w przezroczystej plexi świeci, gdy podświetlisz ją od krawędzi</li></ul>
+          <div class="pdl-btns"><a class="pdl-btn pdl-btn--main" href="/kontakt/">Zapytaj o statuetki</a></div>
+        </div>
+        <div class="pdl-detail-media"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-statuetka-z-plexi.jpg" alt="Wyróżnienie z przezroczystej plexi z czarną sylwetką pary tanecznej i okrągłą tabliczką" loading="lazy" decoding="async"></div>
+      </div></div></section>
+<section class="pdl-sec" id="event"><div class="pdl-wrap">
+      <div class="pdl-detail">
+        <div class="pdl-detail-copy">
+          <span class="pdl-eyebrow">Eventy i wnętrza</span>
+          <h2 class="pdl-h2">Ścianki i dekoracje<br>na event.</h2>
+          <p class="pdl-txt">Dla Bondi Sands wycięliśmy złotą lustrzaną ściankę fotograficzną na letni event nad Wisłą. Była gotowa na umówiony dzień. Litery i logo z plexi oraz sklejki tniemy laserem, a napisy z grubszego materiału, na przykład z buku, powstają na frezarce. Obie techniki opisujemy na stronach o <a href="/wycinanie-laserowe/">wycinaniu laserowym</a> i <a href="/frezowanie-cnc/">frezowaniu CNC</a>.</p>
+          <ul class="pdl-checks"><li>Napisy „Tea” i „Team” z lustrzanej plexi na sklejce, cięte laserem</li><li>Logo kawiarni BOKO z lustrzanej plexi, na słupie i na pomarańczowym kole</li><li><a href="/case-study/zamek-sulkowskich/">Tkanina na elewację Zamku Sułkowskich</a>: 800 metrów wyciętych według projektu klienta</li></ul>
+          <div class="pdl-btns"><a class="pdl-btn pdl-btn--main" href="/kontakt/">Wyceń dekorację na event</a></div>
+        </div>
+        <div class="pdl-detail-media"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/hero-zamek-sulkowskich-v2.jpg" alt="Elewacja Zamku Sułkowskich pokryta złoto-czerwoną tkaniną wyciętą laserowo" loading="lazy" decoding="async"></div>
+      </div></div></section>
+<section class="pdl-sec pdl-sec--wash" id="upominki"><div class="pdl-wrap"><div class="pdl-head"><span class="pdl-eyebrow">Upominki z logo</span><h2 class="pdl-h2">Logo, które<br>się nie zetrze.</h2><p class="pdl-txt"><a href="/grawerowanie-laserowe/">Grawer laserowy</a> zostawia znak w samym materiale, więc nie zejdzie jak nadruk. Co sprawdza się jako upominek, opisaliśmy w <a href="/blog/firmowe-prezenty-z-grawerem/">poradniku o prezentach firmowych z grawerem</a>.</p></div><div class="pdl-mats pdl-mats--3"><article class="pdl-mat"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7380-768x576.jpg" alt="Butelka termiczna z grawerowanym imieniem" loading="lazy" decoding="async">
+      <div class="pdl-mat-body"><h3 class="pdl-h4">Stal z powłoką</h3>
+      <p class="pdl-txt-sm">Kubki i butelki termiczne. Grawer może biec dookoła całego naczynia.</p></div></article><article class="pdl-mat"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_2836-768x512.webp" alt="Kieliszek do wina z grawerowanym logo" loading="lazy" decoding="async">
+      <div class="pdl-mat-body"><h3 class="pdl-h4">Szkło</h3>
+      <p class="pdl-txt-sm">Kieliszki i karafki z logo na upominek. Grawer na szkle wychodzi matowy i jasny, bez farby.</p></div></article><article class="pdl-mat"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-macbook-the-last-dance-768x373.jpg" alt="Grawer z motywem imprezy na pokrywie laptopa" loading="lazy" decoding="async">
+      <div class="pdl-mat-body"><h3 class="pdl-h4">Aluminium i elektronika</h3>
+      <p class="pdl-txt-sm">Powerbanki, pendrive'y i laptopy. Grawerujemy samą obudowę i nie ruszamy tego, co działa w środku.</p></div></article><article class="pdl-mat"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/IMG_1207-768x1024.webp" alt="Seria noży z grawerowanym logo na głowniach" style="object-position:50% 82%" loading="lazy" decoding="async">
+      <div class="pdl-mat-body"><h3 class="pdl-h4">Stal nierdzewna</h3>
+      <p class="pdl-txt-sm">Noże z logo firmy, pojedynczo albo w kompletach prezentowych. Szczegóły na stronie o <a href="/grawerowanie-laserowe/grawerowanie-na-nozu/">nożach z grawerem</a>.</p></div></article><article class="pdl-mat"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/4-edited-e1736263438391-768x431.webp" alt="Świeca z drewnianą pokrywką z grawerem świątecznych życzeń od firmy" loading="lazy" decoding="async">
+      <div class="pdl-mat-body"><h3 class="pdl-h4">Drewno i skóra</h3>
+      <p class="pdl-txt-sm">Skrzynki na wino, drewniane pokrywki świec, notesy, kalendarze i skórzane etui. Na pokrywce świecy wygrawerujemy życzenia od firmy, jak na zdjęciu.</p></div></article><article class="pdl-mat"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-grawer-wow-na-owocach-768x384.jpg" alt="Owoce ze znakowaniem laserowym napisu WOW!" loading="lazy" decoding="async">
+      <div class="pdl-mat-body"><h3 class="pdl-h4">Skórka owoców</h3>
+      <p class="pdl-txt-sm">Logo albo hasło na jabłkach, gruszkach czy dyniach, bez naklejki. Na stoisko promocyjne albo event.</p></div></article></div></div></section>
+<section class="pdl-sec"><div class="pdl-wrap"><div class="pdl-head"><span class="pdl-eyebrow">Realizacje</span><h2 class="pdl-h2">Nasze prace<br>z bliska.</h2><p class="pdl-txt">Napisy z plexi, ścianka w trakcie cięcia, ekspozytor, plakieta i upominki z grawerem. Pełna galeria pokazuje też realizacje dla innych branż.</p></div><div class="pdl-gal"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea-768x512.jpg" alt="Złoty napis przestrzenny Tea z lustrzanej plexi" style="object-position:15% 50%" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team-768x512.jpg" alt="Ciemny lustrzany napis przestrzenny Team z plexi na sklejce" style="object-position:30% 50%" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-podswietlana-litera-r-768x512.jpg" alt="Podświetlana przestrzenna litera R z plexi" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-bondi-ciecie-768x960.jpg" alt="Lustrzana ścianka eventowa w trakcie wycinania na maszynie w pracowni Padir" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-ekspozytor-guerlain-768x576.jpg" alt="Ekspozytor w kształcie plastra miodu ze złotej lustrzanej plexi i drewna, z pszczołą" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-plakieta-mysliwska-skalisko.jpg" alt="Metalowa plakieta z reliefem dzika i grawerowaną datą na wstędze" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/3-768x1024.webp" alt="Granatowy kubek termiczny z grawerowanym imieniem" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/8-edited-768x576.webp" alt="Metalowy pendrive z grawerowanym imieniem" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/07/IMG_9416-768x576.webp" alt="Metalowa skrzynka narzędziowa z grawerowaną tabliczką" loading="lazy" decoding="async"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/69A6E5DE-29D8-4BEA-9765-6E0862C9017F-768x960.jpg" alt="Czarna butelka termiczna z grawerowanym imieniem i małym logo" loading="lazy" decoding="async"></div>
+<div class="pdl-btns" style="margin-top:32px"><a class="pdl-btn pdl-btn--ghost" href="/przykladkowe-realizacje/#galeria">Zobacz wszystkie realizacje</a></div></div></section>
+<section class="pdl-sec pdl-sec--wash"><div class="pdl-wrap"><div class="pdl-head"><span class="pdl-eyebrow">FAQ</span><h2 class="pdl-h2">Zanim wyślesz<br>zapytanie.</h2><p class="pdl-txt">Odpowiedzi, które przydadzą się przed wyceną. Twojego pytania tu nie ma? <a href="/kontakt/">Napisz do nas</a>.</p></div><div class="pdl-faq"><details class="pdl-q"><summary>Mamy upominki od innego dostawcy. Wygrawerujecie na nich logo?</summary>
+      <div class="pdl-q-a"><p class="pdl-txt-sm">Tak. Dostawca może wysłać je kurierem prosto do nas, możesz je też przywieźć sam. Termin liczymy od dnia, w którym przedmioty do nas dotrą. Przy tworzywach najpierw robimy próbę na jednej sztuce. Sprawdź <a href="/materialy-do-grawerowania/">listę materiałów do grawerowania</a> albo przyślij zdjęcie przedmiotu.</p></div></details><details class="pdl-q"><summary>Każda nagroda ma mieć inne nazwisko. Zrobicie to w jednej serii?</summary>
+      <div class="pdl-q-a"><p class="pdl-txt-sm">Tak. Nazwiska, kategorie i lata wstawiamy z Twojej listy do pliku, więc każda nagroda dostaje swój napis. Przed serią grawerujemy jeden egzemplarz do akceptacji, a resztę robimy po Twojej zgodzie. Gdyby któraś nagroda wyszła z błędem, poprawimy ją.</p></div></details><details class="pdl-q"><summary>Ile kosztuje najmniejsze zlecenie?</summary>
+      <div class="pdl-q-a"><p class="pdl-txt-sm">100 zł. Tyle wynosi minimum za jedno zlecenie bez względu na liczbę sztuk, więc jedną statuetkę też u nas zamówisz. Cenę większej serii podamy w wycenie.</p></div></details><details class="pdl-q"><summary>Wydarzenie jest blisko. Jak szybko zrobicie grawer?</summary>
+      <div class="pdl-q-a"><p class="pdl-txt-sm">Grawer w ciągu 2&nbsp;dni albo od ręki zrobimy za dodatkową opłatą. Termin serii statuetek, upominków czy dekoracji podajemy w wycenie, dlatego w zapytaniu od razu wpisz datę wydarzenia.</p></div></details><details class="pdl-q"><summary>Mamy projekt od grafika. W jakim formacie go wysłać?</summary>
+      <div class="pdl-q-a"><p class="pdl-txt-sm">Najwygodniej w wektorach: AI, EPS, SVG albo PDF, a elementy do cięcia także w DXF lub DWG. Jeśli masz tylko zdjęcie logo albo szkic, przygotujemy plik na jego podstawie. Przy trudnych plikach może dojść dodatkowy koszt.</p></div></details><details class="pdl-q"><summary>Za rok domówimy kilka sztuk. Będą takie same jak pierwsze?</summary>
+      <div class="pdl-q-a"><p class="pdl-txt-sm">Tak. Plik wzorcowy i parametry graweru archiwizujemy, więc nowe sztuki nie będą się różnić od tych sprzed roku. Przydaje się to przy nagrodach wręczanych co roku i przy upominkach dla nowych osób w zespole.</p></div></details><details class="pdl-q"><summary>Odbierzemy zamówienie sami czy wyślecie je kurierem?</summary>
+      <div class="pdl-q-a"><p class="pdl-txt-sm">Jak wolisz. Gotowe zamówienie odbierzesz w pracowni przy ul. Matuszewskiej 14 w Warszawie, od poniedziałku do piątku w godz. 8:30-16:00, albo wyślemy je kurierem pod wskazany adres.</p></div></details></div></div></section>
+<section class="pdl-sec"><div class="pdl-wrap"><div class="pdl-band">
+      <div><h2 class="pdl-h2">Napisz, co i na kiedy.</h2><p class="pdl-txt">Przyślij logo albo szkic nagrody. Dopisz liczbę sztuk i datę wydarzenia. Przy grawerze i statuetkach wycenę z terminem dostaniesz w ciągu 24&nbsp;godzin.</p></div>
+      <div class="pdl-btns"><a class="pdl-btn pdl-btn--main" href="/kontakt/">Wyceń zamówienie</a><a class="pdl-btn pdl-btn--ghost" href="/przykladkowe-realizacje/">Zobacz realizacje</a></div></div></div></section>
+</div>
+<!-- /wp:html -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:html -->
+<script type="application/ld+json" data-no-optimize="1">{"@context":"https://schema.org","@type":"Service","@id":"https://grawerowanie-laserowe.pl/uslugi-dla-marketingu/#service","name":"Statuetki, puchary i upominki z logo dla firm","serviceType":"Statuetki, puchary i upominki z logo dla firm","description":"Statuetki i nagrody z plexi i drewna, puchary, upominki z logo, napisy przestrzenne, ścianki i dekoracje na event oraz ekspozytory dla marek i agencji. Zamówienia od 1 sztuki.","url":"https://grawerowanie-laserowe.pl/uslugi-dla-marketingu/","provider":{"@id":"https://grawerowanie-laserowe.pl/#organization"},"areaServed":{"@type":"Country","name":"Polska"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Zakres usługi","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Statuetki, puchary i nagrody"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Upominki i gadżety z logo"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Napisy, logo i oznakowanie"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Ścianki i dekoracje eventowe"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Ekspozytory i opakowania"}}]},"audience":{"@type":"BusinessAudience","name":"Działy marketingu, agencje reklamowe i eventowe, organizatorzy konkursów i gal"}}</script>
+<!-- /wp:html -->

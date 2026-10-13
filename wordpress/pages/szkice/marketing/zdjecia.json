@@ -1,0 +1,1531 @@
+{
+ "zatwierdzone": [
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-statuetka-jubileuszowa-insoft.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-statuetka-jubileuszowa-insoft-225x300.jpg",
+   "media_id": 2340,
+   "wymiary": "750x1000",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Statuetka jubileuszowa „INSOFT””); /wycinanie-laserowe/ sekcja nagród; wpis 2177",
+   "co_widac": "Statuetka z przezroczystej plexi o krawędzi w kształcie choinek (zygzak), na niej złota tabliczka z logo INSOFT, napisem 25 LAT i dedykacją, przykręcona na złotych dystansach. Ciemnoniebieskie tło.",
+   "praca_padir": "tak",
+   "jakosc": "dobra: ostra, czysty kadr, ale tylko 750x1000 px",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "hero (kafel 3:4, kadr natywny)",
+    "karta „Nagrody i statuetki”",
+    "realizacje"
+   ],
+   "alt": "Statuetka jubileuszowa z plexi ze złotą tabliczką na 25-lecie firmy",
+   "tytul_realizacji": "Statuetka jubileuszowa „INSOFT”",
+   "material": "Plexi + grawer",
+   "widoczne_marki": [
+    "INSOFT (serwis pokazuje: karta galerii, 1019, wpis 2177)"
+   ],
+   "uwagi": "url_medium w bibliotece to tylko 225x300, w hero użyj pełnego pliku (750x1000)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-bondi-plaza.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-bondi-plaza-768x960.jpg",
+   "media_id": 2522,
+   "wymiary": "980x1225",
+   "zrodlo": "/wycinanie-laserowe/ (hero i case study Bondi Sands); media.json",
+   "co_widac": "Złota, lustrzana ścianka z łukiem u góry stoi na piasku nad rzeką, w tle most i stadion, błękitne niebo. Na ściance okrągłe logo bondi sands i niebieskie napisy (Golden Hour, Golden Skin, serce). W rogu znak wodny padir.",
+   "praca_padir": "tak",
+   "jakosc": "dobra: ostra, mocne kolory, 980x1225 px",
+   "orientacja": "pionowa 4:5",
+   "nadaje_sie_na": [
+    "hero (kafel 3:4)",
+    "sekcja ze zdjęciem (case event)",
+    "realizacje"
+   ],
+   "alt": "Złota lustrzana ścianka fotograficzna na letni event nad Wisłą",
+   "tytul_realizacji": "Ścianka fotograficzna „Bondi Sands”",
+   "material": "Płyta wielkoformatowa, lustrzane wykończenie",
+   "widoczne_marki": [
+    "Bondi Sands (serwis pokazuje: case study na 1019, karta galerii)"
+   ],
+   "uwagi": "Ten sam kadr stoi w hero /wycinanie-laserowe/. HoReCa i Przemysł go nie mają. Bez „plaży” i „barki” w podpisie (fakty S02)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-bondi-ciecie.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-bondi-ciecie-768x960.jpg",
+   "media_id": 2527,
+   "wymiary": "980x1225",
+   "zrodlo": "/wycinanie-laserowe/ (case study Bondi Sands); media.json",
+   "co_widac": "Ta sama złota ścianka leży na stole lasera, nad nią czerwona głowica tnąca. Widać naklejone logo bondi sands i niebieskie napisy Golden Hour Golden Skin, You glow different at golden hour. Znak wodny padir.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 980x1225 px",
+   "orientacja": "pionowa 4:5",
+   "nadaje_sie_na": [
+    "hero (zamiennik 2522)",
+    "para przed/po (16:10, kadr środkowy z głowicą)",
+    "sekcja ze zdjęciem: z pracowni na event"
+   ],
+   "alt": "Lustrzana ścianka eventowa w trakcie cięcia na laserze w pracowni Padir",
+   "tytul_realizacji": "Ścianka fotograficzna „Bondi Sands”",
+   "material": "Płyta wielkoformatowa, lustrzane wykończenie",
+   "widoczne_marki": [
+    "Bondi Sands (jak wyżej)"
+   ]
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-scianka-fotograficzna-bondi-sands.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-scianka-fotograficzna-bondi-sands-768x512.jpg",
+   "media_id": 2322,
+   "wymiary": "900x600",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Ścianka fotograficzna „Bondi Sands””); /wycinanie-laserowe/",
+   "co_widac": "Złota ścianka na plaży nad rzeką w trakcie eventu: obok mężczyzna w bieli z deską SUP, za ścianką leżaki i ludzie. Na ściance logo bondi sands i niebieskie hasła o golden hour.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 900x600 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "para przed/po (po)",
+    "karta „Event i POS”",
+    "realizacje"
+   ],
+   "alt": "Złota ścianka fotograficzna w trakcie letniego eventu marki kosmetycznej",
+   "tytul_realizacji": "Ścianka fotograficzna „Bondi Sands”",
+   "material": "Płyta wielkoformatowa",
+   "widoczne_marki": [
+    "Bondi Sands (jak wyżej)"
+   ],
+   "uwagi": "Na zdjęciu rozpoznawalna osoba (model z deską). Serwis już pokazuje ten kadr w galerii."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7207-scaled.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7207-768x576.jpg",
+   "media_id": 2054,
+   "wymiary": "2560x1920",
+   "zrodlo": "media.json (IMG_7207, plik bez altu, ta sama realizacja co karta „Ekspozytor „Guerlain””)",
+   "co_widac": "Ekspozytor w drogerii: ściana z sześciokątów (lustrzana złota plexi, drewno, białe podświetlane pola), w centrum duży sześciokąt z pszczołą. Na podeście złoty pas z napisem ODNOWA DZIĘKI NAUCE I PSZCZOŁOM, przed nim etykiety cenowe. Z prawej plansza z pszczelarzem.",
+   "praca_padir": "tak",
+   "jakosc": "bardzo dobra: 2560x1920 px, ostra, ciepłe światło",
+   "orientacja": "pozioma 4:3",
+   "nadaje_sie_na": [
+    "karta „Event, POS i przestrzeń marki” (4:3 natywnie)",
+    "sekcja ze zdjęciem (ekspozytory)",
+    "hero (tylko jeśli kadr 3:4 ze środka z pszczołą)"
+   ],
+   "alt": "Ekspozytor kosmetyków z lustrzanej plexi i drewna w kształcie plastra miodu",
+   "tytul_realizacji": "Ekspozytor „Guerlain”",
+   "material": "Plexi lustrzana + drewno",
+   "widoczne_marki": [
+    "Guerlain: logo nieczytelne, widoczne jest hasło marki po polsku (serwis nazywa Guerlain na karcie i na /produkty/)"
+   ],
+   "uwagi": "Plik nie stoi dziś na żadnej stronie, a to największe zdjęcie POS w bibliotece."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-ekspozytor-guerlain.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-ekspozytor-guerlain-768x576.jpg",
+   "media_id": 2328,
+   "wymiary": "1000x750",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Ekspozytor „Guerlain””); /wycinanie-laserowe/ hero; /produkty/",
+   "co_widac": "Ten sam ekspozytor z plastrem miodu i pszczołą, kadr z boku, na dole złoty pas ODNOWA DZIĘKI NAUCE I PSZCZOŁOM i etykiety cenowe.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1000x750 px",
+   "orientacja": "pozioma 4:3",
+   "nadaje_sie_na": [
+    "realizacje (karta galerii)",
+    "galeria"
+   ],
+   "alt": "Ekspozytor sklepowy z plexi lustrzanej i drewna z motywem plastra miodu",
+   "tytul_realizacji": "Ekspozytor „Guerlain”",
+   "material": "Plexi lustrzana + drewno",
+   "widoczne_marki": [
+    "Guerlain (jak wyżej)"
+   ],
+   "uwagi": "Ten sam kadr ma media 2361 (1500x1125). Na stronie wybierz albo 2054, albo 2328, nie oba w sąsiednich sekcjach."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-logo-przestrzenne-boko.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-logo-przestrzenne-boko-768x576.jpg",
+   "media_id": 2333,
+   "wymiary": "1000x750",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Logo przestrzenne „BOKO””); /wycinanie-laserowe/ case study",
+   "co_widac": "Lustrzane litery BOKO na pomarańczowym kole na szarej ścianie. Litera O częściowo odbija otoczenie.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1000x750 px",
+   "orientacja": "pozioma 4:3",
+   "nadaje_sie_na": [
+    "sekcja ze zdjęciem: napisy i logo przestrzenne (4:3 natywnie)",
+    "realizacje"
+   ],
+   "alt": "Logo kawiarni z lustrzanej plexi na pomarańczowym kole",
+   "tytul_realizacji": "Logo przestrzenne „BOKO”",
+   "material": "Plexi lustrzana",
+   "widoczne_marki": [
+    "BOKO (serwis pokazuje: case study na 1019, karta galerii)"
+   ]
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-slup.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-slup-768x1024.jpg",
+   "media_id": 2525,
+   "wymiary": "1125x1500",
+   "zrodlo": "/wycinanie-laserowe/ (case study BOKO); media.json",
+   "co_widac": "Pionowy układ pomarańczowych liter BO / KO na lustrzanym panelu na słupie, w lustrze odbija się wnętrze.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1125x1500 px",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "hero (zamiennik)",
+    "galeria (kafel 1:1 ze środka)"
+   ],
+   "alt": "Pionowe logo BOKO z pomarańczowych liter na lustrzanym słupie",
+   "tytul_realizacji": "Logo przestrzenne „BOKO”",
+   "material": "Plexi lustrzana",
+   "widoczne_marki": [
+    "BOKO"
+   ]
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-litery.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-litery-768x512.jpg",
+   "media_id": 2520,
+   "wymiary": "900x600",
+   "zrodlo": "/wycinanie-laserowe/ (case study BOKO); media.json",
+   "co_widac": "Zbliżenie pomarańczowych liter BO KO na lustrzanej płycie, w lustrze odbicie okna i sali.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 900x600 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "galeria",
+    "siatka materiałów (plexi lustrzana)"
+   ],
+   "alt": "Pomarańczowe litery BOKO na lustrzanej plexi, zbliżenie",
+   "tytul_realizacji": "Logo przestrzenne „BOKO”",
+   "material": "Plexi lustrzana",
+   "widoczne_marki": [
+    "BOKO"
+   ]
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-wnetrze.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-boko-wnetrze-768x1024.jpg",
+   "media_id": 2521,
+   "wymiary": "1125x1500",
+   "zrodlo": "/wycinanie-laserowe/ (case study BOKO); media.json",
+   "co_widac": "Wnętrze kawiarni: szara kanapa wzdłuż ściany, białe stoliki i krzesła, na ścianie logo BOKO na pomarańczowym kole, na pierwszym planie liście rośliny.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1125x1500 px",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "hero (zamiennik)",
+    "sekcja ze zdjęciem: logo w przestrzeni marki"
+   ],
+   "alt": "Logo BOKO z lustrzanych liter we wnętrzu kawiarni",
+   "tytul_realizacji": "Logo przestrzenne „BOKO”",
+   "material": "Plexi lustrzana",
+   "widoczne_marki": [
+    "BOKO"
+   ]
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-azurowy-panel-dekoracyjny.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-azurowy-panel-dekoracyjny-768x512.jpg",
+   "media_id": 2343,
+   "wymiary": "900x600",
+   "zrodlo": "media.json; użyte na /wycinanie-laserowe/ i /produkty/ z błędnym altem",
+   "co_widac": "Ta sama kawiarnia BOKO w kadrze poziomym: szara pikowana kanapa, trzy białe stoliki i krzesła, lampy wiszące, na ścianie logo BOKO na pomarańczowym kole. Żadnego ażurowego panelu na zdjęciu nie ma.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 900x600 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "sekcja ze zdjęciem: logo w przestrzeni marki (4:3 po lekkim przycięciu)"
+   ],
+   "alt": "Wnętrze kawiarni z logo BOKO z lustrzanej plexi na ścianie",
+   "tytul_realizacji": "Logo przestrzenne „BOKO”",
+   "material": "Plexi lustrzana",
+   "widoczne_marki": [
+    "BOKO"
+   ],
+   "uwagi": "Tytuł pliku „Ażurowy panel dekoracyjny - Sklejka” i alty na 1019 i /produkty/ są błędne. Na nowej stronie alt tylko taki jak tutaj."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/12/IMG_1950-edit-min-scaled.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/12/IMG_1950-edit-min-768x512.jpg",
+   "media_id": 1555,
+   "wymiary": "2560x1707",
+   "zrodlo": "media.json (IMG_1950-edit-min; ten sam kadr co karta „Napis przestrzenny „Tea””)",
+   "co_widac": "Złoty lustrzany napis Tea stojący na jasnym blacie, ciepłe i różowe refleksy, gładkie krawędzie liter, jasne tło.",
+   "praca_padir": "tak",
+   "jakosc": "bardzo dobra: 2560x1707 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "siatka materiałów (plexi lustrzana)",
+    "sekcja ze zdjęciem: napisy przestrzenne",
+    "plik do lightboxa zamiast 2315"
+   ],
+   "alt": "Złoty napis przestrzenny Tea wycięty laserem z lustrzanej plexi",
+   "tytul_realizacji": "Napis przestrzenny „Tea”",
+   "material": "Plexi lustrzana na sklejce, wycinanie laserowe",
+   "widoczne_marki": [],
+   "uwagi": "Technika według zleceniodawcy (13.10.2026): cięcie laserowe, plexi lustrzana na sklejce. Nie pisać „frezowanie”."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/12/IMG_1976-edit-min-scaled.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/12/IMG_1976-edit-min-768x512.jpg",
+   "media_id": 1556,
+   "wymiary": "2560x1707",
+   "zrodlo": "media.json (IMG_1976-edit-min; ten sam kadr co karta „Napis przestrzenny „Team””)",
+   "co_widac": "Ciemny lustrzany napis Team na jasnym blacie, fioletowe i pomarańczowe refleksy, końcówka litery m ucięta krawędzią kadru.",
+   "praca_padir": "tak",
+   "jakosc": "dobra: 2560x1707 px, kadr ciasny z prawej",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "galeria",
+    "plik do lightboxa zamiast 2316"
+   ],
+   "alt": "Lustrzany napis przestrzenny Team wycięty laserem",
+   "tytul_realizacji": "Napis przestrzenny „Team”",
+   "material": "Plexi lustrzana na sklejce, wycinanie laserowe",
+   "widoczne_marki": [],
+   "uwagi": "Jak przy Tea: cięcie laserowe."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-tea-768x512.jpg",
+   "media_id": 2315,
+   "wymiary": "1000x667",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Napis przestrzenny „Tea””, plakietka „Frezowanie” błędna)",
+   "co_widac": "Złoty lustrzany napis Tea na jasnym blacie (ten sam kadr co 1555).",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1000x667 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "realizacje (karta galerii)",
+    "galeria"
+   ],
+   "alt": "Złoty napis przestrzenny Tea z lustrzanej plexi",
+   "tytul_realizacji": "Napis przestrzenny „Tea”",
+   "material": "Plexi lustrzana na sklejce, wycinanie laserowe",
+   "widoczne_marki": [],
+   "uwagi": "Na stronie podpis „wycinanie laserowe”, nie „frezowanie”."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-napis-przestrzenny-team-768x512.jpg",
+   "media_id": 2316,
+   "wymiary": "1000x667",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Napis przestrzenny „Team””, plakietka „Frezowanie” błędna)",
+   "co_widac": "Ciemny lustrzany napis Team z kolorowymi refleksami (ten sam kadr co 1556).",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1000x667 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "realizacje (karta galerii)",
+    "galeria"
+   ],
+   "alt": "Lustrzany napis przestrzenny Team",
+   "tytul_realizacji": "Napis przestrzenny „Team”",
+   "material": "Plexi lustrzana na sklejce, wycinanie laserowe",
+   "widoczne_marki": [],
+   "uwagi": "Na stronie podpis „wycinanie laserowe”, nie „frezowanie”."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-statuetka-z-plexi.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-statuetka-z-plexi-768x512.jpg",
+   "media_id": 2332,
+   "wymiary": "900x600",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Statuetka z plexi”); /wycinanie-laserowe/ (3 razy); wpis 2177",
+   "co_widac": "Statuetka z czarnej plexi z wyciętą sylwetką pary tanecznej i gwiazdkami, na czerwonym tle. Na okrągłej srebrnej tabliczce grawer: „Wyróżnienie dla Cezarego i Wioletty Zychnowskich za rzetelność treningową i wyjątkowy progres w sezonie 2025/2026. Studio Tańca „CLOU””.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 900x600 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "karta „Nagrody i statuetki” (4:3 po lekkim przycięciu)",
+    "realizacje",
+    "galeria"
+   ],
+   "alt": "Statuetka z czarnej plexi z sylwetką pary tanecznej i grawerowaną tabliczką wyróżnienia",
+   "tytul_realizacji": "Statuetka z plexi",
+   "material": "Plexi + grawer",
+   "widoczne_marki": [
+    "Studio Tańca „CLOU” (tylko na tabliczce; serwis pokazuje to zdjęcie na 1019 i we wpisie 2177)"
+   ],
+   "uwagi": "Na pełnym pliku (i w lightboxie) czytelne imiona i nazwisko osób prywatnych. Zdjęcie odpowiada na część P07: to wyróżnienie od studia tańca. W tekście strony nie podawać nazwisk."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-plakieta-mysliwska-skalisko.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-plakieta-mysliwska-skalisko-226x300.jpg",
+   "media_id": 2354,
+   "wymiary": "753x1000",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Plakieta myśliwska „Skalisko””)",
+   "co_widac": "Srebrzysta metalowa plakieta w kształcie tarczy z reliefem dzika, na wstędze u góry grawer 19.09.2025 i SKALISKO. Tło ze sklejki.",
+   "praca_padir": "tak",
+   "jakosc": "średnia: 753x1000 px, tło przypadkowe",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "galeria (1:1 ze środka)",
+    "realizacje"
+   ],
+   "alt": "Metalowa plakieta z reliefem dzika i grawerowaną datą na wstędze",
+   "tytul_realizacji": "Plakieta myśliwska „Skalisko”",
+   "material": "Mosiądz",
+   "widoczne_marki": [
+    "Skalisko (koło łowieckie; serwis pokazuje: karta galerii)"
+   ],
+   "uwagi": "Jedyne zdjęcie plakiety. Nie wiadomo, czy Padir zrobił całą plakietę, czy tylko grawer na wstędze (pytanie P03)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-macbook-the-last-dance.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-macbook-the-last-dance-768x373.jpg",
+   "media_id": 2339,
+   "wymiary": "1000x486",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „MacBook „The Last Dance””)",
+   "co_widac": "Ciemna pokrywa MacBooka w białym pudełku. Jasny grawer: sowa z gitarą wokół logo Apple i napis The Last Dance - Double Sych Party.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, ale tylko 1000x486 px (większy plik: media 1248, 2560x1244)",
+   "orientacja": "pozioma ok. 2:1",
+   "nadaje_sie_na": [
+    "siatka materiałów (aluminium, elektronika)",
+    "galeria",
+    "realizacje"
+   ],
+   "alt": "Grawer z motywem imprezy na pokrywie laptopa",
+   "tytul_realizacji": "MacBook „The Last Dance”",
+   "material": "Aluminium (obudowa laptopa)",
+   "widoczne_marki": [
+    "Apple (producent sprzętu, nie klient)"
+   ]
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-grawer-wow-na-owocach.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-grawer-wow-na-owocach-768x384.jpg",
+   "media_id": 2331,
+   "wymiary": "1000x500",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Grawer „WOW!” na owocach”)",
+   "co_widac": "Jabłka, dynia, gruszka i śliwka na szarym tle. Na skórce jabłek, dyni i gruszki grawer napisu WOW! z uśmiechniętą buźką.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1000x500 px (większy plik: media 1362, 2560x1280)",
+   "orientacja": "pozioma 2:1",
+   "nadaje_sie_na": [
+    "siatka materiałów (owoce)",
+    "galeria"
+   ],
+   "alt": "Owoce ze znakowaniem laserowym napisu WOW!",
+   "tytul_realizacji": "Grawer „WOW!” na owocach",
+   "material": "Znakowanie owoców",
+   "widoczne_marki": [],
+   "uwagi": "Okazja nieznana (P24). Nie pisać, że to był event."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-podswietlana-litera-r.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-podswietlana-litera-r-768x512.jpg",
+   "media_id": 2324,
+   "wymiary": "1000x667",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Podświetlana litera „R””); /wycinanie-laserowe/ hero; /produkty/",
+   "co_widac": "Biała przestrzenna litera R stojąca na ciemnym tle, z boku kabel i niebieskie światło LED.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1000x667 px (większy plik: media 1033)",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "galeria",
+    "realizacje"
+   ],
+   "alt": "Podświetlana przestrzenna litera R z plexi",
+   "tytul_realizacji": "Podświetlana litera „R”",
+   "material": "Plexi + LED",
+   "widoczne_marki": [],
+   "uwagi": "Kto montował LED, nie wiadomo (P17). Podpis bez słowa „montaż”."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/4-edited-e1736263438391.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/4-edited-e1736263438391-768x431.webp",
+   "media_id": 1622,
+   "wymiary": "2268x1273",
+   "zrodlo": "wpis 1546 (świeczki) i wpis 2177; media.json",
+   "co_widac": "Świeca w szklanym słoju z drewnianą pokrywką. Na pokrywce grawer Wesołych Świąt życzy PADIR i śnieżynka, ciemne tło.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 2268x1273 px",
+   "orientacja": "pozioma ok. 16:9",
+   "nadaje_sie_na": [
+    "karta „Upominki z grawerem” (4:3 ze środka)",
+    "siatka materiałów (drewno)",
+    "galeria"
+   ],
+   "alt": "Świeca z drewnianą pokrywką z grawerem świątecznych życzeń od firmy",
+   "tytul_realizacji": "",
+   "material": "Drewno (pokrywka), szkło",
+   "widoczne_marki": [
+    "PADIR (własne logo pracowni)"
+   ],
+   "uwagi": "To upominek Padiru z jego własnym logo (fakty R14). Podpisywać jako przykład upominku z życzeniami od firmy, nie jako realizację dla klienta."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/5-edited-scaled.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/5-edited-768x768.webp",
+   "media_id": 1623,
+   "wymiary": "2560x2560",
+   "zrodlo": "wpis 1546 (bombki); media.json",
+   "co_widac": "Zbliżenie matowej bordowej bombki ze złotą zawieszką. Jasny grawer: Wesołych Świąt / życzy / PADIR.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 2560x2560 px",
+   "orientacja": "kwadrat",
+   "nadaje_sie_na": [
+    "galeria (1:1 natywnie)",
+    "karta „Upominki” (zamiennik)"
+   ],
+   "alt": "Matowa bordowa bombka z grawerem świątecznych życzeń od firmy",
+   "tytul_realizacji": "",
+   "material": "Szkło lakierowane (bombka)",
+   "widoczne_marki": [
+    "PADIR (własne logo)"
+   ],
+   "uwagi": "Własny upominek Padiru (R14). Wpis 1546 opisuje bombki jako „wycinanie laserowe”, a na zdjęciu jest grawer na powierzchni: w podpisie pisać „grawer”."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7380-scaled.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7380-768x576.jpg",
+   "media_id": 2068,
+   "wymiary": "2560x1920",
+   "zrodlo": "wpis 2177; media.json",
+   "co_widac": "Butelka termiczna z brokatową powłoką w odcieniu oliwkowo-złotym, z grawerowanym imieniem Martyna, na tle z ciemnych desek.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 2560x1920 px",
+   "orientacja": "pozioma 4:3",
+   "nadaje_sie_na": [
+    "siatka materiałów (stal z powłoką)",
+    "galeria"
+   ],
+   "alt": "Butelka termiczna z grawerowanym imieniem",
+   "tytul_realizacji": "",
+   "material": "Stal z powłoką brokatową",
+   "widoczne_marki": []
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/69A6E5DE-29D8-4BEA-9765-6E0862C9017F.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/69A6E5DE-29D8-4BEA-9765-6E0862C9017F-768x960.jpg",
+   "media_id": 2066,
+   "wymiary": "1440x1800",
+   "zrodlo": "wpis 2063; media.json",
+   "co_widac": "Czarna butelka termiczna z pionowym grawerem imienia Sylwia i małym logo padir, na jasnoniebieskich deskach.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1440x1800 px",
+   "orientacja": "pionowa 4:5",
+   "nadaje_sie_na": [
+    "galeria (1:1)",
+    "hero (nie zalecam, to drobny przedmiot)"
+   ],
+   "alt": "Czarna butelka termiczna z imieniem i małym logo",
+   "tytul_realizacji": "",
+   "material": "Stal z powłoką",
+   "widoczne_marki": [
+    "padir (własne logo)"
+   ],
+   "uwagi": "Imię plus logo firmy na jednym przedmiocie: dobry przykład imiennego upominku z logo, ale logo jest Padiru."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7046-scaled.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/IMG_7046-768x1024.jpg",
+   "media_id": 2065,
+   "wymiary": "1920x2560",
+   "zrodlo": "wpis 2063; media.json",
+   "co_widac": "Czarna butelka termiczna z grawerem imienia Kasia, ułożona na wiórach do pakowania.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1920x2560 px",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "galeria (1:1)"
+   ],
+   "alt": "Czarna butelka termiczna z grawerowanym imieniem w wiórach do pakowania",
+   "tytul_realizacji": "",
+   "material": "Stal z powłoką",
+   "widoczne_marki": []
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/3-scaled.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/3-768x1024.webp",
+   "media_id": 1607,
+   "wymiary": "1920x2560",
+   "zrodlo": "wpis 1546 (kubki termiczne); media.json",
+   "co_widac": "Granatowy kubek termiczny YETI z białym grawerem imienia Piotrek, szare tło. Logo producenta wytłoczone u dołu.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1920x2560 px",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "galeria (1:1)",
+    "siatka materiałów (kubek termiczny)"
+   ],
+   "alt": "Granatowy kubek termiczny z grawerowanym imieniem",
+   "tytul_realizacji": "",
+   "material": "Stal z powłoką proszkową",
+   "widoczne_marki": [
+    "YETI (producent kubka, nie klient)"
+   ]
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/8-edited-scaled.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/8-edited-768x576.webp",
+   "media_id": 1614,
+   "wymiary": "2560x1920",
+   "zrodlo": "wpis 1546 (pendrive'y); media.json",
+   "co_widac": "Polerowany metalowy pendrive z grawerowanym kursywą imieniem Ewa, ciemne tło.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 2560x1920 px",
+   "orientacja": "pozioma 4:3",
+   "nadaje_sie_na": [
+    "siatka materiałów (metal, gadżety)",
+    "galeria"
+   ],
+   "alt": "Metalowy pendrive z grawerowanym imieniem",
+   "tytul_realizacji": "",
+   "material": "Metal polerowany",
+   "widoczne_marki": []
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/1-scaled.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/1-768x1024.webp",
+   "media_id": 1602,
+   "wymiary": "1920x2560",
+   "zrodlo": "wpis 1546 (kalendarze); media.json",
+   "co_widac": "Kalendarz książkowy z rokiem 2024 na okładce z beżowej tkaniny, w prawym dolnym rogu drobny grawer imienia Aldona.",
+   "praca_padir": "tak",
+   "jakosc": "średnia: grawer imienia mały, słabo widoczny w miniaturze",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "galeria (rezerwa)"
+   ],
+   "alt": "Kalendarz książkowy z grawerowanym imieniem na okładce",
+   "tytul_realizacji": "",
+   "material": "Okładka z tkaniny",
+   "widoczne_marki": [],
+   "uwagi": "Jedyne zdjęcie kalendarza lub notesu. Imię Aldona może oznaczać próbkę dla własnej obsługi klienta."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/07/IMG_9416.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/07/IMG_9416-768x576.webp",
+   "media_id": 2035,
+   "wymiary": "2016x1512",
+   "zrodlo": "wpis 2177; media.json",
+   "co_widac": "Czarna metalowa skrzynka narzędziowa na czerwonej kanapie, z grawerowaną srebrną tabliczką SKRZYNKA FACHOWCA i rysunkiem twarzy.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 2016x1512 px",
+   "orientacja": "pozioma 4:3",
+   "nadaje_sie_na": [
+    "galeria",
+    "karta „Upominki” (zamiennik)"
+   ],
+   "alt": "Metalowa skrzynka narzędziowa z grawerowaną tabliczką",
+   "tytul_realizacji": "",
+   "material": "Metal (skrzynka), tabliczka metalowa",
+   "widoczne_marki": [],
+   "uwagi": "„Skrzynka Fachowca” wygląda na nazwę upominku, nie markę klienta."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_2836-scaled.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_2836-768x512.webp",
+   "media_id": 1009,
+   "wymiary": "2560x1707",
+   "zrodlo": "wpis 2177; media.json",
+   "co_widac": "Kieliszek do wina z grawerowanym logo padir na jasnym drewnianym blacie, obok bursztynowa świeca, w tle ciemne wnętrze.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 2560x1707 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "siatka materiałów (szkło)"
+   ],
+   "alt": "Kieliszek do wina z grawerowanym logo",
+   "tytul_realizacji": "",
+   "material": "Szkło",
+   "widoczne_marki": [
+    "padir (własne logo)"
+   ],
+   "uwagi": "R14: to własne logo. HoReCa używa innego kadru tego kieliszka (2342), więc tu nie powtarzamy."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-ladowarka-enel-x.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-ladowarka-enel-x-768x512.jpg",
+   "media_id": 2357,
+   "wymiary": "1000x667",
+   "zrodlo": "zrodla/realizacje-karty.json (karta „Ładowarka „enel X””)",
+   "co_widac": "Czarna ładowarka z grubym oplatanym przewodem na drewnianym blacie, na obudowie jasny grawer logo enel x.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1000x667 px",
+   "orientacja": "pozioma 3:2",
+   "nadaje_sie_na": [
+    "siatka materiałów (tworzywo)",
+    "galeria (rezerwa)"
+   ],
+   "alt": "Grawer logo na obudowie ładowarki z tworzywa",
+   "tytul_realizacji": "Ładowarka „enel X”",
+   "material": "Tworzywo",
+   "widoczne_marki": [
+    "enel X (serwis pokazuje: karta galerii)"
+   ],
+   "uwagi": "Fakty R07: nie przedstawiać jako upominku. Tylko jako przykład graweru logo na elektronice."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/IMG_1207-scaled.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/IMG_1207-768x1024.webp",
+   "media_id": 2233,
+   "wymiary": "1920x2560",
+   "zrodlo": "media.json (IMG_1207); ta sama realizacja co karta „Noże „JBB Bałdyga””",
+   "co_widac": "Kilkanaście noży ze stali nierdzewnej w dwóch rzędach na drewnianym stole, na każdej głowni logo JBB Bałdyga.",
+   "praca_padir": "tak",
+   "jakosc": "dobra, 1920x2560 px",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "galeria (seria z logo)"
+   ],
+   "alt": "Seria noży z grawerowanym logo na głowniach",
+   "tytul_realizacji": "Noże „JBB Bałdyga”",
+   "material": "Stal nierdzewna",
+   "widoczne_marki": [
+    "JBB Bałdyga (serwis pokazuje: karta galerii, /produkty/, HoReCa)"
+   ],
+   "uwagi": "Jedyne zdjęcie serii przedmiotów z logo klienta. Fakty R06: na tej stronie tylko jako przykład graweru logo, bez opisu współpracy. HoReCa używa kadru 2330, nie tego."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/hero-zamek-sulkowskich-v2.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/hero-zamek-sulkowskich-v2-768x432.jpg",
+   "media_id": 2516,
+   "wymiary": "1536x864",
+   "zrodlo": "media.json; case study /case-study/zamek-sulkowskich/ (2470)",
+   "co_widac": "Elewacja Zamku Sułkowskich pod błękitnym niebem, w całości pokryta złotymi pasami tkaniny, wokół okien czerwone łuki z tkaniny. U dołu tylko górna krawędź ceglanego muru: łuków z dzianiny (cudzej instalacji) w tym kadrze nie widać.",
+   "praca_padir": "tak (tkanina na elewacji; projekt klienta, Padir ciął)",
+   "jakosc": "dobra, 1536x864 px",
+   "orientacja": "pozioma 16:9",
+   "nadaje_sie_na": [
+    "sekcja ze zdjęciem: dekoracje na wydarzenia (4:3 ze środka)",
+    "realizacje (link do case study)"
+   ],
+   "alt": "Elewacja Zamku Sułkowskich pokryta złoto-czerwoną tkaniną wyciętą laserowo",
+   "tytul_realizacji": "Zamek Sułkowskich (case study)",
+   "material": "Tkanina, cięcie laserowe",
+   "widoczne_marki": [
+    "Zamek Sułkowskich, Muzeum Historyczne w Bielsku-Białej (serwis pokazuje: case study 2470)"
+   ],
+   "uwagi": "Przy przycinaniu nie odsłaniać muru. Podpis: cięcie z projektu klienta. Inne kadry elewacji (2502, 2503, 2504, 2513) odrzucone."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/hero-laser-ciecie-tkaniny.jpg",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/hero-laser-ciecie-tkaniny-768x432.jpg",
+   "media_id": 2535,
+   "wymiary": "1536x864",
+   "zrodlo": "media.json; hero szkiców",
+   "co_widac": "Pracownia: mężczyzna w białej koszulce przy wielkoformatowym laserze, na stole złota tkanina w trakcie cięcia, w tle płyty i regały.",
+   "praca_padir": "tak (alt w bibliotece: operator Padir)",
+   "jakosc": "dobra, 1536x864 px",
+   "orientacja": "pozioma 16:9",
+   "nadaje_sie_na": [
+    "sekcja ze zdjęciem: jak pracujemy / pracownia (rezerwa)"
+   ],
+   "alt": "Operator przy wielkoformatowym laserze w trakcie cięcia złotej tkaniny",
+   "tytul_realizacji": "Zamek Sułkowskich (cięcie tkaniny)",
+   "material": "Tkanina",
+   "widoczne_marki": [],
+   "uwagi": "Widać twarz pracownika. Model maszyny nieznany, nie podpisywać modelu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-3.png",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-3-768x575.png",
+   "media_id": 2053,
+   "wymiary": "945x708",
+   "zrodlo": "wpis 2043 „Tworzenie ekspozycji dla marek kosmetycznych” (opublikowany)",
+   "co_widac": "Czarna taca-ekspozytor z akrylu z różową krawędzią na zielonej macie do cięcia: gniazda na produkty, logo YSL, białe napisy ALL HOURS, TATOUAGE COUTURE i opisy po polsku.",
+   "praca_padir": "tak (wpis 2043: „Przykład na jednej z naszych realizacji”)",
+   "jakosc": "dobra, 945x708 px",
+   "orientacja": "pozioma 4:3",
+   "nadaje_sie_na": [
+    "para przed/po (w pracowni)",
+    "galeria"
+   ],
+   "alt": "Czarny ekspozytor z akrylu na kosmetyki, z różową krawędzią, na stole w pracowni",
+   "tytul_realizacji": "Stand Yves Saint Laurent (wpis 2043)",
+   "material": "Plexi (akryl) czarna i różowa",
+   "widoczne_marki": [
+    "Yves Saint Laurent (serwis pokazuje tylko we wpisie 2043)"
+   ],
+   "uwagi": "WARUNKOWO: do strony dopiero po odpowiedzi na P14 (fakty R09). Do tego czasu alt i podpis bez nazwy marki. Ten sam ekspozytor w drugim ujęciu ma media 2050 (odrzucony jako duplikat)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-2.png",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-2-768x1024.png",
+   "media_id": 2052,
+   "wymiary": "945x1260",
+   "zrodlo": "wpis 2043 (opublikowany)",
+   "co_widac": "Czarny wolnostojący stand w drogerii ze złotym logo VERSACE, na szklanej półce pudełko perfum Versace. W tle regały drogerii z napisem SUPER CENY.",
+   "praca_padir": "tak (wpis 2043: „Stand wolnostojący - Versace”)",
+   "jakosc": "dobra, 945x1260 px",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "hero (zamiennik, po P14)",
+    "galeria"
+   ],
+   "alt": "Czarny wolnostojący stand na perfumy w drogerii",
+   "tytul_realizacji": "Stand Versace (wpis 2043)",
+   "material": "Plexi czarna, szkło",
+   "widoczne_marki": [
+    "Versace (serwis pokazuje tylko we wpisie 2043)"
+   ],
+   "uwagi": "WARUNKOWO: dopiero po odpowiedzi na P14."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-1.png",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-1-225x300.png",
+   "media_id": 2051,
+   "wymiary": "706x942",
+   "zrodlo": "wpis 2043 (opublikowany)",
+   "co_widac": "Wysoki czarny stand boczny z podświetlaną czerwoną krawędzią i pionowym napisem YVES SAINT LAURENT, obok regał z perfumami różnych marek.",
+   "praca_padir": "tak (wpis 2043: „Stand na linię produktów - Yves Saint Laurent (boczny, podświetlany)”)",
+   "jakosc": "średnia: 706x942 px, tło zatłoczone innymi markami",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "galeria (rezerwa)"
+   ],
+   "alt": "Podświetlany stand boczny na kosmetyki w drogerii",
+   "tytul_realizacji": "Stand Yves Saint Laurent (wpis 2043)",
+   "material": "Plexi, podświetlenie",
+   "widoczne_marki": [
+    "Yves Saint Laurent; w tle produkty innych marek (np. Dior)"
+   ],
+   "uwagi": "WARUNKOWO: dopiero po P14. url_medium w bibliotece to tylko 225x300."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image.png",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-768x576.png",
+   "media_id": 2045,
+   "wymiary": "945x709",
+   "zrodlo": "wpis 2043 (opublikowany)",
+   "co_widac": "Czarny podest-gloryfier z trzema złotymi okręgami pod flakony i białymi opisami, na tylnej ściance zdjęcie z dużym napisem BOSS i BOSS BOTTLED ELIXIR, na froncie podestu napis BOSS.",
+   "praca_padir": "tak (wpis 2043: „Gloryfier dla BOSS”)",
+   "jakosc": "dobra, 945x709 px",
+   "orientacja": "pozioma 4:3",
+   "nadaje_sie_na": [
+    "galeria",
+    "karta „POS” (zamiennik po P14)"
+   ],
+   "alt": "Czarny gloryfier na perfumy ze złotymi okręgami pod flakony",
+   "tytul_realizacji": "Gloryfier BOSS (wpis 2043)",
+   "material": "Plexi czarna, złote elementy",
+   "widoczne_marki": [
+    "BOSS (serwis pokazuje tylko we wpisie 2043)"
+   ],
+   "uwagi": "WARUNKOWO: dopiero po P14."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/2-scaled.webp",
+   "url_medium": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/2-768x1024.webp",
+   "media_id": 1604,
+   "wymiary": "1920x2560",
+   "zrodlo": "wpis 1546 (przy sekcji o skrzynkach na wino); fakty F29",
+   "co_widac": "Butelka whisky GlenAllachie z bliska, tło mocno rozmyte. Na szkle nad etykietą jasny grawer logo Ekstraklasy i napis EKSTRAKLASA.",
+   "praca_padir": "tak, prawdopodobnie (wpis 1546 opisuje butelki whisky dla Ekstraklasy jako prezent dla sponsorów)",
+   "jakosc": "średnia: płytka ostrość, grawer widoczny dopiero w powiększeniu",
+   "orientacja": "pionowa 3:4",
+   "nadaje_sie_na": [
+    "siatka materiałów (szkło)",
+    "galeria"
+   ],
+   "alt": "Butelka whisky z grawerowanym logo ligi na szkle",
+   "tytul_realizacji": "",
+   "material": "Szkło",
+   "widoczne_marki": [
+    "Ekstraklasa (serwis pokazuje tylko we wpisie 1546)",
+    "GlenAllachie (producent trunku)"
+   ],
+   "uwagi": "WARUNKOWO: dopiero po odpowiedzi na P13. Jedyne zdjęcie prezentu firmowego z logo klienta na szkle."
+  }
+ ],
+ "odrzucone": [
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowana-litera-przestrzenna.jpg",
+   "media_id": 2317,
+   "powod": "Frezowanie CNC litery w buku (głowica w trakcie pracy). Proces frezowania, bez kontekstu marketingowego."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-napis-ajala.jpg",
+   "media_id": 2318,
+   "powod": "Głowica CNC frezuje napis w płycie z konglomeratu. Proces, nie gotowa realizacja dla marki."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-medalion-republika-portionii.jpg",
+   "media_id": 2319,
+   "powod": "Medalion z MDF frezowany na CNC („Republika Portionii”). To nie medal-nagroda; pokazany jako „medal” wprowadzałby w błąd."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-frezowany-relief-duka.jpg",
+   "media_id": 2320,
+   "powod": "Relief DUKA mierzony suwmiarką: temat przemysłowy (frezowanie)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-hero-frezowany-relief-duka.jpg",
+   "media_id": 2362,
+   "powod": "Duplikat reliefu DUKA (wersja hero), temat frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-aniolek-personalizowany-maja.jpg",
+   "media_id": 2321,
+   "powod": "Aniołek „Maja” z plexi: prezent prywatny (komunia), nie marketing."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-grawer-na-skorzanym-kapeluszu.jpg",
+   "media_id": 2323,
+   "powod": "Grawer HH na kapeluszu: stoi na HoReCa (materiały) i na 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-pszczola-z-plexi-lustrzanej.jpg",
+   "media_id": 2325,
+   "powod": "Pszczoła z lustrzanej plexi: dekoracja bez kontekstu marki. Motyw pszczoły lepiej pokazuje ekspozytor 2054."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-karafka-mercure-hotel.jpg",
+   "media_id": 2326,
+   "powod": "Karafka Mercure: hero strony HoReCa. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-szklanka-binkowski-resort.jpg",
+   "media_id": 2347,
+   "powod": "Szklanka Binkowski Resort: hero strony HoReCa. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-torebka-lago-di-garda.jpg",
+   "media_id": 2327,
+   "powod": "Torebka „Lago di Garda”: własny produkt Padiru, sprzeczny opis materiału (skóra czy malowana sklejka)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-azurowe-drzewo-z-sowami.jpg",
+   "media_id": 2329,
+   "powod": "Ażurowe drzewo z sowami: dekoracja do domu, stoi na HoReCa i w hero 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-drzewka-z-sowami.jpg",
+   "media_id": 2334,
+   "powod": "Drzewka z sowami: dekoracja do domu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-ruchomy-model-zebatek.jpg",
+   "media_id": 2335,
+   "powod": "Model zębatek ze sklejki: zabawka/model, nie marketing."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-swiateczne-choinki-3d.jpg",
+   "media_id": 2336,
+   "powod": "Choinki 3D ze sklejki z napisem Wesołych Świąt: dekoracja do domu, cięcie; świąteczne upominki firmowe lepiej pokazują 1622 i 1623."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-kubek-termiczny-padir.jpg",
+   "media_id": 2337,
+   "powod": "Kubek termiczny z logo padir: stoi trzy razy na HoReCa, własne logo (R14). Kubki pokazuje 1607."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-kieliszek-do-wina-padir.jpg",
+   "media_id": 2342,
+   "powod": "Kieliszek z logo padir na czarnym tle: stoi na HoReCa (karta i przed/po)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-grawer-szkla-na-laserze.jpg",
+   "media_id": 2341,
+   "powod": "Grawer kieliszka w laserze: sekcja szczegółu HoReCa."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-lyzka-whiskey-in-the-jar.jpg",
+   "media_id": 2344,
+   "powod": "Łyżka Whiskey in the Jar: kontekst gastronomiczny, stoi na HoReCa."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-znakowanie-laserowe-sztuccow.jpg",
+   "media_id": 2345,
+   "powod": "Znakowanie sztućców: stoi na HoReCa i na Przemyśle."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-noze-jbb-baldyga.jpg",
+   "media_id": 2330,
+   "powod": "Noże JBB Bałdyga (kadr z kartą): karta i galeria HoReCa. Seria noży jest pokazana innym kadrem (2233)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/11/4-scaled.jpg",
+   "media_id": 1450,
+   "powod": "Nóż do steków Whiskey in the Jar: kontekst gastronomiczny (HoReCa)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-panel-sterujacy-anko.jpg",
+   "media_id": 2338,
+   "powod": "Panel sterujący anko: przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-prototyp-stojaka-produkcyjnego.jpg",
+   "media_id": 2346,
+   "powod": "Prototyp stojaka produkcyjnego: przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-obraczka-z-grawerem.jpg",
+   "media_id": 2348,
+   "powod": "Obrączka z datą: prezent prywatny."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-domek-dla-lalek.jpg",
+   "media_id": 2349,
+   "powod": "Elementy domku dla lalek: zabawka, cięcie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-tabliczka-znamionowa.jpg",
+   "media_id": 2350,
+   "powod": "Tabliczka znamionowa (wzór z danymi Padiru): przemysł, stoi na Przemyśle."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/01/Projekt-bez-nazwy-1.webp",
+   "media_id": 2189,
+   "powod": "Duplikat tabliczki znamionowej 2350 (1920x1080): przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-grawer-monogramu-jc.jpg",
+   "media_id": 2351,
+   "powod": "Spinki z monogramem JC: prezent prywatny."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_0101-scaled.jpg",
+   "media_id": 1342,
+   "powod": "Duplikat spinek JC (2351)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-oznakowanie-tylko-dla-personelu.jpg",
+   "media_id": 2352,
+   "powod": "Napis „Tylko dla personelu”: oznakowanie hotelu, karta HoReCa."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-grawerowana-sciana-dekoracyjna.jpg",
+   "media_id": 2353,
+   "powod": "Grawerowana ściana w lobby: nie wiadomo, czyje to wnętrze i do czego służy; plik 959x539 za mały na sekcję ze zdjęciem."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-hero-grawerowana-sciana-dekoracyjna.jpg",
+   "media_id": 2360,
+   "powod": "Duplikat ściany 2353 (wersja hero)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/481672667_1198678198928894_2809681019583452550_n.jpg",
+   "media_id": 2308,
+   "powod": "Duplikat ściany 2353 (plik z Facebooka)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-papierowa-bombka-wesolych-swiat.jpg",
+   "media_id": 2355,
+   "powod": "Papierowa bombka Wesołych Świąt: nie da się rozstrzygnąć, czy motyw jest wycięty, czy grawerowany; stoi w galerii 1019."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-litera-dekoracyjna-z-drewna.jpg",
+   "media_id": 2356,
+   "powod": "Ażurowa litera R z drewna: dekoracja wnętrz, nie oznakowanie marki."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_2843-scaled.webp",
+   "media_id": 1052,
+   "powod": "Duplikat litery R z drewna (2356)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/x-scaled.webp",
+   "media_id": 1636,
+   "powod": "Duplikat litery R z drewna (2356)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-organizery-z-filcu.jpg",
+   "media_id": 2358,
+   "powod": "Organizery z filcu: stoją na HoReCa i na Przemyśle."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-wycinane-wzory-z-tkaniny.jpg",
+   "media_id": 2359,
+   "powod": "Skrawki tkaniny w hali: półprodukt, bez kontekstu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-hero-ekspozytor-pos-plaster-miodu.jpg",
+   "media_id": 2361,
+   "powod": "Ten sam kadr ekspozytora co karta 2328 (wersja hero 1500x1125). Wybrany 2054 (większy, inne ujęcie) i 2328 (karta)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-klienci.png",
+   "media_id": 2523,
+   "powod": "Pas logotypów klientów, nie zdjęcie. Wolno go użyć tylko jako „Zaufali nam”, bez sugestii, co dla nich zrobiono (R10)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-uniwersytet.jpg",
+   "media_id": 2526,
+   "powod": "Logo Uniwersytetu Warszawskiego, nie zdjęcie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-willson-brown.png",
+   "media_id": 2528,
+   "powod": "Logo Willson & Brown, nie zdjęcie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/03/logo-footer.png",
+   "media_id": 404,
+   "powod": "Logo Padiru (stopka), nie zdjęcie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/02/padir-logo.png",
+   "media_id": 25,
+   "powod": "Logo Padiru, nie zdjęcie."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/08/DALL·E-2024-08-29-15.46.24-A-detailed-illustration-of-laser-engraving-in-action.-Show-a-close-up-of-a-laser-engraving-machine-like-the-Trotec-SP-2000-operating-on-a-wooden-sur.webp",
+   "media_id": 1120,
+   "powod": "Grafika wygenerowana przez AI (DALL·E): laser „Trotec SP2000” nad drewnem. Nie jest realizacją ani zdjęciem pracowni."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-trotec.jpg",
+   "media_id": 2524,
+   "powod": "Czerwona głowica Trotec nad blachą, kadr jak ze studia: pochodzenie niepewne (możliwe zdjęcie producenta), bez związku z marketingiem."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/wyc-glowica.jpg",
+   "media_id": 2529,
+   "powod": "Głowica lasera nad turkusowym okrągłym przedmiotem z wzorem plastra miodu: nie wiadomo, co to za przedmiot i dla kogo."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/07/IMG_8312.webp",
+   "media_id": 2039,
+   "powod": "Świeca z pokrywką MM obok butelki wina na domowej półce: słaby kadr (książki, plakat). Ten sam typ upominku lepiej pokazuje 1622."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/11/IMG_2654-min-edited-scaled.webp",
+   "media_id": 1489,
+   "powod": "Duplikat kieliszka padir na czarnym tle (2342)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_2654-min-scaled.jpg",
+   "media_id": 1329,
+   "powod": "Duplikat kieliszka padir na czarnym tle (2342)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_9004.jpg",
+   "media_id": 1891,
+   "powod": "Złocone łyżeczki z imionami i datami: prezent prywatny (chrzciny)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_2688-scaled.jpg",
+   "media_id": 1381,
+   "powod": "Duplikat ładowarki enel X (2357)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/09/hero-zamek-sulkowskich.jpg",
+   "media_id": 2513,
+   "powod": "Zamek Sułkowskich: na ceglanym murze wyraźnie widać kolorowe łuki z dzianiny, czyli cudzą instalację."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-widok.jpg",
+   "media_id": 2503,
+   "powod": "Zamek Sułkowskich: na murze łuki z dzianiny (cudza instalacja)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-hero.jpg",
+   "media_id": 2502,
+   "powod": "Zamek Sułkowskich: przy lewej krawędzi na murze widać fragment kolorowej instalacji; bezpieczniejszy jest 2516."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-elewacja.jpg",
+   "media_id": 2504,
+   "powod": "Zamek z daleka, z ulicy: na murze elementy niewiadomego pochodzenia, elewacja drobna; 2516 lepszy."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-element.jpg",
+   "media_id": 2505,
+   "powod": "Fragment instalacji z tkaniny w hali: półprodukt, nie dodaje nic do 2516 i 2535."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-maszyna.jpg",
+   "media_id": 2506,
+   "powod": "Operator przy laserze z tkaniną, kadr pionowy: to samo co 2535."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-ciecie.jpg",
+   "media_id": 2507,
+   "powod": "Pas wyciętej tkaniny na stole: półprodukt; wystarczy 2535."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-rolki.jpg",
+   "media_id": 2508,
+   "powod": "Bele tkaniny przed cięciem: półprodukt."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/zamek-tkaniny.jpg",
+   "media_id": 2509,
+   "powod": "Zwoje tkaniny i frędzle w hali: półprodukt."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/04/20250325_142855-scaled.jpg",
+   "media_id": 2001,
+   "powod": "Złota statuetka (świnka na rakiecie na skale) z tabliczką KLEMENS KUNDRATITZ / HONORARY MEMBER OF FLYING WILD HOG TEAM. Stoi bez altu na /prezenty/. Nie wiadomo, co zrobił Padir (cała statuetka czy tylko tabliczka), na zdjęciu imię i nazwisko osoby i marka, której serwis nie wymienia z nazwy. Pytanie do klienta."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/8-scaled.webp",
+   "media_id": 1612,
+   "powod": "Szerszy kadr tego samego pendrive'a co 1614."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/6-scaled.webp",
+   "media_id": 1610,
+   "powod": "Długopis z grawerem imienia: kadr nieostry, napis nieczytelny."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/5-1-scaled.webp",
+   "media_id": 1627,
+   "powod": "Pionowa wersja bombki 1623."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/5-scaled.webp",
+   "media_id": 1609,
+   "powod": "Pionowa wersja bombki 1623."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/7-scaled.webp",
+   "media_id": 1611,
+   "powod": "Zegarek z dedykacją z okazji 18. urodzin: prezent prywatny."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/WhatsApp-Image-2026-03-31-at-22.54.41.jpeg",
+   "media_id": 2230,
+   "powod": "Nóż składany z napisem GRZYB: prezent prywatny, zdjęcie z telefonu na tekturze."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/474870453_2651059841750466_6397341035526086598_n.jpg",
+   "media_id": 1896,
+   "powod": "Breloki-serca z imionami Łukasz i Basia: prezent prywatny."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/smiglo-callfly-rotated.jpg",
+   "media_id": 2259,
+   "powod": "Polerowane śmigło z logo call&fly i dedykacją urodzinową dla Piotra (Warszawa 30.06.2020). Strona Przemysłu pokazuje je jako frezowanie; rola Padiru przy graweru niepewna, plik 828x621 i tło przypadkowe (papier, linijka, wykładzina). Pytanie do klienta."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_0840-rotated.jpg",
+   "media_id": 1738,
+   "powod": "Rama z plexi z rysunkiem dziecka i logotypami: aukcja WOŚP, kontekst charytatywny (R12), nie marketing."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_0840-1-rotated.jpg",
+   "media_id": 1740,
+   "powod": "Prawie ten sam kadr co 1738 (WOŚP)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/1.jpg",
+   "media_id": 1737,
+   "powod": "Rama z plexi z rysunkiem kota: aukcja WOŚP, kontekst charytatywny."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-2.jpeg",
+   "media_id": 2050,
+   "powod": "Duplikat tacy YSL (2053), ujęcie spoza wpisu 2043."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image-1.jpeg",
+   "media_id": 2049,
+   "powod": "Duplikat standu Versace (2052)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/08/image.jpeg",
+   "media_id": 2048,
+   "powod": "Duplikat standu YSL (2051)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_1994-%E2%80%94-kopia-2-scaled.webp",
+   "media_id": 1810,
+   "powod": "Butelka z japońskimi znakami: stoi tylko na nieopublikowanym szkicu 1731, autorstwo niepotwierdzone, nie marketing."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_20240627_140752_11zon-scaled.webp",
+   "media_id": 1809,
+   "powod": "Klawiatura MacBooka z literami cyrylicy: usługa techniczna, nie marketing; tylko na szkicu 1731."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_1710-scaled.jpg",
+   "media_id": 1380,
+   "powod": "Płyta z granitu z obrazem zamku: autorstwo i technika niepotwierdzone."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_9348-1.webp",
+   "media_id": 1245,
+   "powod": "Duplikat pszczoły z plexi (2325)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/08/IMG_3084_11zon-scaled.webp",
+   "media_id": 1071,
+   "powod": "Gięta sklejka (nacięcia): technika cięcia, bez kontekstu marki."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/08/IMG_2885_11zon-scaled.webp",
+   "media_id": 1070,
+   "powod": "Duplikat drzewek z sowami (2334)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_3256-min-scaled.webp",
+   "media_id": 1942,
+   "powod": "Drzewo z sowami ze sklejki: dekoracja do domu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_3264-min-scaled.webp",
+   "media_id": 1941,
+   "powod": "Drzewo z sowami ze sklejki: dekoracja do domu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_3272-min-1-scaled.webp",
+   "media_id": 1940,
+   "powod": "Drzewo z sowami ze sklejki: dekoracja do domu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_3269-min-scaled.webp",
+   "media_id": 1939,
+   "powod": "Drzewo z sowami ze sklejki: dekoracja do domu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_2264-1-scaled.webp",
+   "media_id": 1053,
+   "powod": "Duplikat litery R z LED (2324)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/07/IMG_2264-scaled.jpg",
+   "media_id": 1033,
+   "powod": "Duplikat litery R z LED (2324), większy plik 2560 px: do lightboxa, jeśli autor zechce."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_2510-1-scaled-e1736621657380.webp",
+   "media_id": 1251,
+   "powod": "Model zębatek: zabawka."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_2520-scaled.webp",
+   "media_id": 1250,
+   "powod": "Model zębatek, zbliżenie: zabawka."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/10/IMG_20250909_084928_HDR-scaled.jpg",
+   "media_id": 2148,
+   "powod": "Frezowanie CNC przezroczystej plexi: proces frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2025/01/IMG_20250116_082620_HDR-scaled.jpg",
+   "media_id": 1739,
+   "powod": "Frezowanie CNC płyty Altuglas: proces frezowania."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/cnc-drewno.jpg",
+   "media_id": 2256,
+   "powod": "Frezowanie CNC w drewnie: proces, strona Przemysłu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/20240830_114824-scaled.webp",
+   "media_id": 1247,
+   "powod": "Laser wycina ażurowe drzewko w sklejce: proces, dekoracja do domu."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_1976-scaled.webp",
+   "media_id": 1055,
+   "powod": "Oryginał napisu Team bez obróbki: wybrany 1556."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_1949-scaled.webp",
+   "media_id": 1249,
+   "powod": "Oryginał napisu Tea bez obróbki: wybrany 1555."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/before-2.jpeg",
+   "media_id": 2255,
+   "powod": "Tłok z oznaczeniami: przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/WhatsApp-Image-2026-03-31-at-23.01.56.jpeg",
+   "media_id": 2231,
+   "powod": "Zdjęcie z telefonu na stole lasera, ciemne i nieczytelne: przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/WhatsApp-Image-2026-03-21-at-15.17.11.jpeg",
+   "media_id": 2229,
+   "powod": "Zdjęcie z telefonu na stole lasera (napis GOONG): nieczytelne, przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/tlok-1.jpeg",
+   "media_id": 2260,
+   "powod": "Tłok na stole lasera: hero strony Przemysł. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/IMG_0060-rotated.jpg",
+   "media_id": 2279,
+   "powod": "Płyty-szablony z aluminium pod laserem: hero strony Przemysł. Nie powtarzać."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/tlok-2.jpeg",
+   "media_id": 2261,
+   "powod": "Tłok z błędną strzałką: przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/wbet-ds18.jpg",
+   "media_id": 2262,
+   "powod": "Detal WBET-DS-18: przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2026/04/after-ref.jpeg",
+   "media_id": 2263,
+   "powod": "Tłok po korekcie: przemysł."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_4067-1-scaled.webp",
+   "media_id": 1246,
+   "powod": "Duplikat kubka termicznego padir (2337)."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/20240830_144357-scaled.webp",
+   "media_id": 1248,
+   "powod": "Duplikat MacBooka (2339), większy plik 2560x1244: do lightboxa, jeśli autor zechce."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/04/IMG_20241003_155054-scaled.jpg",
+   "media_id": 1362,
+   "powod": "Duplikat owoców WOW (2331), większy plik 2560x1280: do lightboxa, jeśli autor zechce."
+  },
+  {
+   "url": "https://grawerowanie-laserowe.pl/wp-content/uploads/2024/10/IMG_0044-scaled.jpg",
+   "media_id": 1383,
+   "powod": "Duplikat torebki Lago di Garda (2327)."
+  }
+ ],
+ "propozycja_ukladu": {
+  "zasada": "Układ jak na HoReCa (2283): hero z 2 zdjęciami 3:4, karty „trzy światy” 4:3, para przed/po 16:10, dwie sekcje ze zdjęciem 4:3, siatka 6 materiałów 16:10, galeria 8 kafli 1:1. Hero HoReCa (2326, 2347) i Przemysłu (2260, 2279) nie powtarza się nigdzie.",
+  "hero": [
+   {
+    "media_id": 2340,
+    "rola": "nagrody (statuetka INSOFT, kadr natywny 3:4, pełny plik 750x1000)"
+   },
+   {
+    "media_id": 2522,
+    "rola": "event (złota ścianka nad Wisłą, 4:5)"
+   }
+  ],
+  "hero_zamienniki": [
+   2527,
+   2525,
+   2521,
+   {
+    "media_id": 2052,
+    "warunek": "po P14"
+   }
+  ],
+  "hero_uwaga": "2522 stoi też w hero /wycinanie-laserowe/. Jeśli ma nie być żadnego powtórzenia z 1019, weź 2527 (ta sama ścianka na laserze).",
+  "trzy_swiaty": [
+   {
+    "tytul_roboczy": "Nagrody i statuetki",
+    "media_id": 2332
+   },
+   {
+    "tytul_roboczy": "Upominki z grawerem",
+    "media_id": 1622,
+    "uwaga": "własny upominek Padiru, podpis bez „dla klienta” (R14); zamiennik 2035 albo 1623"
+   },
+   {
+    "tytul_roboczy": "Event, POS i przestrzeń marki",
+    "media_id": 2054
+   }
+  ],
+  "przed_po": {
+   "temat": "Z pracowni na event: ta sama ścianka Bondi Sands",
+   "przed": 2527,
+   "po": 2322,
+   "uwaga": "2527 jest pionowe 4:5, w kadrze 16:10 zostanie pas środkowy z głowicą i niebieskim napisem. Po P14 alternatywa: 2053 (taca w pracowni) i 2051 (stand w drogerii)."
+  },
+  "sekcje_ze_zdjeciem": [
+   {
+    "temat": "Napisy i logo przestrzenne",
+    "media_id": 2333,
+    "zamienniki": [
+     2343,
+     1555
+    ]
+   },
+   {
+    "temat": "Dekoracje na wydarzenia (link do case study Zamek Sułkowskich)",
+    "media_id": 2516,
+    "uwaga": "przycinać od góry, nie odsłaniać muru; zamiennik bez zamku: 2535 (pracownia)"
+   }
+  ],
+  "siatka_materialow": [
+   {
+    "material": "Plexi lustrzana (cięcie laserowe)",
+    "media_id": 1555
+   },
+   {
+    "material": "Metal (pendrive, gadżety)",
+    "media_id": 1614
+   },
+   {
+    "material": "Stal z powłoką (butelki i kubki termiczne)",
+    "media_id": 2068
+   },
+   {
+    "material": "Szkło",
+    "media_id": 1009,
+    "zamiennik_po_P13": 1604
+   },
+   {
+    "material": "Aluminium i elektronika",
+    "media_id": 2339,
+    "zamiennik": 2357
+   },
+   {
+    "material": "Owoce (znakowanie)",
+    "media_id": 2331
+   }
+  ],
+  "galeria_8": [
+   2316,
+   2324,
+   2354,
+   1623,
+   1607,
+   2035,
+   2233,
+   2525
+  ],
+  "galeria_rezerwa": [
+   2328,
+   2315,
+   2520,
+   2065,
+   2066,
+   1602,
+   2357,
+   2521
+  ],
+  "galeria_po_P14_P13": [
+   2053,
+   2052,
+   2051,
+   2045,
+   1604
+  ],
+  "nie_uzywac_w_hero": [
+   2326,
+   2347,
+   2260,
+   2279
+  ]
+ },
+ "braki": [
+  "PUCHARY: w całym materiale (44 karty, 289 plików biblioteki, strony HoReCa, Przemysł, 1019, wpisy 2177, 1546, 2043, strona /prezenty/) nie ma ani jednego zdjęcia pucharu. Pytanie do klienta (P26).",
+  "MEDALE: brak zdjęć. Medalion „Republika Portionii” (2319) to frezowany krążek z MDF, nie medal-nagroda, i nie może go udawać.",
+  "STATUETKI: są tylko dwie, obie z plexi: INSOFT (2340) i statuetka z tancerzami (2332). Brak statuetek z metalu, szkła, drewna i kamienia. Złota statuetka Flying Wild Hog (2001) odrzucona do czasu wyjaśnienia, co zrobił Padir (P27). Sekcja nagród ma za mało zdjęć na własną galerię.",
+  "PLAKIETY: jedna (2354, myśliwska „Skalisko”), bez kontekstu firmowego.",
+  "GADŻETY Z LOGO KLIENTA: brak zdjęć serii gadżetów z logo firmy-klienta (kubki, butelki, długopisy, pendrive'y, notesy). Wszystkie zdjęcia gadżetów są z imieniem (Martyna, Sylwia, Kasia, Piotrek, Ewa, Aldona) albo z własnym logo Padiru. Jedyna seria z logo klienta to noże JBB Bałdyga (2233, kontekst gastronomiczny). Pytanie P10 i P28.",
+  "Brak zdjęć: powerbanków, długopisów (jedyne 1610 nieostre), pudełek i opakowań z logo, identyfikatorów i plakietek na eventy, zaproszeń, breloków firmowych, elementów stoisk targowych.",
+  "Zdjęcia z markami do potwierdzenia: YSL, Versace, BOSS (2053, 2052, 2051, 2045; P14) i Ekstraklasa (1604; P13). Są w zatwierdzonych jako warunkowe, poza głównym układem.",
+  "Event z ludźmi na miejscu: jest tylko jedno zdjęcie (2322, Bondi Sands). Brak zdjęć z gal, konferencji, wręczenia nagród.",
+  "Rozdzielczość: kilka kart ma ok. 1000 px szerokości (2339 1000x486, 2331 1000x500, 2340 750x1000). Do lightboxa są większe pliki 1248, 1362; dla INSOFT większego pliku nie ma.",
+  "Do poprawy poza tą stroną: plik 2343 nazywa się „Ażurowy panel dekoracyjny - Sklejka”, a pokazuje wnętrze kawiarni BOKO z logo na ścianie. Błędne są też alty na /wycinanie-laserowe/ („Ażurowy element dekoracyjny ze sklejki”) i na /produkty/ („Ażurowe panele dekoracyjne we wnętrzu lokalu”).",
+  "Do poprawy poza tą stroną: we wpisie 1546 bombka 1623 stoi pod nagłówkiem o wycinaniu laserowym, a na zdjęciu jest grawer na powierzchni bombki."
+ ],
+ "kontaktowki": [
+  "praca/marketing/kont-1.png",
+  "praca/marketing/kont-2.png",
+  "praca/marketing/kont-3.png",
+  "praca/marketing/kont-4.png",
+  "praca/marketing/kont-5.png",
+  "praca/marketing/kont-6.png",
+  "praca/marketing/kont-7.png",
+  "praca/marketing/kont-8.png",
+  "praca/marketing/kont-9.png",
+  "praca/marketing/kont-10.png",
+  "praca/marketing/kont-11.png",
+  "praca/marketing/kont-12.png",
+  "praca/marketing/kont-13.png"
+ ]
+}
