@@ -56,22 +56,30 @@ ZAMIANY = [
      ".pdw .pdw-form .wpcf7-form.submitting .wpcf7-response-output,.pdw .pdw-form .wpcf7-form.resetting .wpcf7-response-output{display:none}\n"
      ".pdw .pdw-form .wpcf7-form.submitting .form-btn{opacity:.5;cursor:progress}\n"
      # pole-pulapka WP Armour: jego regule ukrywajaca tez wycial UCSS
-     ".pdw .pdw-form .altEmail_container{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}\n"
+     ".pdw .pdw-form .altEmail_container{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important;visibility:hidden!important}\n"
      # na telefonie 44 px paddingu z kazdej strony zabieralo formularzowi miejsce
      ".pdw div:has(>.pdw-form){padding-left:clamp(24px,6vw,44px)!important;padding-right:clamp(24px,6vw,44px)!important}\n"
+     # ...ale prawy dolny rog karty ma promien 130 px: przy mniejszym paddingu
+     # ramka komunikatu i przycisk wchodzilyby na luk, wiec oddajemy im roznice
+     ".pdw .pdw-form .wpcf7-form>p:has(>.form-btn),.pdw .pdw-form .wpcf7-response-output{margin-right:calc(44px - clamp(24px,6vw,44px))!important}\n"
+     ".pdw .pdw-form .wpcf7-response-output{font-size:13px!important}\n"
+     # komunikat o braku zgody przy checkboxie, a nie nad przyciskiem
+     ".pdw .pdw-form [data-name=policy] .wpcf7-not-valid-tip{margin:-14px 0 20px 40px}\n"
      # dwie kolumny tylko wtedy, gdy drugie i trzecie pole to e-mail i telefon;
      # po zmianie szablonu 480 formularz po prostu zostaje w jednej kolumnie
      "@container (min-width:440px){\n"
-     ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(2)[data-name=your-email]):has(>span:nth-of-type(3)[data-name=tel-394]){display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);column-gap:24px}\n"
+     ".pdw .pdw-form .wpcf7-form>p:has(>label:first-child+br+span[data-name=your-name]+br+label+br+span[data-name=your-email]+br+label+br+span[data-name=tel-394]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,8.25rem);column-gap:20px}\n"
      ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>*{grid-column:1/-1}\n"
      ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>label:nth-of-type(2){grid-column:1;grid-row:3}\n"
      ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>span:nth-of-type(2){grid-column:1;grid-row:4}\n"
      ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>label:nth-of-type(3){grid-column:2;grid-row:3}\n"
      ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394])>span:nth-of-type(3){grid-column:2;grid-row:4}\n"
+     ".pdw .pdw-form .wpcf7-form>p:has(>span:nth-of-type(3)[data-name=tel-394]) .form-textarea{margin-top:2px}\n"
      "}"),
 ]
-ZNACZNIK = ".pdw .pdw-form .form-label+br"
+ZNACZNIK = "minmax(0,8.25rem)"
 STARA_WERSJA = ".pdw .pdw-form .wpcf7-form br{display:none}"
+WERSJA_2 = "minmax(0,2fr) minmax(0,1fr)"
 # Tylko strona 1019: siatka sekcji kontaktu bez min(100%, ...), przez co przy
 # 320-360 px karta wystawala za ekran. Szkice maja juz poprawna wersje.
 SIATKA = ("padding: 0px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 56px; align-items: start;",
@@ -85,6 +93,8 @@ def przerob(tresc, siatka=False):
         sys.exit("PRZERYWAM: tu jest pierwsza wersja poprawki. Przywróć treść sprzed niej i uruchom ponownie.")
     if ZNACZNIK in tresc:
         return tresc, ["już poprawione wcześniej, nic do zrobienia"]
+    if WERSJA_2 in tresc:
+        sys.exit("PRZERYWAM: tu jest wersja 2 poprawki. Cofnij ją (formularz/cofnij_v2.py) i uruchom ponownie.")
     arkusze = [m for m in re.finditer(r"<style\b[^>]*>.*?</style>", tresc, re.S) if ".pdw-form" in m.group(0)]
     if len(arkusze) != 1:
         sys.exit(f"PRZERYWAM: arkuszy z .pdw-form jest {len(arkusze)}, a miał być dokładnie jeden")
