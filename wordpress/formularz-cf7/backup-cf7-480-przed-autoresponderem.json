@@ -1,0 +1,216 @@
+{
+ "id": 480,
+ "slug": "kontakt",
+ "title": "Kontakt",
+ "locale": "en_US",
+ "properties": {
+  "form": {
+   "content": "<label class=\"form-label\">Imię i Nazwisko</label>\n[text* your-name class:form-input autocomplete:name placeholder \"Imię i nazwisko\"]\n<label class=\"form-label\">Adres email</label>\n[email* your-email class:form-input autocomplete:email placeholder \"Adres email\"]\n<label class=\"form-label\">Telefon</label>\n[tel* tel-394 class:form-input placeholder \"Telefon\"]\n<label class=\"form-label\">Treść zapytania</label>\n[textarea your-message class:form-input class:form-textarea placeholder \"Treść zapytania\"]\n[checkbox* policy use_label_element class:form-policy \"Wyrażam zgodę na przetwarzanie moich danych osobowych, podanych w niniejszym formularzu, w celu przetworzenia zapytania i prowadzenia korespondencji przez PADIR Ewa Salabura, Matuszewska 14, 03-876 Warszawa.\"]\n\n[submit class:form-btn \"Wyślij\"]",
+   "fields": [
+    {
+     "type": "text*",
+     "basetype": "text",
+     "name": "your-name",
+     "options": [
+      "class:form-input",
+      "autocomplete:name",
+      "placeholder"
+     ],
+     "raw_values": [
+      "Imię i nazwisko"
+     ],
+     "labels": [
+      "Imię i nazwisko"
+     ],
+     "values": [
+      "Imię i nazwisko"
+     ],
+     "pipes": [
+      [
+       "Imię i nazwisko",
+       "Imię i nazwisko"
+      ]
+     ],
+     "content": ""
+    },
+    {
+     "type": "email*",
+     "basetype": "email",
+     "name": "your-email",
+     "options": [
+      "class:form-input",
+      "autocomplete:email",
+      "placeholder"
+     ],
+     "raw_values": [
+      "Adres email"
+     ],
+     "labels": [
+      "Adres email"
+     ],
+     "values": [
+      "Adres email"
+     ],
+     "pipes": [
+      [
+       "Adres email",
+       "Adres email"
+      ]
+     ],
+     "content": ""
+    },
+    {
+     "type": "tel*",
+     "basetype": "tel",
+     "name": "tel-394",
+     "options": [
+      "class:form-input",
+      "placeholder"
+     ],
+     "raw_values": [
+      "Telefon"
+     ],
+     "labels": [
+      "Telefon"
+     ],
+     "values": [
+      "Telefon"
+     ],
+     "pipes": [
+      [
+       "Telefon",
+       "Telefon"
+      ]
+     ],
+     "content": ""
+    },
+    {
+     "type": "textarea",
+     "basetype": "textarea",
+     "name": "your-message",
+     "options": [
+      "class:form-input",
+      "class:form-textarea",
+      "placeholder"
+     ],
+     "raw_values": [
+      "Treść zapytania"
+     ],
+     "labels": [
+      "Treść zapytania"
+     ],
+     "values": [
+      "Treść zapytania"
+     ],
+     "pipes": [
+      [
+       "Treść zapytania",
+       "Treść zapytania"
+      ]
+     ],
+     "content": ""
+    },
+    {
+     "type": "checkbox*",
+     "basetype": "checkbox",
+     "name": "policy",
+     "options": [
+      "use_label_element",
+      "class:form-policy"
+     ],
+     "raw_values": [
+      "Wyrażam zgodę na przetwarzanie moich danych osobowych, podanych w niniejszym formularzu, w celu przetworzenia zapytania i prowadzenia korespondencji przez PADIR Ewa Salabura, Matuszewska 14, 03-876 Warszawa."
+     ],
+     "labels": [
+      "Wyrażam zgodę na przetwarzanie moich danych osobowych, podanych w niniejszym formularzu, w celu przetworzenia zapytania i prowadzenia korespondencji przez PADIR Ewa Salabura, Matuszewska 14, 03-876 Warszawa."
+     ],
+     "values": [
+      "Wyrażam zgodę na przetwarzanie moich danych osobowych, podanych w niniejszym formularzu, w celu przetworzenia zapytania i prowadzenia korespondencji przez PADIR Ewa Salabura, Matuszewska 14, 03-876 Warszawa."
+     ],
+     "pipes": [
+      [
+       "Wyrażam zgodę na przetwarzanie moich danych osobowych, podanych w niniejszym formularzu, w celu przetworzenia zapytania i prowadzenia korespondencji przez PADIR Ewa Salabura, Matuszewska 14, 03-876 Warszawa.",
+       "Wyrażam zgodę na przetwarzanie moich danych osobowych, podanych w niniejszym formularzu, w celu przetworzenia zapytania i prowadzenia korespondencji przez PADIR Ewa Salabura, Matuszewska 14, 03-876 Warszawa."
+      ]
+     ],
+     "content": ""
+    },
+    {
+     "type": "submit",
+     "basetype": "submit",
+     "name": "",
+     "options": [
+      "class:form-btn"
+     ],
+     "raw_values": [
+      "Wyślij"
+     ],
+     "labels": [
+      "Wyślij"
+     ],
+     "values": [
+      "Wyślij"
+     ],
+     "pipes": [
+      [
+       "Wyślij",
+       "Wyślij"
+      ]
+     ],
+     "content": ""
+    }
+   ]
+  },
+  "mail": {
+   "active": true,
+   "subject": "FORMULARZ KONTAKTOWY | Ze strony www",
+   "sender": "form@grawerowanie-laserowe.pl",
+   "recipient": "laser@padir.pl",
+   "body": "Cześć, \n\n[your-name] uzupełnił/a formularz \n\nDane kontaktowe to:\n[your-email]\n[tel-394]\n\nTreść zapytania:\n[your-message]\n\n\n--\nSmacznej kawusi!",
+   "additional_headers": "Cc: m.milewski.sm@gmail.com",
+   "attachments": "",
+   "use_html": false,
+   "exclude_blank": false
+  },
+  "mail_2": {
+   "active": false,
+   "subject": "",
+   "sender": "",
+   "recipient": "",
+   "body": "",
+   "additional_headers": "",
+   "attachments": "",
+   "use_html": false,
+   "exclude_blank": false
+  },
+  "messages": {
+   "mail_sent_ok": "Dziękujemy! Twój formularz został wysłany poprawnie",
+   "mail_sent_ng": "There was an error trying to send your message. Please try again later.",
+   "validation_error": "One or more fields have an error. Please check and try again.",
+   "spam": "There was an error trying to send your message. Please try again later.",
+   "accept_terms": "You must accept the terms and conditions before sending your message.",
+   "invalid_required": "Please fill out this field.",
+   "invalid_too_long": "This field has a too long input.",
+   "invalid_too_short": "This field has a too short input.",
+   "upload_failed": "There was an unknown error uploading the file.",
+   "upload_file_type_invalid": "You are not allowed to upload files of this type.",
+   "upload_file_too_large": "The uploaded file is too large.",
+   "upload_failed_php_error": "There was an error uploading the file.",
+   "invalid_date": "Please enter a date in YYYY-MM-DD format.",
+   "date_too_early": "This field has a too early date.",
+   "date_too_late": "This field has a too late date.",
+   "invalid_number": "Please enter a number.",
+   "number_too_small": "This field has a too small number.",
+   "number_too_large": "This field has a too large number.",
+   "quiz_answer_not_correct": "The answer to the quiz is incorrect.",
+   "invalid_email": "Please enter an email address.",
+   "invalid_url": "Please enter a URL.",
+   "invalid_tel": "Please enter a telephone number.",
+   "captcha_not_match": "Your entered code is incorrect."
+  },
+  "additional_settings": {
+   "content": "",
+   "settings": []
+  }
+ }
+}
