@@ -6,6 +6,7 @@ Podgląd szkiców (po zalogowaniu do panelu WordPressa):
 
 - Grawerowanie laserowe: https://grawerowanie-laserowe.pl/?page_id=2584&preview=true
 - Frezowanie CNC: https://grawerowanie-laserowe.pl/?page_id=2585&preview=true
+- Usługi dla marketingu: https://grawerowanie-laserowe.pl/?page_id=2602&preview=true
 
 ## Już ustalone
 
@@ -14,6 +15,7 @@ Podgląd szkiców (po zalogowaniu do panelu WordPressa):
 - 13.10: Grawerowanie, sekcja „Zastosowania” w dwóch częściach: „Branże, w których grawerujemy” (przemysł, HoReCa, marketing) i „Najczęściej grawerowane przedmioty” (kieliszki, prezenty, noże, powerbanki i pendrive'y, kubki i butelki termiczne, tabliczki znamionowe) z przyciskiem do realizacji. Brakuje zdjęcia powerbanku (jest pendrive) i drugiego zdjęcia tabliczki znamionowej (to samo stoi w karcie „Laminat”). Karta marketingu linkuje do /uslugi-dla-marketingu/, więc tę stronę trzeba opublikować najpierw albo razem.
 - 13.10: Grawerowanie, park maszynowy: sekcja skopiowana 1:1 ze strony Wycinanie laserowe (5 laserów Trotec). Jedyna różnica: dywizy zamiast półpauz w zakresach mocy. Karta lasera fiber zniknęła razem ze starą sekcją. Uwaga: w pasku liczb stoi „400 W maks. moc cięcia”, a karta SP2000 podaje 180-500 W (tak samo na żywej stronie Wycinanie).
 - 13.10: Frezowanie. Napisy „Tea” i „Team” były cięte laserem (plexi lustrzana na sklejce), więc wypadły ze szkicu frezowania. W hero zastąpił je relief „Duka”, a galeria ma 4 prace z frezarki.
+- 21.10: Frezowanie, park maszynowy. Frezarki to Kimla CNC Router BPF 2131 i PG CNC 1525 ATC (zleceniodawca). Sekcja ma dwie karty maszyn i kartę laserów Trotec. Parametry ze stron producentów: Kimla, zakres ruchu X × Y 2100 × 3100 mm, oś Z 300 mm, automatyczna wymiana narzędzi, stół próżniowy; PG CNC, pole robocze 1500 × 2500 mm, oś Z 300 mm, magazyn 6 stożków ISO30, stół podciśnieniowy. Wrzeciona celowo pominięte: Kimla podaje HSD 9 kW tylko dla tej konfiguracji z oferty, PG CNC nie podaje mocy. Na szkicu marketingu poprawione na „dwie frezarki CNC”.
 
 ## Grawerowanie laserowe (szkic 2584)
 
@@ -32,7 +34,7 @@ Podgląd szkiców (po zalogowaniu do panelu WordPressa):
 4. Jaką dokładność frezowania możemy podać w milimetrach i jak mały detal wyfrezujecie (najmniejszy frez, najmniejszy promień wewnętrzny, najcieńsza ścianka)?
 5. Czy możemy opisać jedną pracę z frezarki jako case study (wymiary, grubość, czas, typ klienta)? Kandydat: grawerowane ramki dla WOŚP ze strony /case-study-wosp/. Jedno z jej zdjęć (to samo, które stoi wyżej w karcie plexi) pokazuje frez, który robi otwór w płycie Altuglas. Czy formatki i otwory ramek robiliście na frezarce i czy możemy pokazać tę realizację tutaj, razem z nazwą WOŚP i Fundacji Ronalda McDonalda? Pozostałe prace CNC (litera, medalion, „Duka”, „Ajala”) mają w serwisie po jednym zdjęciu, dlatego w tym miejscu nie ma jeszcze kart case study.
 6. Czy nośnik ścianki na barce frezowaliście u siebie? Czy to ten sam projekt co ścianka Bondi Sands ze strony o wycinaniu? Czy możemy pokazać zdjęcie tego nośnika?
-7. Producent i model frezarki (czy to ploter Kimla z wpisu „Cięcie przemysłowe”), liczba maszyn, maksymalna wysokość materiału (oś Z) i czy robicie obróbkę 5-osiową. Czy możecie przesłać zdjęcie całej maszyny i potwierdzić, że zdjęcie frezu w szarej płycie (plik IMG_20250909_084928, tu i w sekcji „Na czym to polega”) pochodzi z Waszej pracowni? Dwa pozostałe zdjęcia frezu serwis już pokazuje jako Wasze (strona „Usługi dla przemysłu” i case study WOŚP). Od którego roku frezujecie CNC? Rok 2002 z paska liczb serwis łączy głównie z obróbką laserową. Jeśli frezarka doszła później, zaznaczymy to przy liczbie albo podamy rok, od którego frezujecie.
+7. Modele i oś Z już znamy (21.10). Zostaje: czy robicie obróbkę 5-osiową i jaka jest moc wrzecion w waszych egzemplarzach (czy podać ją na stronie). Czy możecie przesłać zdjęcie całej maszyny i potwierdzić, że zdjęcie frezu w szarej płycie (plik IMG_20250909_084928, tu i w sekcji „Na czym to polega”) pochodzi z Waszej pracowni? Dwa pozostałe zdjęcia frezu serwis już pokazuje jako Wasze (strona „Usługi dla przemysłu” i case study WOŚP). Od którego roku frezujecie CNC? Rok 2002 z paska liczb serwis łączy głównie z obróbką laserową. Jeśli frezarka doszła później, zaznaczymy to przy liczbie albo podamy rok, od którego frezujecie.
 8. Czy któryś z tych klientów zamawiał frezowanie i czy pokazywać pasek logotypów na stronie o frezowaniu? Tekst pod nagłówkiem celowo nie łączy tych marek z frezowaniem.
 9. Jakie są typowe terminy frezowania (pojedyncza sztuka, seria, duży format)? Czy obowiązuje minimalna wartość zlecenia (wpis FAQ z 2025 r. podaje 100 zł) i czy „próbka kontrolna gratis dla nowych klientów” obejmuje frezowanie?
 
