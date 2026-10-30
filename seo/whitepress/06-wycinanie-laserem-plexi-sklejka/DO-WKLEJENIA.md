@@ -2,7 +2,7 @@
 
 Plik generowany przez `zrodla/zbuduj.py`. Nie edytuj go ręcznie, popraw `zrodla/tresc.html` i uruchom skrypt ponownie.
 
-Długości: treść 6401 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 6806; tytuł 78 znaków; lead 327 znaków; uwagi dla wydawcy 1513 znaków (wersja krótka 359).
+Długości: treść 6617 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7014; tytuł 78 znaków; lead 319 znaków (wersja krótka 202); uwagi dla wydawcy 1535 znaków (wersja krótka 359).
 
 ## Tytuł
 
@@ -13,7 +13,13 @@ Wycinanie laserem z plexi i sklejki: jak przygotować plik, żeby nie przepłaci
 ## Lead
 
 ```
-Za wycinanie laserem płaci się głównie za czas pracy maszyny, a ten w dużej mierze zależy od pliku. Te same litery z plexi mogą kosztować więcej tylko dlatego, że w projekcie zostały zdublowane linie albo niepotrzebne detale. Pokazujemy, co podnosi koszt, jak przygotować projekt i czego spodziewać się po plexi, sklejce i MDF.
+Wycinanie laserem wycenia się głównie według czasu pracy maszyny, a ten w dużej mierze zależy od pliku. Te same litery z plexi mogą kosztować więcej tylko dlatego, że projekt ma zdublowane linie albo niepotrzebne detale. Pokazujemy, co podnosi koszt, jak przygotować plik i czego spodziewać się po plexi, sklejce i MDF.
+```
+
+## Lead, wersja krótka (tylko gdy pole leadu ma limit znaków)
+
+```
+Wycinanie laserem wycenia się głównie według czasu pracy maszyny, a ten w dużej mierze zależy od pliku. Pokazujemy, co podnosi koszt, jak przygotować plik i czego spodziewać się po plexi, sklejce i MDF.
 ```
 
 ## Treść (HTML, do trybu źródła / HTML w edytorze)
@@ -49,41 +55,41 @@ Bez obrazów: obrazy wstawia wydawca według tabeli niżej.
 <li>osobne kolory albo warstwy dla cięcia, graweru i płytkiego nacinania.</li>
 </ul>
 
-<p>W wielu pracowniach najcieńsza czerwona linia oznacza cięcie, ale zanim wyślesz plik, zapytaj wykonawcę, jak on to oznacza. Uważaj też na napisy, które mają być otworem w płycie, jak w szablonie albo ażurowym panelu. Środki liter O, A czy R wypadną wtedy razem z resztą. Można dodać cienkie mostki, przykleić płytę na podkład albo zostawić te miejsca jako grawer.</p>
+<p>W wielu pracowniach cięcie oznacza się czerwoną linią o najmniejszej możliwej grubości (tak zwany hairline), ale nie wszędzie, więc zapytaj wykonawcę, jakich kolorów i grubości linii używa. Uważaj też na napisy, które mają być otworem w płycie, jak w szablonie albo ażurowym panelu. Razem z literą wypadnie wtedy jej środek, na przykład w O, A czy R. Można dodać mostki, które utrzymają środek, nakleić płytę na podkład albo napis wygrawerować, zamiast go wycinać.</p>
 
-<p>Najdrobniejsze detale też mają swoją granicę. Zwykle przyjmuje się, że żaden fragment nie powinien być węższy niż grubość materiału. Cienki mostek w sklejce 6 mm łatwo przypalić albo złamać przy wyjmowaniu.</p>
+<p>Detale nie mogą być dowolnie drobne. Zwykle przyjmuje się, że żaden fragment nie powinien być węższy niż grubość materiału. Cienki mostek w sklejce 6 mm łatwo przypalić albo złamać przy wyjmowaniu.</p>
 
 <h2>Plexi, sklejka czy MDF</h2>
 
-<p>Plexi, czyli akryl, tnie się na gładką, prawie polerowaną krawędź. Gotowy element nie wymaga szlifowania, dlatego z plexi robi się litery, standy i statuetki. Jeśli na tym samym elemencie ma być grawer, lepiej sprawdza się plexi lana, bo daje wyraźniejszy, mleczny znak niż ekstrudowana.</p>
+<p>Plexi, czyli akryl, tnie się na gładką, prawie polerowaną krawędź. Gotowy element nie wymaga szlifowania, dlatego z plexi robi się litery, standy i statuetki. Jeśli na tym samym elemencie ma być grawer, lepiej sprawdza się plexi lana: znak wychodzi na niej bardziej mleczny i wyraźny niż na ekstrudowanej.</p>
 
 <p>Sklejka ma ciepły, naturalny wygląd, a jej krawędź po cięciu jest ciemna i lekko przypalona. Im grubsza płyta, tym ciemniejsza krawędź i wolniejsze cięcie. Liczy się też jakość arkusza: sęki i klej w środkowych warstwach potrafią zostawić miejsca, w których laser nie przetnie płyty do końca. Dlatego pracownie wolą sprawdzone płyty, często brzozowe.</p>
 
 <p>MDF jest tani i równy, ale jego krawędź po cięciu nie wygląda idealnie. Jest ciemna i potrafi się lekko strzępić, więc MDF najlepiej sprawdza się tam, gdzie element i tak będzie malowany albo oklejony. Przy drewnie i MDF dym zostawia też wokół cięcia jasnobrązowy nalot. Jeśli powierzchnia ma zostać surowa, zapytaj, czy pracownia zabezpiecza płytę folią albo czyści elementy po cięciu.</p>
 
-<p>Jak pod laserem zachowują się <a href="https://grawerowanie-laserowe.pl/blog/wycinanie-laserowe-precyzyjne-ciecie-plexi-sklejki-i-laminatu-na-zamowienie/">plexi, sklejka i laminat</a> i w jakich grubościach zwykle się je tnie, opisuje osobny poradnik.</p>
+<p>W jakich grubościach zwykle tnie się <a href="https://grawerowanie-laserowe.pl/blog/wycinanie-laserowe-precyzyjne-ciecie-plexi-sklejki-i-laminatu-na-zamowienie/">plexi, sklejkę i MDF</a> oraz kiedy zamiast lasera lepsza jest frezarka CNC, opisuje osobny poradnik.</p>
 
-<h2>Wpusty, zatrzaski i szczelina cięcia</h2>
+<h2>Wpusty, połączenia na wcisk i szczelina cięcia</h2>
 
-<p>Laser nie tnie linią o zerowej grubości. Wiązka odparowuje wąski pas materiału, tak zwaną szczelinę cięcia. To zwykle ułamek milimetra, zależnie od materiału i grubości. Przy pojedynczych literach nie ma to znaczenia. Przy elementach składanych na wcisk, jak modele z zębatkami czy pudełka na wpusty, ta różnica decyduje, czy części wejdą w siebie ciasno, luźno, czy wcale.</p>
+<p>Laser nie tnie linią o zerowej grubości. Wiązka odparowuje wąski pas materiału i zostawia po sobie szczelinę cięcia. Jej szerokość to zwykle ułamek milimetra, zależnie od materiału i grubości. Przy pojedynczych literach nie ma to znaczenia. Przy elementach składanych na wcisk, jak modele z zębatkami czy pudełka na wpusty, ten ułamek milimetra decyduje, czy części wejdą w siebie ciasno, luźno, czy wcale.</p>
 
 <p>Jeśli projektujesz takie połączenia, napisz o tym w zamówieniu. Pracownia może dopasować wymiary wpustów do swojego materiału albo najpierw wyciąć próbny fragment. To kosztuje mniej niż cała seria do poprawki.</p>
 
 <h2>Rozkrój, czyli więcej elementów z jednej płyty</h2>
 
-<p>Przy serii opłaca się ułożyć elementy na arkuszu jak najciaśniej. Takie układanie, nazywane rozkrojem, robi zwykle pracownia, ale możesz jej pomóc już w projekcie. Nie zaokrąglaj narożników bez potrzeby i daj znać, czy kierunek słojów sklejki ma znaczenie. Prostokątne elementy da się czasem ustawić tak, żeby miały wspólną krawędź, a wtedy laser tnie jedną linię zamiast dwóch. Przy powtarzalnych seriach, które branża nazywa czasem wykrawaniem laserowym, dobry rozkrój wyraźnie zmniejsza zużycie materiału.</p>
+<p>Przy serii opłaca się ułożyć elementy na arkuszu jak najciaśniej. Takie układanie, nazywane rozkrojem, robi zwykle pracownia, ale możesz jej pomóc już w projekcie. Prostokątne elementy da się czasem ustawić tak, żeby miały wspólną krawędź, a wtedy laser tnie jedną linię zamiast dwóch. Dlatego nie zaokrąglaj narożników bez potrzeby. Daj też znać, czy kierunek słojów sklejki ma znaczenie, bo od tego zależy, czy elementy można obracać na arkuszu. Dobry rozkrój wyraźnie zmniejsza zużycie materiału, zwłaszcza przy seryjnym cięciu tych samych kształtów, nazywanym czasem wykrawaniem laserowym.</p>
 
-<p>Element większy niż stół lasera da się podzielić na moduły i połączyć po obróbce. Warto to zaplanować w projekcie, żeby łączenia wypadły tam, gdzie będą najmniej widoczne.</p>
+<p>Element większy niż stół lasera da się podzielić na moduły i połączyć po obróbce. Zaplanuj to już w projekcie, żeby łączenia wypadły tam, gdzie będą najmniej widoczne.</p>
 
-<h2>Czego laserem się nie tnie</h2>
+<h2>Czego nie wytniesz laserem</h2>
 
-<p>Laser CO2 nie zastąpi każdej maszyny. Bardzo grube płyty i obróbka przestrzenna to zadanie dla frezarki CNC. PVC odpada ze względów bezpieczeństwa, bo przy cięciu wydziela związki chloru, szkodliwe dla ludzi i dla maszyny. Przy nietypowym tworzywie zapytaj przed wyceną, czy w ogóle nadaje się pod laser.</p>
+<p>Bardzo grube płyty i obróbka przestrzenna to zadanie dla frezarki CNC. PVC odpada ze względów bezpieczeństwa, bo przy cięciu wydziela związki chloru, szkodliwe dla ludzi i dla maszyny. Przy nietypowym tworzywie zapytaj przed wyceną, czy w ogóle nadaje się pod laser.</p>
 
 <h2>Ile to kosztuje i ile trwa</h2>
 
 <p>Ponieważ nie trzeba robić formy, opłaca się nawet pojedyncza sztuka albo prototyp. Pracownie mają za to zwykle minimalną kwotę zlecenia. Drobne, proste elementy to często kilka minut pracy lasera, a termin zależy przede wszystkim od kolejki i wielkości serii.</p>
 
-<p>Przykład z Warszawy: <a href="https://grawerowanie-laserowe.pl/">pracownia Padir</a> z Targówka ma w jednej hali pięć laserów CO2 marki Trotec, od formatu A4 po arkusze ponad 2,5 m. Największe pole robocze to 2510 × 1680 mm, a tolerancja cięcia sięga 0,1 mm. Plexi tnie zwykle w grubościach 2-10 mm, a sklejkę i MDF w grubościach 3-12 mm. Cięcie i grawerowanie laserem łączy w jednym zleceniu, na przykład wycina tabliczkę i od razu nanosi na nią opis. Zlecenia przyjmuje od jednej sztuki, najniższa kwota zamówienia to 100 zł, a mniejsze zlecenia są zwykle gotowe w około dwa dni robocze. Ofertę na <a href="https://grawerowanie-laserowe.pl/wycinanie-laserowe/">wycinanie laserem</a>, z galerią realizacji i opisem maszyn, pokazuje na osobnej stronie.</p>
+<p>Przykład z Warszawy: <a href="https://grawerowanie-laserowe.pl/">pracownia Padir</a> z Targówka ma w jednej hali pięć laserów CO2 marki Trotec, od formatu A4 po arkusze ponad 2,5 m. Największe pole robocze to 2510 × 1680 mm, a tolerancja cięcia wynosi do 0,1 mm. Pracownia tnie zwykle plexi o grubości 2-10 mm, a sklejkę i MDF 3-12 mm. W jednym zleceniu łączy cięcie i grawerowanie laserem, na przykład wycina tabliczkę i od razu nanosi na nią opis. Przyjmuje zamówienia od jednej sztuki, a najniższa kwota to 100 zł. Mniejsze zlecenia są zwykle gotowe w ciągu około dwóch dni roboczych. Ofertę na <a href="https://grawerowanie-laserowe.pl/wycinanie-laserowe/">wycinanie laserem</a>, z galerią realizacji i opisem maszyn, pokazuje na osobnej stronie.</p>
 
 <h2>Lista kontrolna przed wysłaniem pliku</h2>
 
@@ -91,12 +97,12 @@ Bez obrazów: obrazy wstawia wydawca według tabeli niżej.
 <li>Wektor w skali 1:1, wymiary w milimetrach.</li>
 <li>Zamknięte kontury, bez zdublowanych linii, teksty zamienione na krzywe.</li>
 <li>Cięcie, grawer i nacinanie rozdzielone kolorami albo warstwami.</li>
-<li>Detale nie węższe niż grubość materiału, środki liter w otworach rozwiązane mostkami albo podkładem.</li>
+<li>Detale nie węższe niż grubość materiału, środki liter w otworach zabezpieczone mostkami albo podkładem.</li>
 <li>Materiał i grubość, a przy plexi także kolor i rodzaj: lana czy ekstrudowana.</li>
 <li>Liczba sztuk i informacja, czy są elementy składane na wcisk.</li>
 </ul>
 
-<p>Z takim plikiem wycena jest szybka, a cena nie rośnie przez rzeczy, których nie widać na pierwszy rzut oka.</p>
+<p>Z takim plikiem pracownia szybciej poda cenę, a laser nie będzie tracił czasu na zdublowane linie i zbędne detale.</p>
 ```
 
 ## Treść (czysty tekst, gdy edytor nie ma trybu HTML)
@@ -128,52 +134,52 @@ Zanim wyślesz plik, sprawdź w nim kilka rzeczy:
 - teksty zamienione na krzywe,
 - osobne kolory albo warstwy dla cięcia, graweru i płytkiego nacinania.
 
-W wielu pracowniach najcieńsza czerwona linia oznacza cięcie, ale zanim wyślesz plik, zapytaj wykonawcę, jak on to oznacza. Uważaj też na napisy, które mają być otworem w płycie, jak w szablonie albo ażurowym panelu. Środki liter O, A czy R wypadną wtedy razem z resztą. Można dodać cienkie mostki, przykleić płytę na podkład albo zostawić te miejsca jako grawer.
+W wielu pracowniach cięcie oznacza się czerwoną linią o najmniejszej możliwej grubości (tak zwany hairline), ale nie wszędzie, więc zapytaj wykonawcę, jakich kolorów i grubości linii używa. Uważaj też na napisy, które mają być otworem w płycie, jak w szablonie albo ażurowym panelu. Razem z literą wypadnie wtedy jej środek, na przykład w O, A czy R. Można dodać mostki, które utrzymają środek, nakleić płytę na podkład albo napis wygrawerować, zamiast go wycinać.
 
-Najdrobniejsze detale też mają swoją granicę. Zwykle przyjmuje się, że żaden fragment nie powinien być węższy niż grubość materiału. Cienki mostek w sklejce 6 mm łatwo przypalić albo złamać przy wyjmowaniu.
+Detale nie mogą być dowolnie drobne. Zwykle przyjmuje się, że żaden fragment nie powinien być węższy niż grubość materiału. Cienki mostek w sklejce 6 mm łatwo przypalić albo złamać przy wyjmowaniu.
 
 [H2] Plexi, sklejka czy MDF
 
-Plexi, czyli akryl, tnie się na gładką, prawie polerowaną krawędź. Gotowy element nie wymaga szlifowania, dlatego z plexi robi się litery, standy i statuetki. Jeśli na tym samym elemencie ma być grawer, lepiej sprawdza się plexi lana, bo daje wyraźniejszy, mleczny znak niż ekstrudowana.
+Plexi, czyli akryl, tnie się na gładką, prawie polerowaną krawędź. Gotowy element nie wymaga szlifowania, dlatego z plexi robi się litery, standy i statuetki. Jeśli na tym samym elemencie ma być grawer, lepiej sprawdza się plexi lana: znak wychodzi na niej bardziej mleczny i wyraźny niż na ekstrudowanej.
 
 Sklejka ma ciepły, naturalny wygląd, a jej krawędź po cięciu jest ciemna i lekko przypalona. Im grubsza płyta, tym ciemniejsza krawędź i wolniejsze cięcie. Liczy się też jakość arkusza: sęki i klej w środkowych warstwach potrafią zostawić miejsca, w których laser nie przetnie płyty do końca. Dlatego pracownie wolą sprawdzone płyty, często brzozowe.
 
 MDF jest tani i równy, ale jego krawędź po cięciu nie wygląda idealnie. Jest ciemna i potrafi się lekko strzępić, więc MDF najlepiej sprawdza się tam, gdzie element i tak będzie malowany albo oklejony. Przy drewnie i MDF dym zostawia też wokół cięcia jasnobrązowy nalot. Jeśli powierzchnia ma zostać surowa, zapytaj, czy pracownia zabezpiecza płytę folią albo czyści elementy po cięciu.
 
-Jak pod laserem zachowują się plexi, sklejka i laminat i w jakich grubościach zwykle się je tnie, opisuje osobny poradnik.
+W jakich grubościach zwykle tnie się plexi, sklejkę i MDF oraz kiedy zamiast lasera lepsza jest frezarka CNC, opisuje osobny poradnik.
 
-[H2] Wpusty, zatrzaski i szczelina cięcia
+[H2] Wpusty, połączenia na wcisk i szczelina cięcia
 
-Laser nie tnie linią o zerowej grubości. Wiązka odparowuje wąski pas materiału, tak zwaną szczelinę cięcia. To zwykle ułamek milimetra, zależnie od materiału i grubości. Przy pojedynczych literach nie ma to znaczenia. Przy elementach składanych na wcisk, jak modele z zębatkami czy pudełka na wpusty, ta różnica decyduje, czy części wejdą w siebie ciasno, luźno, czy wcale.
+Laser nie tnie linią o zerowej grubości. Wiązka odparowuje wąski pas materiału i zostawia po sobie szczelinę cięcia. Jej szerokość to zwykle ułamek milimetra, zależnie od materiału i grubości. Przy pojedynczych literach nie ma to znaczenia. Przy elementach składanych na wcisk, jak modele z zębatkami czy pudełka na wpusty, ten ułamek milimetra decyduje, czy części wejdą w siebie ciasno, luźno, czy wcale.
 
 Jeśli projektujesz takie połączenia, napisz o tym w zamówieniu. Pracownia może dopasować wymiary wpustów do swojego materiału albo najpierw wyciąć próbny fragment. To kosztuje mniej niż cała seria do poprawki.
 
 [H2] Rozkrój, czyli więcej elementów z jednej płyty
 
-Przy serii opłaca się ułożyć elementy na arkuszu jak najciaśniej. Takie układanie, nazywane rozkrojem, robi zwykle pracownia, ale możesz jej pomóc już w projekcie. Nie zaokrąglaj narożników bez potrzeby i daj znać, czy kierunek słojów sklejki ma znaczenie. Prostokątne elementy da się czasem ustawić tak, żeby miały wspólną krawędź, a wtedy laser tnie jedną linię zamiast dwóch. Przy powtarzalnych seriach, które branża nazywa czasem wykrawaniem laserowym, dobry rozkrój wyraźnie zmniejsza zużycie materiału.
+Przy serii opłaca się ułożyć elementy na arkuszu jak najciaśniej. Takie układanie, nazywane rozkrojem, robi zwykle pracownia, ale możesz jej pomóc już w projekcie. Prostokątne elementy da się czasem ustawić tak, żeby miały wspólną krawędź, a wtedy laser tnie jedną linię zamiast dwóch. Dlatego nie zaokrąglaj narożników bez potrzeby. Daj też znać, czy kierunek słojów sklejki ma znaczenie, bo od tego zależy, czy elementy można obracać na arkuszu. Dobry rozkrój wyraźnie zmniejsza zużycie materiału, zwłaszcza przy seryjnym cięciu tych samych kształtów, nazywanym czasem wykrawaniem laserowym.
 
-Element większy niż stół lasera da się podzielić na moduły i połączyć po obróbce. Warto to zaplanować w projekcie, żeby łączenia wypadły tam, gdzie będą najmniej widoczne.
+Element większy niż stół lasera da się podzielić na moduły i połączyć po obróbce. Zaplanuj to już w projekcie, żeby łączenia wypadły tam, gdzie będą najmniej widoczne.
 
-[H2] Czego laserem się nie tnie
+[H2] Czego nie wytniesz laserem
 
-Laser CO2 nie zastąpi każdej maszyny. Bardzo grube płyty i obróbka przestrzenna to zadanie dla frezarki CNC. PVC odpada ze względów bezpieczeństwa, bo przy cięciu wydziela związki chloru, szkodliwe dla ludzi i dla maszyny. Przy nietypowym tworzywie zapytaj przed wyceną, czy w ogóle nadaje się pod laser.
+Bardzo grube płyty i obróbka przestrzenna to zadanie dla frezarki CNC. PVC odpada ze względów bezpieczeństwa, bo przy cięciu wydziela związki chloru, szkodliwe dla ludzi i dla maszyny. Przy nietypowym tworzywie zapytaj przed wyceną, czy w ogóle nadaje się pod laser.
 
 [H2] Ile to kosztuje i ile trwa
 
 Ponieważ nie trzeba robić formy, opłaca się nawet pojedyncza sztuka albo prototyp. Pracownie mają za to zwykle minimalną kwotę zlecenia. Drobne, proste elementy to często kilka minut pracy lasera, a termin zależy przede wszystkim od kolejki i wielkości serii.
 
-Przykład z Warszawy: pracownia Padir z Targówka ma w jednej hali pięć laserów CO2 marki Trotec, od formatu A4 po arkusze ponad 2,5 m. Największe pole robocze to 2510 × 1680 mm, a tolerancja cięcia sięga 0,1 mm. Plexi tnie zwykle w grubościach 2-10 mm, a sklejkę i MDF w grubościach 3-12 mm. Cięcie i grawerowanie laserem łączy w jednym zleceniu, na przykład wycina tabliczkę i od razu nanosi na nią opis. Zlecenia przyjmuje od jednej sztuki, najniższa kwota zamówienia to 100 zł, a mniejsze zlecenia są zwykle gotowe w około dwa dni robocze. Ofertę na wycinanie laserem, z galerią realizacji i opisem maszyn, pokazuje na osobnej stronie.
+Przykład z Warszawy: pracownia Padir z Targówka ma w jednej hali pięć laserów CO2 marki Trotec, od formatu A4 po arkusze ponad 2,5 m. Największe pole robocze to 2510 × 1680 mm, a tolerancja cięcia wynosi do 0,1 mm. Pracownia tnie zwykle plexi o grubości 2-10 mm, a sklejkę i MDF 3-12 mm. W jednym zleceniu łączy cięcie i grawerowanie laserem, na przykład wycina tabliczkę i od razu nanosi na nią opis. Przyjmuje zamówienia od jednej sztuki, a najniższa kwota to 100 zł. Mniejsze zlecenia są zwykle gotowe w ciągu około dwóch dni roboczych. Ofertę na wycinanie laserem, z galerią realizacji i opisem maszyn, pokazuje na osobnej stronie.
 
 [H2] Lista kontrolna przed wysłaniem pliku
 
 - Wektor w skali 1:1, wymiary w milimetrach.
 - Zamknięte kontury, bez zdublowanych linii, teksty zamienione na krzywe.
 - Cięcie, grawer i nacinanie rozdzielone kolorami albo warstwami.
-- Detale nie węższe niż grubość materiału, środki liter w otworach rozwiązane mostkami albo podkładem.
+- Detale nie węższe niż grubość materiału, środki liter w otworach zabezpieczone mostkami albo podkładem.
 - Materiał i grubość, a przy plexi także kolor i rodzaj: lana czy ekstrudowana.
 - Liczba sztuk i informacja, czy są elementy składane na wcisk.
 
-Z takim plikiem wycena jest szybka, a cena nie rośnie przez rzeczy, których nie widać na pierwszy rzut oka.
+Z takim plikiem pracownia szybciej poda cenę, a laser nie będzie tracił czasu na zdublowane linie i zbędne detale.
 ```
 
 ## Linki (3, wszystkie dofollow, w kolejności ważności)
@@ -182,26 +188,26 @@ Z takim plikiem wycena jest szybka, a cena nie rośnie przez rzeczy, których ni
 |---|---|---|---|
 | 1 | „wycinanie laserem” | https://grawerowanie-laserowe.pl/wycinanie-laserowe/ | fraza |
 | 2 | „pracownia Padir” | https://grawerowanie-laserowe.pl/ | marka, strona główna |
-| 3 | „plexi, sklejka i laminat” | https://grawerowanie-laserowe.pl/blog/wycinanie-laserowe-precyzyjne-ciecie-plexi-sklejki-i-laminatu-na-zamowienie/ | opisowy |
+| 3 | „plexi, sklejkę i MDF” | https://grawerowanie-laserowe.pl/blog/wycinanie-laserowe-precyzyjne-ciecie-plexi-sklejki-i-laminatu-na-zamowienie/ | opisowy |
 
 ## Zdjęcie główne
 
-`zdjecia/zdjecie-glowne-napis-tea-plexi-lustrzana-padir.jpg`, alt: Przestrzenny napis Tea wycięty laserem z lustrzanej plexi na sklejce, podpis: Napis z lustrzanej plexi na sklejce, wycięty laserem. Fot. Padir
+`zdjecia/zdjecie-glowne-napis-tea-plexi-lustrzana-padir.jpg`, alt: Przestrzenny napis „Tea” wycięty laserem z lustrzanej plexi na sklejce, podpis: Napis z lustrzanej plexi na sklejce, wycięty laserem. Fot. Padir
 
 ## Obrazy w treści (jako załączniki)
 
 | Klucz | Plik | Gdzie w tekście | Alt | Podpis |
 |---|---|---|---|---|
-| ig1 | `infografiki/ig1-co-podnosi-cene-ciecia-laserem.png` | pod leadem, przed pierwszym śródtytułem „Za co płacisz przy cięciu laserem” | Infografika: sześć rzeczy, które podnoszą cenę cięcia laserem | Na większość tych kosztów masz wpływ już w pliku. Grafika: Padir |
+| ig1 | `infografiki/ig1-co-podnosi-cene-ciecia-laserem.png` | pod leadem, przed pierwszym śródtytułem „Za co płacisz przy cięciu laserem” | Infografika: sześć rzeczy, które podnoszą cenę cięcia laserem | Sześć rzeczy, które wydłużają cięcie albo zwiększają zużycie materiału. Grafika: Padir |
 | drzewko | `zdjecia/azurowe-drzewko-sklejka-padir.jpg` | w sekcji „Za co płacisz przy cięciu laserem”, zaraz pod listą punktowaną | Ażurowe drzewko z sowami wycięte laserem ze sklejki | Ażur ze sklejki: im więcej drobnych wycięć, tym dłużej pracuje laser. Fot. Padir |
 | ig2 | `infografiki/ig2-plik-do-ciecia-lista-kontrolna.png` | na końcu sekcji „Plik, który nie podnosi ceny”, przed śródtytułem „Plexi, sklejka czy MDF” | Infografika: lista kontrolna pliku do cięcia laserem, z przykładem mostków w literze O | Co sprawdzić w pliku przed wysłaniem do cięcia. Grafika: Padir |
-| ig3 | `infografiki/ig3-plexi-sklejka-mdf-krawedz.png` | na końcu sekcji „Plexi, sklejka czy MDF”, przed śródtytułem „Wpusty, zatrzaski i szczelina cięcia” | Infografika: jak po cięciu laserem wygląda krawędź plexi, sklejki, MDF i laminatu | Krawędź po cięciu zależy od materiału. Grafika: Padir |
-| zebatki | `zdjecia/zebatki-sklejka-wpusty-padir.jpg` | na końcu sekcji „Wpusty, zatrzaski i szczelina cięcia”, przed śródtytułem „Rozkrój, czyli więcej elementów z jednej płyty” | Ruchomy model zębatek ze sklejki złożony na wpusty | Model zębatek ze sklejki, składany na wpusty. Fot. Padir |
+| ig3 | `infografiki/ig3-plexi-sklejka-mdf-krawedz.png` | na końcu sekcji „Plexi, sklejka czy MDF”, przed śródtytułem „Wpusty, połączenia na wcisk i szczelina cięcia” | Infografika: jak po cięciu laserem wygląda krawędź plexi, sklejki, MDF i laminatu | Krawędź po cięciu zależy od materiału. Grafika: Padir |
+| zebatki | `zdjecia/zebatki-sklejka-wpusty-padir.jpg` | w sekcji „Wpusty, połączenia na wcisk i szczelina cięcia”, przed akapitem, który zaczyna się od słów „Jeśli projektujesz takie połączenia” | Ruchomy model zębatek ze sklejki złożony na wpusty | Model zębatek ze sklejki, składany na wpusty. Fot. Padir |
 
 ## Uwagi dla wydawcy (pole „Uwagi” / „Komentarz do zamówienia”)
 
 ```
-Dzień dobry, prosimy o publikację tekstu bez zmian w treści i w linkach. W artykule są 3 linki dofollow, prosimy zostawić je w podanym brzmieniu: „wycinanie laserem” https://grawerowanie-laserowe.pl/wycinanie-laserowe/; „pracownia Padir” https://grawerowanie-laserowe.pl/; „plexi, sklejka i laminat” https://grawerowanie-laserowe.pl/blog/wycinanie-laserowe-precyzyjne-ciecie-plexi-sklejki-i-laminatu-na-zamowienie/. Zdjęcie główne: zdjecie-glowne-napis-tea-plexi-lustrzana-padir.jpg. W załącznikach są 3 infografiki i 2 zdjęcia do wstawienia w tekst: ig1-co-podnosi-cene-ciecia-laserem.png pod leadem, przed pierwszym śródtytułem „Za co płacisz przy cięciu laserem”; azurowe-drzewko-sklejka-padir.jpg w sekcji „Za co płacisz przy cięciu laserem”, zaraz pod listą punktowaną; ig2-plik-do-ciecia-lista-kontrolna.png na końcu sekcji „Plik, który nie podnosi ceny”, przed śródtytułem „Plexi, sklejka czy MDF”; ig3-plexi-sklejka-mdf-krawedz.png na końcu sekcji „Plexi, sklejka czy MDF”, przed śródtytułem „Wpusty, zatrzaski i szczelina cięcia”; zebatki-sklejka-wpusty-padir.jpg na końcu sekcji „Wpusty, zatrzaski i szczelina cięcia”, przed śródtytułem „Rozkrój, czyli więcej elementów z jednej płyty”. W pliku artykul.docx pod każdym obrazem jest podpis (kursywą), a pod nim osobno tekst alternatywny (ALT), który nie jest częścią podpisu. Jeśli to możliwe, prosimy o powiększanie infografik po kliknięciu, bo na telefonie ich tekst jest drobny. Wszystkie zdjęcia i grafiki należą do zamawiającego (Padir). Dziękujemy.
+Dzień dobry, prosimy o publikację tekstu bez zmian w treści i w linkach. W artykule są 3 linki dofollow, prosimy zostawić je w podanym brzmieniu: „wycinanie laserem” https://grawerowanie-laserowe.pl/wycinanie-laserowe/; „pracownia Padir” https://grawerowanie-laserowe.pl/; „plexi, sklejkę i MDF” https://grawerowanie-laserowe.pl/blog/wycinanie-laserowe-precyzyjne-ciecie-plexi-sklejki-i-laminatu-na-zamowienie/. Zdjęcie główne: zdjecie-glowne-napis-tea-plexi-lustrzana-padir.jpg. W załącznikach są 3 infografiki i 2 zdjęcia do wstawienia w tekst: ig1-co-podnosi-cene-ciecia-laserem.png pod leadem, przed pierwszym śródtytułem „Za co płacisz przy cięciu laserem”; azurowe-drzewko-sklejka-padir.jpg w sekcji „Za co płacisz przy cięciu laserem”, zaraz pod listą punktowaną; ig2-plik-do-ciecia-lista-kontrolna.png na końcu sekcji „Plik, który nie podnosi ceny”, przed śródtytułem „Plexi, sklejka czy MDF”; ig3-plexi-sklejka-mdf-krawedz.png na końcu sekcji „Plexi, sklejka czy MDF”, przed śródtytułem „Wpusty, połączenia na wcisk i szczelina cięcia”; zebatki-sklejka-wpusty-padir.jpg w sekcji „Wpusty, połączenia na wcisk i szczelina cięcia”, przed akapitem, który zaczyna się od słów „Jeśli projektujesz takie połączenia”. W pliku artykul.docx pod każdym obrazem jest podpis (kursywą), a pod nim osobno tekst alternatywny (ALT), który nie jest częścią podpisu. Jeśli to możliwe, prosimy o powiększanie infografik po kliknięciu, bo na telefonie ich tekst jest drobny. Wszystkie zdjęcia i grafiki należą do zamawiającego (Padir). Dziękujemy.
 ```
 
 ## Uwagi dla wydawcy, wersja krótka (gdy pole ma limit znaków)

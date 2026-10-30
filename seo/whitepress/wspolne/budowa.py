@@ -9,6 +9,7 @@ zbuduj(A) tworzy w katalogu artykułu: podglad.html, DO-WKLEJENIA.md, artykul.do
 INSTRUKCJA-CLAUDE-W-CHROME.md (szablon wspolne/instrukcja.md + materiały) i paczkę .zip
 (poza gitem). Na końcu kontrola: zakazane myślniki, linki, kolejność obrazów, komplet plików.
 """
+import datetime
 import html
 import os
 import re
@@ -153,8 +154,15 @@ class Artykul:
             przed = next(((t, d) for t, d in reversed(b[:i]) if t != "obraz"), None)
             if poprzedni_h2 is None:
                 opisy[dane] = f"pod leadem, przed pierwszym śródtytułem „{nastepny}”"
-            elif przed and przed[0] == "ul":
+                continue
+            po = next(((t, d) for t, d in b[i + 1:] if t != "obraz"), None)
+            if poprzedni_h2 is not None and przed and przed[0] == "ul":
                 opisy[dane] = f"w sekcji „{poprzedni_h2}”, zaraz pod listą punktowaną"
+            elif poprzedni_h2 is not None and po and po[0] != "h2":
+                pierwszy = fragmenty_tekst(po[1] if po[0] == "p" else po[1][0])
+                poczatek = " ".join(pierwszy.split()[:4]).rstrip(",.:;")
+                co = "akapitem, który zaczyna" if po[0] == "p" else "listą punktowaną, która zaczyna"
+                opisy[dane] = f"w sekcji „{poprzedni_h2}”, przed {co} się od słów „{poczatek}”"
             else:
                 opisy[dane] = (f"na końcu sekcji „{poprzedni_h2}”"
                                + (f", przed śródtytułem „{nastepny}”" if nastepny else ""))
@@ -186,10 +194,13 @@ class Artykul:
 
     def dlugosci(self):
         z, (pelne, krotkie) = self.znaki(), self.uwagi()
-        return (f"treść {z['tresc']} znaków ze spacjami (sama treść, bez tytułu i leadu), "
-                f"z tytułem i leadem {z['calosc']}; tytuł {len(self.A.TYTUL)} znaków; "
-                f"lead {len(self.A.LEAD)} znaków; uwagi dla wydawcy {len(pelne)} znaków "
-                f"(wersja krótka {len(krotkie)})")
+        zn = lambda n: odmiana(n, "znak", "znaki", "znaków")  # noqa: E731
+        lead = f"lead {zn(len(self.A.LEAD))}"
+        if getattr(self.A, "LEAD_KROTKI", None):
+            lead += f" (wersja krótka {len(self.A.LEAD_KROTKI)})"
+        return (f"treść {zn(z['tresc'])} ze spacjami (sama treść, bez tytułu i leadu), "
+                f"z tytułem i leadem {z['calosc']}; tytuł {zn(len(self.A.TYTUL))}; "
+                f"{lead}; uwagi dla wydawcy {zn(len(pelne))} (wersja krótka {len(krotkie)})")
 
     def rozmiary(self):
         def wym(p):
@@ -200,10 +211,15 @@ class Artykul:
         ig = [o for k, o in A.OBRAZY.items() if k.startswith("ig")]
         czesci = [f"zdjęcie główne {wym(A.ZDJECIE_GLOWNE['plik'])}"]
         if zdj:
-            czesci.append("zdjęcia w tekście " + ", ".join(wym(o["plik"]) for o in zdj))
+            r = [wym(o["plik"]) for o in zdj]
+            czesci.append(odmiana(len(zdj), "zdjęcie", "zdjęcia", "zdjęć") + " w tekście "
+                          + (f"po {r[0]}" if len(r) > 1 and len(set(r)) == 1 else ", ".join(r)))
         if ig:
-            szer = sorted({Image.open(os.path.join(self.KAT, o["plik"])).size[0] for o in ig})
-            czesci.append("infografiki " + "/".join(map(str, szer)) + " px szerokości")
+            wh = [Image.open(os.path.join(self.KAT, o["plik"])).size for o in ig]
+            szer, wys = sorted({w for w, _ in wh}), sorted({h for _, h in wh})
+            czesci.append(odmiana(len(ig), "infografika", "infografiki", "infografik") + " "
+                          + "/".join(map(str, szer)) + " px szerokości i "
+                          + (f"{wys[0]}-{wys[-1]}" if len(wys) > 1 else str(wys[0])) + " px wysokości")
         return ", ".join(czesci)
 
     # --- wyjścia ------------------------------------------------------------
@@ -247,6 +263,13 @@ a{{color:#12388C}}
         styl = d.styles["Normal"]
         styl.font.name = "Calibri"
         styl.font.size = Pt(11.5)
+        # bez tego Word sprawdza pisownię po angielsku i podkreśla cały tekst
+        rpr = styl.element.get_or_add_rPr()
+        rpr.append(OxmlElement("w:lang"))
+        for jezyk in d.styles.element.iter(qn("w:lang")):  # także domyślne ustawienia dokumentu
+            jezyk.set(qn("w:val"), "pl-PL")
+            jezyk.set(qn("w:eastAsia"), "pl-PL")
+        d.core_properties.created = d.core_properties.modified = datetime.datetime.now()
         d.add_heading(A.TYTUL, level=1)
         d.add_paragraph().add_run(A.LEAD).bold = True
 
@@ -331,7 +354,7 @@ Długości: {self.dlugosci()}.
 ```
 {A.LEAD}
 ```
-
+{self.lead_krotki_md()}
 ## Treść (HTML, do trybu źródła / HTML w edytorze)
 
 Bez obrazów: obrazy wstawia wydawca według tabeli niżej.
@@ -380,6 +403,18 @@ Wiersz zaczynający się od `[H2] ` to śródtytuł: usuń znacznik `[H2] ` i us
             f.write(md)
         self.instrukcja(md)
 
+    def lead_krotki_md(self):
+        krotki = getattr(self.A, "LEAD_KROTKI", None)
+        if not krotki:
+            return ""
+        return f"""
+## Lead, wersja krótka (tylko gdy pole leadu ma limit znaków)
+
+```
+{krotki}
+```
+"""
+
     def instrukcja(self, md):
         """Szablon wspolne/instrukcja.md + materiały: agent w przeglądarce nie czyta plików z dysku."""
         A = self.A
@@ -403,6 +438,7 @@ Wiersz zaczynający się od `[H2] ` to śródtytuł: usuń znacznik `[H2] ` i us
             "{{ROZMIARY}}": self.rozmiary(),
             "{{ZDJECIE_GLOWNE}}": A.ZDJECIE_GLOWNE["plik"],
             "{{PODPIS_GLOWNE}}": A.ZDJECIE_GLOWNE["podpis"],
+            "{{ALT_GLOWNE}}": A.ZDJECIE_GLOWNE["alt"],
             "{{ZALACZNIKI}}": "\n".join(f"  - `{o['plik']}`" for o in A.OBRAZY.values()),
         }
         for k, v in zamiany.items():

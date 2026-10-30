@@ -32,7 +32,7 @@ def ig1():
 .k h2{font-size:27px;font-weight:700;line-height:1.2;margin-bottom:8px}
 .k p{font-size:23px;line-height:1.42;color:#3d3d44}
 """, f"""<div class="nad">Poradnik</div>
-<h1>Co podnosi cenę cięcia laserem</h1>
+<h1>Co podnosi cenę cięcia&nbsp;laserem</h1>
 <p class="pod">{nbsp("Za narzędzie nie płacisz, za czas pracy maszyny tak. Na większość tych rzeczy masz wpływ już w pliku.")}</p>
 <div class="siatka">{karty}</div>""")
 
@@ -83,12 +83,12 @@ li svg{flex:none;margin-top:1px}
 .dwa b{display:block;font-size:22px;font-weight:700;margin-top:8px}
 .dwa span{display:block;font-size:20px;color:#3d3d44;line-height:1.35}
 """, f"""<div class="nad">Poradnik</div>
-<h1>Plik do cięcia laserem: lista kontrolna</h1>
+<h1>Plik do cięcia laserem: lista&nbsp;kontrolna</h1>
 <p class="pod">{nbsp("Dobry plik to szybsza wycena i niższa cena. Sprawdź go przed wysłaniem.")}</p>
 <div class="blok"><h2>Wysyłaj</h2><ul>{ok}</ul></div>
 <div class="blok"><h2>Unikaj</h2><ul>{nie}</ul></div>
 <div class="wyspy"><h2>Napis jako otwór w płycie</h2>
-<p>{nbsp("Środki liter O, A czy R wypadną razem z resztą. Pomogą mostki, podkład albo grawer zamiast cięcia.")}</p>
+<p>{nbsp("Razem z literą wypada jej środek, np. w O, A czy R. Pomogą mostki, podkład albo grawer zamiast cięcia.")}</p>
 <div class="dwa">
 <div>{litera_o(False)}<b>Bez mostków</b><span>{nbsp("środek litery wypada")}</span></div>
 <div>{litera_o(True)}<b>Z mostkami</b><span>{nbsp("środek zostaje na miejscu")}</span></div>
@@ -104,21 +104,26 @@ MATERIALY = [
     ("MDF", "#C9A47A", "#3F2814", "ciemna, potrafi się lekko strzępić.",
      "elementy do malowania albo oklejania."),
     ("Laminat grawerski", "#C8CBD2", "#26262B", "równa, w kolorze rdzenia.",
-     "tabliczki, cięcie i grawer w jednej operacji."),
+     "tabliczki wycinane i grawerowane w jednej operacji."),
 ]
 
 
-def przekroj(gora, krawedz):
+def przekroj(gora, krawedz, warstwy=(), wierzch=False):
+    """Bryłka materiału: sklejka z widocznymi warstwami, laminat z cienką wierzchnią warstwą."""
+    linie = "".join(f'<path d="M14 {y} L80 {y} L110 {y - 20}" fill="none" stroke="#141414" '
+                    f'stroke-opacity=".5" stroke-width="1.2"/>' for y in warstwy)
+    if wierzch:
+        linie += f'<path d="M14.8 33.5 L80 33.5 L109.2 14" fill="none" stroke="{gora}" stroke-width="3"/>'
     return (f'<svg viewBox="0 0 120 90" width="120" height="90">'
             f'<path d="M14 30 L44 10 L110 10 L80 30 Z" fill="{gora}" stroke="#141414" stroke-width="1.5" stroke-linejoin="round"/>'
             f'<path d="M14 30 L80 30 L80 74 L14 74 Z" fill="{krawedz}" stroke="#141414" stroke-width="1.5" stroke-linejoin="round"/>'
             f'<path d="M80 30 L110 10 L110 54 L80 74 Z" fill="{krawedz}" opacity=".8" stroke="#141414" stroke-width="1.5" stroke-linejoin="round"/>'
-            '</svg>')
+            f'{linie}</svg>')
 
 
 def ig3():
     wiersze = "".join(
-        f'<div class="m">{przekroj(g, k)}<div><h2>{n}</h2><p><b>Krawędź:</b> {nbsp(e)}</p><p><b>Do:</b> {nbsp(z)}</p></div></div>'
+        f'<div class="m">{przekroj(g, k, (44.7, 59.3) if n == "Sklejka" else (), n == "Laminat grawerski")}<div><h2>{n}</h2><p><b>Krawędź:</b> {nbsp(e)}</p><p><b>Do czego:</b> {nbsp(z)}</p></div></div>'
         for n, g, k, e, z in MATERIALY)
     return strona("""
 .m{display:flex;gap:20px;align-items:flex-start;background:#eef1f7;border-radius:20px;padding:20px 22px;margin-bottom:14px}
@@ -131,10 +136,10 @@ def ig3():
 .uwaga b{font-weight:700}
 """, f"""<div class="nad">Poradnik</div>
 <h1>Plexi, sklejka, MDF: czego się spodziewać po krawędzi</h1>
-<p class="pod">{nbsp("Laser CO<sub>2</sub> tnie bez docisku i bez narzędzia, ale każdy materiał zostawia inną krawędź.")}</p>
+<p class="pod">{nbsp("Laser CO<sub>2</sub> tnie bez docisku i bez narzędzia, ale krawędź na każdym materiale wygląda inaczej.")}</p>
 {wiersze}
 <div class="uwaga">
-<p>{nbsp("<b>Laserem się nie tnie PVC:</b> przy cięciu wydziela związki chloru.")}</p>
+<p>{nbsp("<b>PVC nie tnie się laserem:</b> przy cięciu wydziela związki chloru.")}</p>
 <p>{nbsp("<b>Bardzo gruba płyta</b> albo obróbka przestrzenna? To zadanie dla frezarki CNC.")}</p>
 </div>""")
 

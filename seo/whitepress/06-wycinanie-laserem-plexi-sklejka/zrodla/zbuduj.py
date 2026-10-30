@@ -15,23 +15,28 @@ from budowa import zbuduj  # noqa: E402
 NR = 6
 PACZKA = "whitepress-artykul-06"
 TEMAT = "poradnika o wycinaniu laserem dla projektantów i majsterkowiczów"
-TEMATYKA = "design i wnętrza, majsterkowanie i DIY, hobby, technologia, reklama i marketing, poradniki"
+TEMATYKA = ("design i wnętrza, dom i ogród, majsterkowanie i DIY, hobby i modelarstwo, reklama i marketing, "
+            "przemysł i produkcja (portale technologiczne tylko z działem o produkcji, druku 3D albo DIY)")
 
 TYTUL = "Wycinanie laserem z plexi i sklejki: jak przygotować plik, żeby nie przepłacić"
-LEAD = ("Za wycinanie laserem płaci się głównie za czas pracy maszyny, a ten w dużej mierze zależy "
-        "od pliku. Te same litery z plexi mogą kosztować więcej tylko dlatego, że w projekcie zostały "
-        "zdublowane linie albo niepotrzebne detale. Pokazujemy, co podnosi koszt, jak przygotować "
-        "projekt i czego spodziewać się po plexi, sklejce i MDF.")
+LEAD = ("Wycinanie laserem wycenia się głównie według czasu pracy maszyny, a ten w dużej mierze zależy "
+        "od pliku. Te same litery z plexi mogą kosztować więcej tylko dlatego, że projekt ma zdublowane "
+        "linie albo niepotrzebne detale. Pokazujemy, co podnosi koszt, jak przygotować plik i czego "
+        "spodziewać się po plexi, sklejce i MDF.")
+# na wypadek limitu znaków w polu leadu; kończy się tak samo jak LEAD
+LEAD_KROTKI = ("Wycinanie laserem wycenia się głównie według czasu pracy maszyny, a ten w dużej mierze zależy "
+               "od pliku. Pokazujemy, co podnosi koszt, jak przygotować plik i czego spodziewać się po "
+               "plexi, sklejce i MDF.")
 
 ZDJECIE_GLOWNE = {
     "plik": "zdjecia/zdjecie-glowne-napis-tea-plexi-lustrzana-padir.jpg",
-    "alt": "Przestrzenny napis Tea wycięty laserem z lustrzanej plexi na sklejce",
+    "alt": "Przestrzenny napis „Tea” wycięty laserem z lustrzanej plexi na sklejce",
     "podpis": "Napis z lustrzanej plexi na sklejce, wycięty laserem. Fot. Padir",
 }
 OBRAZY = {  # w kolejności, w jakiej stoją w tekście
     "ig1": {"plik": "infografiki/ig1-co-podnosi-cene-ciecia-laserem.png",
             "alt": "Infografika: sześć rzeczy, które podnoszą cenę cięcia laserem",
-            "podpis": "Na większość tych kosztów masz wpływ już w pliku. Grafika: Padir"},
+            "podpis": "Sześć rzeczy, które wydłużają cięcie albo zwiększają zużycie materiału. Grafika: Padir"},
     "drzewko": {"plik": "zdjecia/azurowe-drzewko-sklejka-padir.jpg",
                 "alt": "Ażurowe drzewko z sowami wycięte laserem ze sklejki",
                 "podpis": "Ażur ze sklejki: im więcej drobnych wycięć, tym dłużej pracuje laser. Fot. Padir"},
@@ -48,7 +53,7 @@ OBRAZY = {  # w kolejności, w jakiej stoją w tekście
 LINKI = [  # w kolejności ważności: przy mniejszej liczbie linków zostają pierwsze
     ("wycinanie laserem", "https://grawerowanie-laserowe.pl/wycinanie-laserowe/", "fraza"),
     ("pracownia Padir", "https://grawerowanie-laserowe.pl/", "marka, strona główna"),
-    ("plexi, sklejka i laminat",
+    ("plexi, sklejkę i MDF",
      "https://grawerowanie-laserowe.pl/blog/wycinanie-laserowe-precyzyjne-ciecie-plexi-sklejki-i-laminatu-na-zamowienie/",
      "opisowy"),
 ]

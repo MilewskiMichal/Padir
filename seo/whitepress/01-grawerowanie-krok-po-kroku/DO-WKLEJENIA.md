@@ -2,7 +2,7 @@
 
 Plik generowany przez `zrodla/zbuduj.py`. Nie edytuj go ręcznie, popraw `zrodla/tresc.html` i uruchom skrypt ponownie.
 
-Długości: treść 7272 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7662; tytuł 70 znaków; lead 320 znaków; uwagi dla wydawcy 1302 znaków (wersja krótka 350).
+Długości: treść 7272 znaki ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7662; tytuł 70 znaków; lead 320 znaków; uwagi dla wydawcy 1302 znaki (wersja krótka 350).
 
 ## Tytuł
 
