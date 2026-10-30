@@ -13,3 +13,6 @@ lustro-media/
 zrodla/
 pamiec-zdjec/
 podglad-media/
+
+# paczki dla właściciela, budowane przez zbuduj.py
+seo/whitepress/**/*.zip
