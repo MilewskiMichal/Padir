@@ -2,7 +2,7 @@
 
 Plik generowany przez `zrodla/zbuduj.py`. Nie edytuj go ręcznie, popraw `zrodla/tresc.html` i uruchom skrypt ponownie.
 
-Długości: treść 7272 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7662; tytuł 70 znaków; lead 320 znaków; uwagi dla wydawcy 1302 znaków (wersja krótka 362).
+Długości: treść 7272 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7662; tytuł 70 znaków; lead 320 znaków; uwagi dla wydawcy 1302 znaków (wersja krótka 350).
 
 ## Tytuł
 
@@ -210,5 +210,5 @@ Dzień dobry, prosimy o publikację tekstu bez zmian w treści i w linkach. W ar
 ## Uwagi dla wydawcy, wersja krótka (gdy pole ma limit znaków)
 
 ```
-Dzień dobry, prosimy o publikację bez zmian w treści i w linkach (3 linki dofollow, anchory i adresy jak w tekście). Zdjęcie główne: zdjecie-glowne-kieliszek-grawer-padir.jpg. Pozostałe 4 obrazy z załączników prosimy wstawić w miejscach pokazanych w artykul.docx, tam są też teksty alternatywne i podpisy. Wszystkie zdjęcia i grafiki należą do Padir. Dziękujemy.
+Dzień dobry, prosimy o publikację bez zmian w treści i w linkach (3 linki dofollow, anchory i adresy jak w tekście). Zdjęcie główne: zdjecie-glowne-kieliszek-grawer-padir.jpg. Obrazy z załączników prosimy wstawić w miejscach pokazanych w artykul.docx, tam są też teksty alternatywne i podpisy. Wszystkie zdjęcia i grafiki należą do Padir. Dziękujemy.
 ```

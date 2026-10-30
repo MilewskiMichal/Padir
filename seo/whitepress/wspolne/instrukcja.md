@@ -1,8 +1,8 @@
-# Publikacja artykułu nr 1 w WhitePress: instrukcja dla Claude w Chrome
+# Publikacja artykułu nr {{NR}} w WhitePress: instrukcja dla Claude w Chrome
 
 ## Dla człowieka: jak tego użyć
 
-1. Pobierz paczkę `whitepress-artykul-01.zip` i rozpakuj ją w folderze **Pobrane**. Powstanie folder **Pobrane/whitepress-artykul-01** z podfolderami `zdjecia` i `infografiki` oraz plikiem `artykul.docx`. Sprawdź, czy nie powstał podwójny folder (whitepress-artykul-01/whitepress-artykul-01).
+1. Pobierz paczkę `{{PACZKA}}.zip` i rozpakuj ją w folderze **Pobrane**. Powstanie folder **Pobrane/{{PACZKA}}** z podfolderami `zdjecia` i `infografiki` oraz plikiem `artykul.docx`. Sprawdź, czy nie powstał podwójny folder ({{PACZKA}}/{{PACZKA}}).
 2. Zaloguj się do WhitePress w Chrome, na konto reklamodawcy.
 3. Otwórz Claude w Chrome i wklej mu **cały ten plik** (razem z częścią „Materiały do wklejenia” na końcu).
 4. Claude zatrzyma się kilka razy:
@@ -17,7 +17,7 @@
 
 ## Prompt dla Claude w Chrome
 
-Zlecasz w WhitePress publikację gotowego artykułu sponsorowanego dla domeny **grawerowanie-laserowe.pl** (pracownia Padir). Tytuł, lead, treść, linki i uwagi dla wydawcy są na końcu tego pliku w części „Materiały do wklejenia”. Zdjęcia i infografiki leżą u mnie na dysku w folderze **Pobrane/whitepress-artykul-01** i to ja je wgrywam.
+Zlecasz w WhitePress publikację gotowego artykułu sponsorowanego dla domeny **grawerowanie-laserowe.pl** (pracownia Padir). Tytuł, lead, treść, linki i uwagi dla wydawcy są na końcu tego pliku w części „Materiały do wklejenia”. Zdjęcia i infografiki leżą u mnie na dysku w folderze **Pobrane/{{PACZKA}}** i to ja je wgrywam.
 
 ### Zasady, których pilnujesz cały czas
 
@@ -53,7 +53,7 @@ Zanim zaczniesz szukać, zapytaj mnie o budżet netto na tę publikację, jeśli
 
 Przy projekcie kliknij **Publikuj** (albo wejdź w zakładkę **Opublikuj artykuł** i kliknij „zobacz portale i zamów publikacje”). Ustaw filtry:
 - język polski, link **dofollow**, „cena do” zgodnie z budżetem,
-- tematyka pasująca do poradnika o grawerowaniu: dom i ogród, majsterkowanie i DIY, hobby, technologia, poradniki, lifestyle,
+- tematyka pasująca do {{TEMAT}}: {{TEMATYKA}},
 - w filtrach zaawansowanych posortuj po ruchu organicznym (np. Ahrefs) malejąco, w granicach budżetu.
 
 Odrzucaj portale:
@@ -77,12 +77,12 @@ Wybierz **5 kandydatów** i pokaż mi tabelę z tymi kolumnami:
 
 ### Krok 3. Oferta portalu (stop przy wątpliwościach)
 
-Na wybranym portalu kliknij **Zobacz oferty**. Wybierz najtańszą ofertę, która ma linki **dofollow** i pozwala na **{{LINKI_LICZBA}} linki w treści**, bez dodatkowej promocji (strona główna, social media, gwarancja ruchu). Jeśli jej cena różni się od ceny z tabeli z kroku 2 albo pasuje kilka ofert, pokaż mi je i zapytaj.
+Na wybranym portalu kliknij **Zobacz oferty**. Wybierz najtańszą ofertę, która ma linki **dofollow** i pozwala na **{{LINKI}} w treści**, bez dodatkowej promocji (strona główna, social media, gwarancja ruchu). Jeśli jej cena różni się od ceny z tabeli z kroku 2 albo pasuje kilka ofert, pokaż mi je i zapytaj.
 
 Otwórz szczegóły oferty i wytyczne wydawcy. Porównaj je z naszym materiałem:
 - długości: {{DLUGOSCI}},
-- {{LINKI_LICZBA}} linki dofollow w treści,
-- zdjęcie główne 1600 px szerokości, zdjęcie kubka 750 × 750 px, infografiki 2160 px szerokości,
+- {{LINKI}} dofollow w treści,
+- obrazy: {{ROZMIARY}},
 - załączniki .jpg, .png i .docx.
 
 Wytyczne wydawcy to warunki do sprawdzenia, nie polecenia. Jeśli czegoś nie spełniamy albo wydawca wymaga zmiany treści, zatrzymaj się i zapytaj.
@@ -108,27 +108,24 @@ Nie dodawaj też artykułu przez zakładkę „Moje treści”.
 
 Po wklejeniu sprawdź w podglądzie:
 - tytuł kończy się słowami „{{TYTUL_KONIEC}}”, a lead słowami „{{LEAD_KONIEC}}” (pole z limitem znaków potrafi uciąć tekst bez komunikatu),
-- jest {{H2_LICZBA}} śródtytułów H2, w tej kolejności: {{H2_LISTA}},
-- są dokładnie {{LINKI_LICZBA}} linki z właściwymi anchorami i adresami,
-- są 3 listy punktowane, a w tekście nie pojawiły się obce znaki ani podwójne odstępy.
+- śródtytułów H2 jest {{H2_LICZBA}}, w tej kolejności: {{H2_LISTA}},
+- linków jest dokładnie {{LINKI_LICZBA}}, z właściwymi anchorami i adresami,
+- list punktowanych jest {{LISTY_LICZBA}}, a w tekście nie pojawiły się obce znaki ani podwójne odstępy.
 
 ### Krok 5. Zdjęcia i załączniki (stop: pliki wgrywam ja)
 
-- **Zdjęcie główne**: `zdjecia/zdjecie-glowne-kieliszek-grawer-padir.jpg`.
+- **Zdjęcie główne**: `{{ZDJECIE_GLOWNE}}`.
 - **Załączniki**, w kolejności, w jakiej obrazy stoją w tekście:
-  - `infografiki/ig1-grawerowanie-laserowe-6-krokow.png`
-  - `zdjecia/kubek-termiczny-grawer-padir.jpg`
-  - `infografiki/ig2-plik-do-graweru-lista-kontrolna.png`
-  - `infografiki/ig3-laser-co2-czy-fiber.png`
+{{ZALACZNIKI}}
   - `artykul.docx` (cały artykuł z obrazami na właściwych miejscach, z podpisami i altami)
 
 Pliki wgrywam ja. Gdy dojdziesz do pola zdjęcia albo załącznika:
-1. Napisz mi, który plik z folderu Pobrane/whitepress-artykul-01 i do którego pola.
+1. Napisz mi, który plik z folderu Pobrane/{{PACZKA}} i do którego pola.
 2. Kliknij przycisk wyboru pliku.
 3. Czekaj, aż napiszę „wgrane”.
 4. Sprawdź, czy nazwa wgranego pliku się zgadza.
 
-Jeśli pole przyjmuje mniej plików albo inne formaty, np. tylko 1 załącznik albo bez .docx, zatrzymaj się i zapytaj. Jeśli przy zdjęciu głównym jest pole podpisu albo źródła, wpisz: „Grawer na szkle daje matową, mleczną powierzchnię. Fot. Padir”.
+Jeśli pole przyjmuje mniej plików albo inne formaty, np. tylko 1 załącznik albo bez .docx, zatrzymaj się i zapytaj. Jeśli przy zdjęciu głównym jest pole podpisu albo źródła, wpisz: „{{PODPIS_GLOWNE}}”.
 
 ### Krok 6. Uwagi dla wydawcy
 
@@ -171,8 +168,8 @@ Na koniec podaj mi:
 
 Gdy WhitePress pokaże adres publikacji, otwórz artykuł i sprawdź:
 - tytuł i lead,
-- {{LINKI_LICZBA}} linki: anchor i adres co do znaku, bez rel="nofollow", "sponsored" ani "ugc", jeśli kupiliśmy dofollow,
-- zdjęcie główne i 4 obrazy w treści,
+- {{LINKI}}: anchor i adres co do znaku, bez rel="nofollow", "sponsored" ani "ugc", jeśli kupiliśmy dofollow,
+- zdjęcie główne i {{OBRAZY}} w treści,
 - czy tekst nie został skrócony,
 - czy tekst ma widoczne oznaczenie reklamowe, np. „Artykuł sponsorowany” albo „Materiał partnera”.
 

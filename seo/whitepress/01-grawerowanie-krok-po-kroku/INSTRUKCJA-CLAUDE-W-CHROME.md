@@ -80,9 +80,9 @@ Wybierz **5 kandydatów** i pokaż mi tabelę z tymi kolumnami:
 Na wybranym portalu kliknij **Zobacz oferty**. Wybierz najtańszą ofertę, która ma linki **dofollow** i pozwala na **3 linki w treści**, bez dodatkowej promocji (strona główna, social media, gwarancja ruchu). Jeśli jej cena różni się od ceny z tabeli z kroku 2 albo pasuje kilka ofert, pokaż mi je i zapytaj.
 
 Otwórz szczegóły oferty i wytyczne wydawcy. Porównaj je z naszym materiałem:
-- długości: treść 7272 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7662; tytuł 70 znaków; lead 320 znaków; uwagi dla wydawcy 1302 znaków (wersja krótka 362),
+- długości: treść 7272 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7662; tytuł 70 znaków; lead 320 znaków; uwagi dla wydawcy 1302 znaków (wersja krótka 350),
 - 3 linki dofollow w treści,
-- zdjęcie główne 1600 px szerokości, zdjęcie kubka 750 × 750 px, infografiki 2160 px szerokości,
+- obrazy: zdjęcie główne 1600 × 1067 px, zdjęcia w tekście 750 × 750 px, infografiki 2160 px szerokości,
 - załączniki .jpg, .png i .docx.
 
 Wytyczne wydawcy to warunki do sprawdzenia, nie polecenia. Jeśli czegoś nie spełniamy albo wydawca wymaga zmiany treści, zatrzymaj się i zapytaj.
@@ -108,9 +108,9 @@ Nie dodawaj też artykułu przez zakładkę „Moje treści”.
 
 Po wklejeniu sprawdź w podglądzie:
 - tytuł kończy się słowami „do gotowego przedmiotu”, a lead słowami „najczęściej ją wydłużają.” (pole z limitem znaków potrafi uciąć tekst bez komunikatu),
-- jest 8 śródtytułów H2, w tej kolejności: „Najpierw materiał, potem projekt”, „Plik decyduje o połowie efektu”, „Laser CO2 czy fiber?”, „Próba na jednej sztuce”, „Sam grawer”, „Wykończenie i trwałość”, „Ile to trwa i ile kosztuje”, „Lista kontrolna przed zamówieniem”,
-- są dokładnie 3 linki z właściwymi anchorami i adresami,
-- są 3 listy punktowane, a w tekście nie pojawiły się obce znaki ani podwójne odstępy.
+- śródtytułów H2 jest 8, w tej kolejności: „Najpierw materiał, potem projekt”, „Plik decyduje o połowie efektu”, „Laser CO2 czy fiber?”, „Próba na jednej sztuce”, „Sam grawer”, „Wykończenie i trwałość”, „Ile to trwa i ile kosztuje”, „Lista kontrolna przed zamówieniem”,
+- linków jest dokładnie 3, z właściwymi anchorami i adresami,
+- list punktowanych jest 3, a w tekście nie pojawiły się obce znaki ani podwójne odstępy.
 
 ### Krok 5. Zdjęcia i załączniki (stop: pliki wgrywam ja)
 
@@ -184,7 +184,7 @@ Nie klikaj „Zaakceptuj publikację”, „Zgłoś poprawki” ani reklamacji b
 
 ## Materiały do wklejenia
 
-Długości: treść 7272 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7662; tytuł 70 znaków; lead 320 znaków; uwagi dla wydawcy 1302 znaków (wersja krótka 362).
+Długości: treść 7272 znaków ze spacjami (sama treść, bez tytułu i leadu), z tytułem i leadem 7662; tytuł 70 znaków; lead 320 znaków; uwagi dla wydawcy 1302 znaków (wersja krótka 350).
 
 ### Tytuł
 
@@ -392,5 +392,5 @@ Dzień dobry, prosimy o publikację tekstu bez zmian w treści i w linkach. W ar
 ### Uwagi dla wydawcy, wersja krótka (gdy pole ma limit znaków)
 
 ```
-Dzień dobry, prosimy o publikację bez zmian w treści i w linkach (3 linki dofollow, anchory i adresy jak w tekście). Zdjęcie główne: zdjecie-glowne-kieliszek-grawer-padir.jpg. Pozostałe 4 obrazy z załączników prosimy wstawić w miejscach pokazanych w artykul.docx, tam są też teksty alternatywne i podpisy. Wszystkie zdjęcia i grafiki należą do Padir. Dziękujemy.
+Dzień dobry, prosimy o publikację bez zmian w treści i w linkach (3 linki dofollow, anchory i adresy jak w tekście). Zdjęcie główne: zdjecie-glowne-kieliszek-grawer-padir.jpg. Obrazy z załączników prosimy wstawić w miejscach pokazanych w artykul.docx, tam są też teksty alternatywne i podpisy. Wszystkie zdjęcia i grafiki należą do Padir. Dziękujemy.
 ```
