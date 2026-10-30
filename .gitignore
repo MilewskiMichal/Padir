@@ -16,3 +16,6 @@ podglad-media/
 
 # paczki dla właściciela, budowane przez zbuduj.py
 seo/whitepress/**/*.zip
+# W artykułach WhitePress infografiki PNG i katalog zrodla/ (treść, skrypty, fonty) to część pracy, nie zrzuty.
+!seo/whitepress/*/infografiki/*.png
+!seo/whitepress/*/zrodla/
