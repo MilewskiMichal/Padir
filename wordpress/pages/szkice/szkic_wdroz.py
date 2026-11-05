@@ -28,8 +28,10 @@ sys.path.insert(0, HERE)
 from wp import call
 
 STRONY = {
+    # opublikowany 05.11.2026 jako strona 456 (wordpress/pages/grawerowanie/publikacja_grawerowania.py);
+    # kolejne zmiany idą na 456, nie do szkicu
     "grawerowanie": {"slug": "grawerowanie-laserowe-szkic",
-                     "tytul": "Grawerowanie laserowe (szkic do akceptacji)"},
+                     "tytul": "Grawerowanie laserowe (szkic do akceptacji)", "opublikowany": 456},
     "frezowanie": {"slug": "frezowanie-cnc-szkic",
                    "tytul": "Frezowanie CNC (szkic do akceptacji)"},
     # nowa strona branzowa, wiec slug od razu docelowy; przy publikacji
@@ -48,6 +50,9 @@ def main():
     klucz = sys.argv[1]
     na_sucho = "--wdroz" not in sys.argv
     cfg = STRONY[klucz]
+    if cfg.get("opublikowany"):
+        sys.exit(f"szkic {klucz} jest już opublikowany jako strona {cfg['opublikowany']}; "
+                 "zmieniaj tamtą stronę, nie szkic")
     plik = os.path.join(HERE, "praca", klucz, "strona.html")
     tresc = open(plik, encoding="utf-8").read()
 
