@@ -48,6 +48,12 @@ def strona(css_dodatkowy, srodek):
             f'</style></head><body><div class="ig">{srodek}{STOPKA}</div></body></html>')
 
 
+_CHROMIUM = os.environ.get("PADIR_CHROMIUM") or (
+    "/opt/pw-browsers/chromium" if os.path.exists("/opt/pw-browsers/chromium") else None)
+# PADIR_CHROMIUM albo przegladarka kontenera chmurowego; lokalnie ta z `playwright install chromium`
+_URUCHOM = {"executable_path": _CHROMIUM} if _CHROMIUM else {}
+
+
 def renderuj(pliki, zrodla):
     """pliki: {nazwa: funkcja zwracająca HTML}, w kolejności z artykułu. zrodla: katalog zrodla/ artykułu."""
     wyj = os.path.join(os.path.dirname(zrodla), "infografiki")
@@ -55,7 +61,7 @@ def renderuj(pliki, zrodla):
 
     async def main():
         async with async_playwright() as p:
-            b = await p.chromium.launch(executable_path="/opt/pw-browsers/chromium")
+            b = await p.chromium.launch(**_URUCHOM)
             pg = await b.new_page(viewport={"width": SZER_CSS, "height": 800},
                                   device_scale_factor=SZER_PNG / SZER_CSS)
             for nazwa, f in pliki.items():

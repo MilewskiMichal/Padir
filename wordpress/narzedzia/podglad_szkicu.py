@@ -29,7 +29,18 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))  # tu leży wp.py
-from wp import call
+
+
+def call(*a, **k):
+    """wp.call ladowany dopiero przy uzyciu: zywa_strona.py importuje ten modul i nie potrzebuje hasla."""
+    from wp import call as _call
+    return _call(*a, **k)
+
+
+_CHROMIUM = os.environ.get("PADIR_CHROMIUM") or (
+    "/opt/pw-browsers/chromium" if os.path.exists("/opt/pw-browsers/chromium") else None)
+# PADIR_CHROMIUM albo przegladarka kontenera chmurowego; lokalnie ta z `playwright install chromium`
+_URUCHOM = {"executable_path": _CHROMIUM} if _CHROMIUM else {}
 
 RAMA = "https://grawerowanie-laserowe.pl/wycinanie-laserowe/"
 # strony branzowe (.pdl) skladamy w ramie strony HoReCa
@@ -206,7 +217,7 @@ def main():
     from playwright.sync_api import sync_playwright
     pomiary = {}
     with sync_playwright() as pw:
-        br = pw.chromium.launch(executable_path="/opt/pw-browsers/chromium")
+        br = pw.chromium.launch(**_URUCHOM)
         for w in szer:
             s = br.new_page(viewport={"width": w, "height": 900})
             s.goto("file://" + sciezka, wait_until="load", timeout=180000)

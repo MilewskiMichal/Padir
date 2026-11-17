@@ -47,7 +47,7 @@ JS_POMIAR = r"""() => {
 }"""
 wyn = {}
 with sync_playwright() as pw:
-    br = pw.chromium.launch(executable_path="/opt/pw-browsers/chromium")
+    br = pw.chromium.launch(**({"executable_path": "/opt/pw-browsers/chromium"} if os.path.exists("/opt/pw-browsers/chromium") else {}))
     for w in (320, 360, 390, 414, 480, 576, 768, 1024, 1160, 1440):
         for stan in ("init", "invalid", "sent"):
             s = br.new_page(viewport={"width": w, "height": 900})

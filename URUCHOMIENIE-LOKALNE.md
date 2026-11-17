@@ -19,18 +19,31 @@ git checkout claude/padir-wordpress-integration-labd7q
 
 ## 2. Python
 
+macOS i Linux:
+
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install python-docx pillow playwright openpyxl
+source .venv/bin/activate
+pip install python-docx pillow playwright openpyxl tzdata
 python -m playwright install chromium
 ```
 
+Windows (PowerShell):
+
+```powershell
+py -3 -m venv .venv
+.venv\Scripts\activate
+pip install python-docx pillow playwright openpyxl tzdata
+python -m playwright install chromium
+```
+
+Na Windowsie w poleceniach z tej instrukcji pisz `python` zamiast `python3`.
+
 Do czego to służy:
 
-- `python-docx` i `playwright` budują artykuły WhitePress (docx i infografiki).
+- `python-docx` i `playwright` budują artykuły WhitePress: docx i infografiki.
 - `pillow` składa kontaktówki zdjęć.
-- `openpyxl` eksportuje zgłoszenia z formularza.
+- `openpyxl` i `tzdata` są dla eksportu zgłoszeń z formularza.
 - Same skrypty do WordPressa działają na czystym Pythonie.
 
 ## 3. Hasło do WordPressa
@@ -39,23 +52,28 @@ Przy okazji zrób rotację, bo stare hasło aplikacji kiedyś wyciekło:
 
 1. W panelu WordPressa otwórz Użytkownicy, potem profil konta, którego używa Claude, i sekcję Hasła aplikacji.
 2. Unieważnij stare hasło i wygeneruj nowe.
-3. Zapisz je w zmiennych środowiskowych. Nigdy nie wklejaj go w czacie z Claude ani do repozytorium.
+3. Zapisz je w pliku. Nigdy nie wklejaj hasła w czacie z Claude, do repozytorium ani jako argumentu polecenia, bo zostaje w historii terminala.
 
-macOS i Linux (dopisz do `~/.zshrc` albo `~/.bashrc`, potem otwórz nowy terminal):
+Najprościej: w edytorze tekstu utwórz plik `wordpress/wp.creds.json` z treścią:
 
-```bash
-export PADIR_WP_USER="login-konta"
-export PADIR_WP_APP_PASSWORD="xxxx xxxx xxxx xxxx xxxx xxxx"
+```json
+{"user": "login-konta", "app_password": "xxxx xxxx xxxx xxxx xxxx xxxx"}
 ```
 
-Windows (PowerShell, potem nowe okno terminala):
+Plik jest w `.gitignore`. Na macOS i Linuksie zablokuj go dla innych użytkowników poleceniem `chmod 600 wordpress/wp.creds.json`.
+
+Zamiast pliku możesz użyć zmiennych `PADIR_WP_USER` i `PADIR_WP_APP_PASSWORD`; mają pierwszeństwo przed plikiem.
+
+- **macOS i Linux:** dopisz `export ...` do `~/.zshrc` albo `~/.bashrc` w edytorze, potem zablokuj plik poleceniem `chmod 600`.
+- **Windows (PowerShell):** wpisane w ten sposób hasło nie trafia do historii:
 
 ```powershell
-setx PADIR_WP_USER "login-konta"
-setx PADIR_WP_APP_PASSWORD "xxxx xxxx xxxx xxxx xxxx xxxx"
+[Environment]::SetEnvironmentVariable("PADIR_WP_USER", "login-konta", "User")
+$h = Read-Host "Haslo aplikacji"
+[Environment]::SetEnvironmentVariable("PADIR_WP_APP_PASSWORD", $h, "User")
 ```
 
-Zamiast zmiennych możesz utworzyć `wordpress/wp.creds.json` z treścią `{"user": "...", "app_password": "..."}`. Plik jest w `.gitignore`; na macOS i Linuksie nadaj mu `chmod 600`.
+Po ustawieniu zmiennych otwórz nowe okno terminala.
 
 Test, który tylko czyta i przy okazji odświeża spis stron dla sprawdzarki:
 
@@ -105,6 +123,7 @@ Sprawdź w WhitePress przez Chrome, dlaczego odrzucono artykuły nr 1 i 6 (powó
   3. Wpisz `/chrome` i wybierz Reconnect extension.
 - **Rozszerzenie niewykryte przy pierwszym uruchomieniu**: zrestartuj Chrome, bo musi wczytać nową konfigurację połączenia.
 - **Połączenie zrywa się po dłuższej przerwie**: wpisz `/chrome` i wybierz Reconnect extension.
-- **Skrypt mówi „Brak poświadczeń WordPressa”**: zmienne z punktu 3 nie są widoczne w tym terminalu. Otwórz nowe okno albo sprawdź plik `wordpress/wp.creds.json`.
+- **Skrypt mówi „Brak poswiadczen WordPressa”**: nie ma pliku `wordpress/wp.creds.json`, a zmienne z punktu 3 nie są widoczne w tym terminalu. Utwórz plik albo otwórz nowe okno terminala.
+- **Infografiki WhitePress nie chcą się wyrenderować**: sprawdź, czy w aktywnym `.venv` wykonałeś `python -m playwright install chromium`.
 
 Dokumentacja: [Claude Code z Chrome](https://code.claude.com/docs/en/chrome), [przenoszenie sesji z chmury](https://code.claude.com/docs/en/claude-code-on-the-web#continue-a-cloud-session-in-your-terminal).

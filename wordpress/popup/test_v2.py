@@ -1,6 +1,6 @@
 import os, re, sys, hashlib, json
-HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.dirname(HERE)); sys.path.insert(0, HERE)
-from podglad_szkicu import pobierz, lokalizuj, MEDIA, wytnij_div
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.dirname(HERE)); sys.path.insert(0, os.path.join(os.path.dirname(HERE), "narzedzia")); sys.path.insert(0, HERE)
+from podglad_szkicu import pobierz, lokalizuj, MEDIA, wytnij_div, _URUCHOM
 import popup_hala
 from playwright.sync_api import sync_playwright
 ZRODLO = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "kontakt-surowy.html")
@@ -27,7 +27,7 @@ STAN = """() => { const p = document.querySelector('.pdw-popup'); if (!p) return
      klasa_spectry: p.classList.contains('uagb-block-a7c3e591'), fokus: document.activeElement && document.activeElement.textContent.trim()}; }"""
 wyn = {}
 with sync_playwright() as pw:
-    br = pw.chromium.launch(executable_path="/opt/pw-browsers/chromium")
+    br = pw.chromium.launch(**_URUCHOM)
     def nowa(w=1440, czas=None):
         ctx = br.new_context(viewport={"width": w, "height": 900})
         if czas: ctx.add_init_script(f"(() => {{ const t = {czas}; Date.now = () => t; }})();")

@@ -23,3 +23,9 @@ __pycache__/
 
 # lokalne srodowisko Pythona
 .venv/
+
+# eksport skrzynki i zgloszenia z formularza (dane osobowe klientow)
+*.mbox
+Takeout/
+wordpress/formularz-cf7/*.csv
+wordpress/formularz-cf7/*.xlsx

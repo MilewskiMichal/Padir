@@ -167,7 +167,7 @@
    "sender": "form@grawerowanie-laserowe.pl",
    "recipient": "laser@padir.pl",
    "body": "Cześć, \n\n[your-name] uzupełnił/a formularz \n\nDane kontaktowe to:\n[your-email]\n[tel-394]\n\nTreść zapytania:\n[your-message]\n\n\n--\nSmacznej kawusi!",
-   "additional_headers": "Cc: m.milewski.sm@gmail.com",
+   "additional_headers": "Cc: <adres prywatny usunięty>",
    "attachments": "",
    "use_html": false,
    "exclude_blank": false
