@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Cienka warstwa na REST API WordPressa.
 
-Poswiadczenia siedza w `wp.creds.json` obok tego pliku, z uprawnieniami 600.
+Poswiadczenia, w tej kolejnosci:
+  1. zmienne srodowiskowe PADIR_WP_USER i PADIR_WP_APP_PASSWORD,
+  2. plik `wp.creds.json` obok tego pliku, z uprawnieniami 600, poza gitem:
+     {"user": "<login>", "app_password": "<haslo aplikacji>"}
 Nigdy nie trafiaja do argumentow polecenia ani na wyjscie, bo historia powloki
 i logi to miejsca, z ktorych haslo sie juz nie da wycofac.
 
@@ -20,8 +23,14 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PLIK = os.path.join(HERE, "wp.creds.json")
 BAZA = "https://grawerowanie-laserowe.pl/wp-json"
 
-with open(PLIK, encoding="utf-8") as f:
-    _k = json.load(f)
+if os.environ.get("PADIR_WP_USER") and os.environ.get("PADIR_WP_APP_PASSWORD"):
+    _k = {"user": os.environ["PADIR_WP_USER"], "app_password": os.environ["PADIR_WP_APP_PASSWORD"]}
+elif os.path.exists(PLIK):
+    with open(PLIK, encoding="utf-8") as f:
+        _k = json.load(f)
+else:
+    raise SystemExit("Brak poswiadczen WordPressa: ustaw PADIR_WP_USER i PADIR_WP_APP_PASSWORD "
+                     "albo utworz wordpress/wp.creds.json (chmod 600). Szczegoly: URUCHOMIENIE-LOKALNE.md")
 
 _naglowek = "Basic " + base64.b64encode(
     f"{_k['user']}:{_k['app_password']}".encode()).decode()

@@ -24,7 +24,9 @@ import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+WORDPRESS = os.path.dirname(os.path.dirname(HERE))  # tu leży wp.py
+NARZEDZIA = os.path.join(WORDPRESS, "narzedzia")    # tu leży sprawdz_szkic.py
+sys.path.insert(0, WORDPRESS)
 from wp import call
 
 STRONY = {
@@ -53,11 +55,11 @@ def main():
     if cfg.get("opublikowany"):
         sys.exit(f"szkic {klucz} jest już opublikowany jako strona {cfg['opublikowany']}; "
                  "zmieniaj tamtą stronę, nie szkic")
-    plik = os.path.join(HERE, "praca", klucz, "strona.html")
+    plik = os.path.join(HERE, klucz, "strona.html")
     tresc = open(plik, encoding="utf-8").read()
 
     print(f"szkic: {klucz}  ({len(tresc)} znaków)")
-    wynik = subprocess.run([sys.executable, "-I", os.path.join(HERE, "sprawdz_szkic.py"),
+    wynik = subprocess.run([sys.executable, "-I", os.path.join(NARZEDZIA, "sprawdz_szkic.py"),
                             plik, "--szkic"] + (["--pdl"] if cfg.get("pdl") else []),
                            capture_output=True, text=True)
     print("  " + wynik.stdout.strip().splitlines()[0])
@@ -86,7 +88,7 @@ def main():
         return
 
     if p:
-        kopia = os.path.join(HERE, "praca", klucz, f"backup-szkic-{p['id']}.json")
+        kopia = os.path.join(HERE, klucz, f"backup-szkic-{p['id']}.json")
         json.dump({"id": p["id"], "content": p["content"]["raw"]},
                   open(kopia, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"  kopia poprzedniej wersji: {os.path.relpath(kopia, HERE)}")
@@ -106,7 +108,7 @@ def main():
     print(f"  id: {r['id']}   status: {r['status']}   szablon: {r.get('template')}")
     print(f"  podgląd w panelu: https://grawerowanie-laserowe.pl/?page_id={r['id']}&preview=true")
     json.dump({"id": r["id"], "slug": cfg["slug"]},
-              open(os.path.join(HERE, "praca", klucz, "szkic-id.json"), "w"), indent=1)
+              open(os.path.join(HERE, klucz, "szkic-id.json"), "w"), indent=1)
 
 
 if __name__ == "__main__":

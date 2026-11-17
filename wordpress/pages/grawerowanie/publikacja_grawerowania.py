@@ -26,7 +26,9 @@ import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+WORDPRESS = os.path.dirname(os.path.dirname(HERE))  # tu leży wp.py
+NARZEDZIA = os.path.join(WORDPRESS, "narzedzia")    # tu leży sprawdz_szkic.py
+sys.path.insert(0, WORDPRESS)
 from wp import call  # noqa: E402
 
 SZKIC, STRONA = 2584, 456
@@ -39,7 +41,7 @@ def sprawdz(tresc):
     plik = os.path.join(HERE, "_tmp-456.html")
     with open(plik, "w", encoding="utf-8") as f:
         f.write(tresc)
-    w = subprocess.run([sys.executable, "-I", os.path.join(HERE, "sprawdz_szkic.py"), plik, "--json"],
+    w = subprocess.run([sys.executable, "-I", os.path.join(NARZEDZIA, "sprawdz_szkic.py"), plik, "--json"],
                        capture_output=True, text=True)
     os.remove(plik)
     wynik = json.loads(w.stdout)

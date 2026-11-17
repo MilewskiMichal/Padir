@@ -20,3 +20,6 @@ seo/whitepress/**/*.zip
 !seo/whitepress/*/infografiki/*.png
 !seo/whitepress/*/zrodla/
 __pycache__/
+
+# lokalne srodowisko Pythona
+.venv/

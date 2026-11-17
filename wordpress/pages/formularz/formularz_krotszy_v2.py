@@ -28,7 +28,10 @@ import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+WORDPRESS = os.path.dirname(os.path.dirname(HERE))  # tu leży wp.py
+NARZEDZIA = os.path.join(WORDPRESS, "narzedzia")    # tu leży sprawdz_szkic.py
 sys.path.insert(0, HERE)
+sys.path.insert(1, WORDPRESS)
 
 ZAMIANY = [
     (".pdw .pdw-form .wpcf7-form>p{margin:0}",
@@ -116,7 +119,7 @@ def przerob(tresc, siatka=False):
 def sprawdzarka(tresc, szkic):
     plik = os.path.join(HERE, "_tmp-formularz.html")
     open(plik, "w", encoding="utf-8").write(tresc)
-    arg = [sys.executable, "-I", os.path.join(HERE, "sprawdz_szkic.py"), plik, "--json"] + (["--szkic"] if szkic else [])
+    arg = [sys.executable, "-I", os.path.join(NARZEDZIA, "sprawdz_szkic.py"), plik, "--json"] + (["--szkic"] if szkic else [])
     w = subprocess.run(arg, capture_output=True, text=True)
     os.remove(plik)
     return [b["opis"] for b in json.loads(w.stdout)["bledy"]]

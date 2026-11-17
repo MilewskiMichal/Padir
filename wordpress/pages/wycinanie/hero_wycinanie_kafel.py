@@ -30,7 +30,9 @@ import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+WORDPRESS = os.path.dirname(os.path.dirname(HERE))  # tu leży wp.py
+NARZEDZIA = os.path.join(WORDPRESS, "narzedzia")    # tu leży sprawdz_szkic.py
+sys.path.insert(0, WORDPRESS)
 from wp import call
 
 STRONA = 1019
@@ -45,7 +47,7 @@ def bledy_sprawdzarki(tresc):
     """Zwraca liste bledow sprawdzarki, zeby porownac przed i po."""
     plik = os.path.join(HERE, "_tmp-1019.html")
     open(plik, "w", encoding="utf-8").write(tresc)
-    w = subprocess.run([sys.executable, "-I", os.path.join(HERE, "sprawdz_szkic.py"), plik, "--json"],
+    w = subprocess.run([sys.executable, "-I", os.path.join(NARZEDZIA, "sprawdz_szkic.py"), plik, "--json"],
                        capture_output=True, text=True)
     os.remove(plik)
     return [b["opis"] for b in json.loads(w.stdout)["bledy"]]

@@ -2,18 +2,21 @@
 
 Skrypty do pracy na serwisie przez REST API WordPressa.
 
+## Start
+
+- `CLAUDE.md`: najwazniejsze informacje o projekcie, zasady i stan prac (Claude Code wczytuje go sam).
+- `URUCHOMIENIE-LOKALNE.md`: praca lokalna z Claude Code i Chrome.
+
 ## Poswiadczenia
 
-`wordpress/wp.creds.json`, uprawnienia 600, poza repozytorium:
+`wordpress/wp.py` bierze je ze zmiennych srodowiskowych `PADIR_WP_USER`
+i `PADIR_WP_APP_PASSWORD`, a gdy ich nie ma, z pliku
+`wordpress/wp.creds.json` (uprawnienia 600, poza repozytorium):
 
     {"user": "<login>", "app_password": "<haslo aplikacji>"}
 
 Haslo aplikacji generuje sie w panelu WordPressa: Uzytkownicy, profil,
 Hasla aplikacji. Nie wklejaj go do repozytorium ani na czat.
-
-Lepiej: trzymac je jako zmienne srodowiskowe srodowiska sesji
-(`PADIR_WP_USER`, `PADIR_WP_APP_PASSWORD`), wtedy przezyja odtworzenie
-kontenera.
 
 ## Zasady, ktore wynikly z pracy na tym serwisie
 

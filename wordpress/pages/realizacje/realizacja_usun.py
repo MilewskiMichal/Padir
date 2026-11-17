@@ -30,7 +30,9 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+WORDPRESS = os.path.dirname(os.path.dirname(HERE))  # tu leży wp.py
+NARZEDZIA = os.path.join(WORDPRESS, "narzedzia")    # tu leży sprawdz_szkic.py
+sys.path.insert(0, WORDPRESS)
 from wp import call
 
 STRONA = 1397

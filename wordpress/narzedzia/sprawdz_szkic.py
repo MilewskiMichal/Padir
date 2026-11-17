@@ -121,7 +121,8 @@ def main():
             if x.get("url_medium"):
                 media_urls.add(x["url_medium"])
     except Exception:
-        pass
+        ostrz("zrodla", "brak zrodla/media.json, nie sprawdzam adresow zdjec; "
+                        "uruchom narzedzia/odswiez_zrodla.py")
     imgs = list(re.finditer(r"<img\b[^>]*>", t))
     info["zdjec"] = len(imgs)
     hero = re.search(r'<section class="pdl-hero".*?</section>' if pdl else r"<header\b.*?</header>", t, re.S)
@@ -239,7 +240,8 @@ def main():
             sciezka = x["link"].replace("https://grawerowanie-laserowe.pl", "")
             znane[sciezka] = x["status"]
     except Exception:
-        pass
+        ostrz("zrodla", "brak zrodla/SPIS.json, nie sprawdzam linkow wewnetrznych; "
+                        "uruchom narzedzia/odswiez_zrodla.py")
     for m in re.finditer(r'href="((?:https://grawerowanie-laserowe\.pl)?/[^"#?]*)', t):
         sciezka = m.group(1).replace("https://grawerowanie-laserowe.pl", "") or "/"
         if sciezka.startswith("/wp-content/"):

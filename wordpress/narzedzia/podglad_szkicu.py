@@ -28,7 +28,7 @@ import time
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
+sys.path.insert(0, os.path.dirname(HERE))  # tu leży wp.py
 from wp import call
 
 RAMA = "https://grawerowanie-laserowe.pl/wycinanie-laserowe/"
