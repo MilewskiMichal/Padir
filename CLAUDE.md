@@ -111,7 +111,8 @@ Przeglądarka ma zalogowane konta Michała: WhitePress, Webpozycja, Senuto, pane
 ## Stan prac (17.11.2026)
 
 - **WhitePress**:
-  - Artykuły nr 1 i 6 zostały zgłoszone i odrzucone. Najpierw ustal w WhitePress (przez Chrome) powód odrzucenia dla każdego zlecenia.
+  - Nr 6 („Wycinanie laserem z plexi i sklejki”) jest opublikowany.
+  - Nr 1 („Grawerowanie laserowe krok po kroku”) odrzucił wydawca rynekinformacji.pl, a środki wróciły na saldo. Ustal w WhitePress (przez Chrome) dosłowny powód odrzucenia.
   - Potem popraw treść i przebuduj paczkę: `infografiki.py`, jeśli zmieniły się infografiki, i `zbuduj.py`.
   - Założenia planu: do 3 linków w artykule, mieszane anchory (nie wszystko frazą), część linków na stronę główną.
   - Pełny plan 15 tematów był tylko w rozmowie i nie ma go w repo.
