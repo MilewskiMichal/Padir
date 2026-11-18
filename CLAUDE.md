@@ -6,6 +6,7 @@ Repozytorium do obsługi serwisu pracowni Padir (WordPress) i materiałów marke
 
 - Zleceniodawca to Michał (prowadzi serwis dla Padiru). Pisz do niego **po polsku**, krótko i konkretnie. Nie lubi długich wyjaśnień ani wariantów, z których nic nie wynika: daj decyzję i zrób.
 - Każdy tekst po polsku (strony, artykuły, maile, prezentacje) pisz naturalnie. **Nigdy nie używaj pauzy ani półpauzy (— –)**, tylko dywizu. Unikaj śladów AI: patetycznych otwarć, list trzech przymiotników, „warto zauważyć”.
+- **Nie używamy czarnego tła.** Ciemne sekcje i slajdy mają granat Padiru #12388C (tak zleceniodawca sam przemalował slajdy w Figmie 18.11.2026). Czerń #141414 zostaje tylko jako kolor tekstu. Na żywych stronach 1019, 456 i 2470 ciemne sekcje mają jeszcze #141414; zmiana tylko na prośbę.
 - Wyjątek: tekst klienta, który ma zostać oryginalny (np. prezentacja z PDF), przenosisz słowo w słowo, razem z jego interpunkcją.
 - Nie wymyślaj faktów o firmie, maszynach, klientach ani terminach. Pytania do klienta zapisuj:
   - do strony marketingowej w `wordpress/pages/szkice/marketing/pytania.md`,
@@ -124,7 +125,8 @@ Przeglądarka ma zalogowane konta Michała: WhitePress, Webpozycja, Senuto, pane
   - 12 slajdów, tekst oryginalny z PDF klienta, zdjęcia HoReCa, slajd 2 o HoReCa, oś czasu procesu, na końcu Karina.
   - Drugi rząd siatki: 2 opcjonalne slajdy dla HoReCa (zakres dla hotelu, restauracji i baru; co zyskuje lokal), oznaczone jako pominięte w pokazie i bez numerów. Treść oparta na stronie /uslugi-dla-horeca/ i wpisie 2550.
   - Do potwierdzenia: wybór 4 rzeczy na slajdzie HoReCa, kod 03-450 z PDF wobec 03-876, „miękkie stopy metali”, miejsce na zdjęcie zespołu na slajdzie 3.
-  - Zasady: bez niebieskich teł, bez elementów udających przyciski.
+  - Zasady: jasne slajdy białe albo #F5F5F5, ciemne tylko w granacie #12388C (nie czarne, nie cała prezentacja na niebiesko), bez elementów udających przyciski.
+  - Ostatni slajd: kontakt do Kariny (e-mail i telefon wpisał zleceniodawca).
 - **Case study 2626** „Urwana śrubka w broni za kilkadziesiąt tysięcy” (szkic z 18.11; źródło: `szkice/case-sruba/rozmowa.md`; trzy śrubki 2 mm zalane Loctite, podstawka co do 0,01 mm, właściciel przy broni, grawer broni dla KGP). Zdjęcia i film są na stronie (media 2628-2633), kontrola produkcyjna `--pdz` przechodzi z 0 błędów. Do publikacji brakuje odpowiedzi klienta: `PYTANIA-DO-KLIENTA.md`, sekcja case study.
 - **Szkice** 2585 (frezowanie) i 2602 (marketing) czekają na akceptację. Przy publikacji 2602 trzeba:
   1. Skrócić tytuł, czyli usunąć „(szkic do akceptacji)”.
