@@ -53,14 +53,17 @@ Wyszły przy zbieraniu faktów. Szkice ich nie powtarzają, ale warto je wyjaśn
 
 ## Case study „Urwana śrubka w broni za kilkadziesiąt tysięcy” (szkic 2626)
 
-Podgląd: https://grawerowanie-laserowe.pl/?page_id=2626&preview=true. Treść powstała z rozmowy z 18.11.2026 (`case-sruba/rozmowa.md`). Szare pola to miejsca na zdjęcia.
+Podgląd: https://grawerowanie-laserowe.pl/?page_id=2626&preview=true. Treść z rozmowy z 18.11.2026 (`case-sruba/rozmowa.md`).
 
-1. Którym laserem przepalaliście trzpienie i ile trwała obróbka jednej śrubki? W rozmowie padają oba słowa, „rozwierciliśmy” i „przepaliliśmy”; na stronie stoi laser.
-2. Zdjęcia do sześciu szarych pól: broń w podstawce (bez numerów), miejsce po urwanej śrubce, sama podstawka, gwint po usunięciu resztek, wpis klienta na forum albo broń po naprawie, grawer na broni. Które z nich macie?
-3. Czy klient zgodzi się na pokazanie wpisu z forum (zrzut ekranu, bez nicka albo z nickiem)? Czy możemy podać, jaka to była broń (rodzaj, bez marki i numerów)?
-4. Czy na stronie możemy podać Komendę Główną Policji z nazwy? W jakich latach to było, co dokładnie grawerowaliście na przestrzelonej broni i mniej więcej ile sztuk?
-5. Czy usuwanie urwanych śrubek to stała usługa, także przy innym sprzęcie niż broń? Jak ją wyceniacie? Sekcja kontaktowa zaprasza dziś do podania średnicy śrubki.
-6. Czy zdanie „Usunięcie zablokowanej śrubki traktujemy jak jej wymianę” jest dla was w porządku? To odpowiedź na pytanie o modyfikację broni; nie piszemy nic o przepisach.
-7. Czy grawer na broni to stała usługa, także dla klientów prywatnych? Jeśli tak, na jakich częściach broni grawerujecie?
-8. Czy wypowiedź z rozmowy możemy podpisać imieniem i nazwiskiem (kto mówi)?
-9. Czy zostaje adres /case-study/sruba-zablokowana-klejem/? Po publikacji: karta tej historii na stronie /case-study/ (2487), gdzie dziś są „Dwie historie”.
+Zdjęcia (18.11): ze zdjęć i filmu z 13.10.2026 na stronie jest 5 plików, media 2628-2633 (`case-sruba/media.json`): hero, karabin pod laserem, podstawka, film z laserem przy pracy (bez dźwięku, z kadrem startowym), element broni. Pozostałe przesłane zdjęcia to miniatury 120×160 px, za małe na stronę. Na zdjęciach widać laser znakujący Trotec ProMarker, więc ta nazwa stoi w ramce faktów i w podpisach. Sekcja „Efekt” nie ma zdjęcia.
+
+1. Czy trzpienie przepalał Trotec ProMarker ze zdjęć? Ile trwała obróbka jednej śrubki? W rozmowie padają słowa „rozwierciliśmy” i „przepaliliśmy”, a na stronie stoi laser.
+2. Czy element broni ze zdjęcia przy sekcji o grawerze (osobny element w przyrządzie z plexi, zdjęcie z 13.10 godz. 15:22) to ta sama naprawa czy inne zlecenie? Podpis mówi tylko „inny element broni pod tym samym laserem”.
+3. Czy klient zgodzi się na pokazanie wpisu z forum (zrzut ekranu, z nickiem albo bez)? Wtedy dodamy zdjęcie do sekcji „Efekt”. Czy możemy podać rodzaj broni (bez marki i numerów)?
+4. Czy macie zdjęcie szyny po naprawie w pełnej rozdzielczości? Przesłane zbliżenia szyny ze śrubkami to miniatury.
+5. Czy na stronie możemy podać Komendę Główną Policji z nazwy? W jakich latach to było, co grawerowaliście na przestrzelonej broni i mniej więcej ile sztuk?
+6. Czy usuwanie urwanych śrubek to stała usługa, także przy innym sprzęcie niż broń? Jak ją wyceniacie? Sekcja kontaktowa prosi o średnicę śrubki.
+7. Czy zdanie „Usunięcie zablokowanej śrubki traktujemy jak jej wymianę” jest dla was w porządku? To odpowiedź na pytanie o modyfikację broni; o przepisach nic nie piszemy.
+8. Czy grawer na broni to stała usługa, także dla klientów prywatnych? Na jakich częściach broni grawerujecie?
+9. Czy wypowiedź z rozmowy możemy podpisać imieniem i nazwiskiem?
+10. Czy zostaje adres /case-study/sruba-zablokowana-klejem/? Po publikacji: karta tej historii na stronie /case-study/ (2487).
