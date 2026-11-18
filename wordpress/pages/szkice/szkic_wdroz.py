@@ -43,7 +43,7 @@ STRONY = {
     # case study w ukladzie .pdz (jak /case-study/zamek-sulkowskich/), podstrona /case-study/ (2487);
     # z rozmowy z 18.11.2026, szare pola to miejsca na zdjecia
     "case-sruba": {"slug": "sruba-zablokowana-klejem",
-                   "tytul": "Śruba, której nie dało się wykręcić (szkic do akceptacji)", "pdz": True, "rodzic": 2487},
+                   "tytul": "Urwana śrubka w broni za kilkadziesiąt tysięcy (szkic do akceptacji)", "pdz": True, "rodzic": 2487},
 }
 PRODUKCYJNE = {456, 1011, 1019, 1397, 2264, 2283}
 SZABLON = "page-no-title"

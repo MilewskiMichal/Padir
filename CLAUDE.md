@@ -124,7 +124,7 @@ Przeglądarka ma zalogowane konta Michała: WhitePress, Webpozycja, Senuto, pane
   - Drugi rząd siatki: 2 opcjonalne slajdy dla HoReCa (zakres dla hotelu, restauracji i baru; co zyskuje lokal), oznaczone jako pominięte w pokazie i bez numerów. Treść oparta na stronie /uslugi-dla-horeca/ i wpisie 2550.
   - Do potwierdzenia: wybór 4 rzeczy na slajdzie HoReCa, kod 03-450 z PDF wobec 03-876, „miękkie stopy metali”, miejsce na zdjęcie zespołu na slajdzie 3.
   - Zasady: bez niebieskich teł, bez elementów udających przyciski.
-- **Case study 2626** „Śruba, której nie dało się wykręcić” (szkic z 18.11, z rozmowy: śruba zablokowana klejem do gwintów i grawer broni dla KGP). Czeka na odpowiedzi i zdjęcia: `PYTANIA-DO-KLIENTA.md`, sekcja case study.
+- **Case study 2626** „Urwana śrubka w broni za kilkadziesiąt tysięcy” (szkic z 18.11; źródło: `szkice/case-sruba/rozmowa.md`; trzy śrubki 2 mm zalane Loctite, podstawka co do 0,01 mm, właściciel przy broni, grawer broni dla KGP). Czeka na odpowiedzi i zdjęcia: `PYTANIA-DO-KLIENTA.md`, sekcja case study.
 - **Szkice** 2585 (frezowanie) i 2602 (marketing) czekają na akceptację. Przy publikacji 2602 trzeba:
   1. Skrócić tytuł, czyli usunąć „(szkic do akceptacji)”.
   2. Po zgodzie klienta dodać linki przychodzące według `szkice/marketing/linki.md` (punkt 4, pytanie L02).

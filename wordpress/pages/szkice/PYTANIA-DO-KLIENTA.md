@@ -51,15 +51,16 @@ Wyszły przy zbieraniu faktów. Szkice ich nie powtarzają, ale warto je wyjaśn
 5. Szkło od 12 sztuk. Szkic grawerowania już tego nie podaje (decyzja z 13.10: bez progu sztuk, najniższa cena realizacji 100 zł, termin do 2 dni albo od ręki za dopłatą). Próg 12 sztuk dalej stoi na żywych stronach Produkty Padir i Usługi dla HoReCa oraz we wpisie „Dlaczego dobre lokale sygnują swoje rzeczy”.
 
 
-## Case study „Śruba, której nie dało się wykręcić” (szkic 2626)
+## Case study „Urwana śrubka w broni za kilkadziesiąt tysięcy” (szkic 2626)
 
-Podgląd: https://grawerowanie-laserowe.pl/?page_id=2626&preview=true. Treść powstała z fragmentu nagrania rozmowy z 18.11.2026. Szare pola to miejsca na zdjęcia.
+Podgląd: https://grawerowanie-laserowe.pl/?page_id=2626&preview=true. Treść powstała z rozmowy z 18.11.2026 (`case-sruba/rozmowa.md`). Szare pola to miejsca na zdjęcia.
 
-1. Jaki to był przedmiot i jaka śruba (materiał, mniej więcej rozmiar)? Kim był klient (bez nazwy, sam typ: firma, osoba prywatna)?
-2. Którym laserem przepalaliście trzpień i ile to trwało?
-3. Zdjęcia do pięciu szarych pól: przedmiot w szerokim kadrze, łeb śruby przed usunięciem, trzpień po przepaleniu, gwint po usunięciu albo z nową śrubą, grawer na broni. Które z nich macie?
+1. Którym laserem przepalaliście trzpienie i ile trwała obróbka jednej śrubki? W rozmowie padają oba słowa, „rozwierciliśmy” i „przepaliliśmy”; na stronie stoi laser.
+2. Zdjęcia do sześciu szarych pól: broń w podstawce (bez numerów), miejsce po urwanej śrubce, sama podstawka, gwint po usunięciu resztek, wpis klienta na forum albo broń po naprawie, grawer na broni. Które z nich macie?
+3. Czy klient zgodzi się na pokazanie wpisu z forum (zrzut ekranu, bez nicka albo z nickiem)? Czy możemy podać, jaka to była broń (rodzaj, bez marki i numerów)?
 4. Czy na stronie możemy podać Komendę Główną Policji z nazwy? W jakich latach to było, co dokładnie grawerowaliście na przestrzelonej broni i mniej więcej ile sztuk?
-5. Czy grawer na broni to stała usługa, także dla klientów prywatnych? Jeśli tak, na jakich częściach broni grawerujecie?
-6. Czy zdanie wyróżnione w sekcji „Rozwiązanie” może być cytatem z podpisem (imię, nazwisko, funkcja)?
-7. Czy zostają tytuł „Śruba, której nie dało się wykręcić” i adres /case-study/sruba-zablokowana-klejem/?
-8. Po publikacji: karta tej historii na stronie /case-study/ (2487), gdzie dziś są „Dwie historie”.
+5. Czy usuwanie urwanych śrubek to stała usługa, także przy innym sprzęcie niż broń? Jak ją wyceniacie? Sekcja kontaktowa zaprasza dziś do podania średnicy śrubki.
+6. Czy zdanie „Usunięcie zablokowanej śrubki traktujemy jak jej wymianę” jest dla was w porządku? To odpowiedź na pytanie o modyfikację broni; nie piszemy nic o przepisach.
+7. Czy grawer na broni to stała usługa, także dla klientów prywatnych? Jeśli tak, na jakich częściach broni grawerujecie?
+8. Czy wypowiedź z rozmowy możemy podpisać imieniem i nazwiskiem (kto mówi)?
+9. Czy zostaje adres /case-study/sruba-zablokowana-klejem/? Po publikacji: karta tej historii na stronie /case-study/ (2487), gdzie dziś są „Dwie historie”.
