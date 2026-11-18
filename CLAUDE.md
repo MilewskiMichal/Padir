@@ -118,6 +118,7 @@ Przeglądarka ma zalogowane konta Michała: WhitePress, Webpozycja, Senuto, pane
   - Pełny plan 15 tematów był tylko w rozmowie i nie ma go w repo.
 - **Prezentacja firmowa** (Figma Slides): https://www.figma.com/slides/Zj9qIXJwrZJV5CkVlviMLr
   - 12 slajdów, tekst oryginalny z PDF klienta, zdjęcia HoReCa, slajd 2 o HoReCa, oś czasu procesu, na końcu Karina.
+  - Drugi rząd siatki: 2 opcjonalne slajdy dla HoReCa (zakres dla hotelu, restauracji i baru; co zyskuje lokal), oznaczone jako pominięte w pokazie i bez numerów. Treść oparta na stronie /uslugi-dla-horeca/ i wpisie 2550.
   - Do potwierdzenia: wybór 4 rzeczy na slajdzie HoReCa, kod 03-450 z PDF wobec 03-876, „miękkie stopy metali”, miejsce na zdjęcie zespołu na slajdzie 3.
   - Zasady: bez niebieskich teł, bez elementów udających przyciski.
 - **Szkice** 2585 (frezowanie) i 2602 (marketing) czekają na akceptację. Przy publikacji 2602 trzeba:
