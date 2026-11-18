@@ -50,3 +50,16 @@ Wyszły przy zbieraniu faktów. Szkice ich nie powtarzają, ale warto je wyjaśn
 4. Frezowanie metali. Usługi dla przemysłu i obecna strona Frezowanie CNC: obróbka 3- i 5-osiowa aluminium, mosiądzu, miedzi. Wpis „Cięcie przemysłowe”: w usługach skupiacie się na miękkich materiałach (pytanie 1 przy frezowaniu).
 5. Szkło od 12 sztuk. Szkic grawerowania już tego nie podaje (decyzja z 13.10: bez progu sztuk, najniższa cena realizacji 100 zł, termin do 2 dni albo od ręki za dopłatą). Próg 12 sztuk dalej stoi na żywych stronach Produkty Padir i Usługi dla HoReCa oraz we wpisie „Dlaczego dobre lokale sygnują swoje rzeczy”.
 
+
+## Case study „Śruba, której nie dało się wykręcić” (szkic 2626)
+
+Podgląd: https://grawerowanie-laserowe.pl/?page_id=2626&preview=true. Treść powstała z fragmentu nagrania rozmowy z 18.11.2026. Szare pola to miejsca na zdjęcia.
+
+1. Jaki to był przedmiot i jaka śruba (materiał, mniej więcej rozmiar)? Kim był klient (bez nazwy, sam typ: firma, osoba prywatna)?
+2. Którym laserem przepalaliście trzpień i ile to trwało?
+3. Zdjęcia do pięciu szarych pól: przedmiot w szerokim kadrze, łeb śruby przed usunięciem, trzpień po przepaleniu, gwint po usunięciu albo z nową śrubą, grawer na broni. Które z nich macie?
+4. Czy na stronie możemy podać Komendę Główną Policji z nazwy? W jakich latach to było, co dokładnie grawerowaliście na przestrzelonej broni i mniej więcej ile sztuk?
+5. Czy grawer na broni to stała usługa, także dla klientów prywatnych? Jeśli tak, na jakich częściach broni grawerujecie?
+6. Czy zdanie wyróżnione w sekcji „Rozwiązanie” może być cytatem z podpisem (imię, nazwisko, funkcja)?
+7. Czy zostają tytuł „Śruba, której nie dało się wykręcić” i adres /case-study/sruba-zablokowana-klejem/?
+8. Po publikacji: karta tej historii na stronie /case-study/ (2487), gdzie dziś są „Dwie historie”.

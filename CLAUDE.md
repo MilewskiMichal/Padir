@@ -43,6 +43,8 @@ Repozytorium do obsługi serwisu pracowni Padir (WordPress) i materiałów marke
 | 2602 | /uslugi-dla-marketingu/ | **szkic**, strona branżowa `.pdl`, czeka na akceptację |
 | 2585 | frezowanie-cnc-szkic | **szkic** nowej strony Frezowanie CNC |
 | 2530 | wycinanie-laserowe-szkic | dawny szkic wycinania, wzór konwencji szkicu |
+| 2487 | /case-study/ | lista case study (szablon `.pdl`); 2470 Zamek Sułkowskich i 12 WOŚP to opublikowane historie |
+| 2626 | /case-study/sruba-zablokowana-klejem/ | **szkic** case study w układzie `.pdz`, z szarymi miejscami na zdjęcia |
 | 8 | /produkty/ | |
 | 1812, 2228 | podstrony 456 | prezenty, grawerowanie na nożu |
 | 1631, 2293, 2078, 2550 | blog | plik do graweru; plexi, sklejka, laminat; cięcie przemysłowe (akryl, sklejka, MDF); grawer w HoReCa |
@@ -54,7 +56,7 @@ Podgląd szkicu po zalogowaniu: `https://grawerowanie-laserowe.pl/?page_id=<id>&
 
 - `wordpress/wp.py`: klient REST API. Poświadczenia bierze ze zmiennych `PADIR_WP_USER` i `PADIR_WP_APP_PASSWORD` albo z pliku `wordpress/wp.creds.json` (chmod 600, w .gitignore).
 - `wordpress/narzedzia/`:
-  - `sprawdz_szkic.py`: kontrola treści przed zapisem. Flaga `--szkic` dla szkiców do akceptacji, `--pdl` dla stron branżowych, `--json` dla agentów.
+  - `sprawdz_szkic.py`: kontrola treści przed zapisem. Flaga `--szkic` dla szkiców do akceptacji, `--pdl` dla stron branżowych, `--pdz` dla case study, `--json` dla agentów.
   - `odswiez_zrodla.py`: zapisuje do `narzedzia/zrodla/` spis stron i wpisów (`SPIS.json`) oraz bibliotekę mediów (`media.json`). Tylko te dwa pliki. Bez nich sprawdzarka pomija kontrolę linków i zdjęć, zgłaszając tylko ostrzeżenie.
   - `podglad_szkicu.py` i `zywa_strona.py`: wierny podgląd strony z motywem.
   - `kontaktowka.py`: miniatury zdjęć. Nie zgaduj treści zdjęcia z nazwy pliku.
@@ -78,7 +80,8 @@ Podgląd szkicu po zalogowaniu: `https://grawerowanie-laserowe.pl/?page_id=<id>&
 3. Treść przed zapisem przechodzi `sprawdz_szkic.py` z 0 błędów. Najpierw uruchom `odswiez_zrodla.py`. Flagi:
    - szkic do akceptacji: `--szkic`,
    - produkcja: bez `--szkic`,
-   - strony branżowe `.pdl`: zawsze z `--pdl`.
+   - strony branżowe `.pdl`: zawsze z `--pdl`,
+   - case study `.pdz`: zawsze z `--pdz`; szare pola `ramka miejsce` (miejsca na zdjęcia) przechodzą tylko z `--szkic`.
 4. Sprawdzaj wynik na **serwowanej** stronie, nie na lokalnym podglądzie. LiteSpeed czyści stronę przy zapisie. Do omijania cache używaj `?odswiez=`, nigdy `?p=`, `?w=`, `?cat=`, `?s=`, `?m=`.
 5. `data-no-optimize="1"` na każdym `<style>` w treści, bo inaczej UCSS wytnie reguły.
 6. HTML parsuj parserem, nie wyrażeniem regularnym.
@@ -121,6 +124,7 @@ Przeglądarka ma zalogowane konta Michała: WhitePress, Webpozycja, Senuto, pane
   - Drugi rząd siatki: 2 opcjonalne slajdy dla HoReCa (zakres dla hotelu, restauracji i baru; co zyskuje lokal), oznaczone jako pominięte w pokazie i bez numerów. Treść oparta na stronie /uslugi-dla-horeca/ i wpisie 2550.
   - Do potwierdzenia: wybór 4 rzeczy na slajdzie HoReCa, kod 03-450 z PDF wobec 03-876, „miękkie stopy metali”, miejsce na zdjęcie zespołu na slajdzie 3.
   - Zasady: bez niebieskich teł, bez elementów udających przyciski.
+- **Case study 2626** „Śruba, której nie dało się wykręcić” (szkic z 18.11, z rozmowy: śruba zablokowana klejem do gwintów i grawer broni dla KGP). Czeka na odpowiedzi i zdjęcia: `PYTANIA-DO-KLIENTA.md`, sekcja case study.
 - **Szkice** 2585 (frezowanie) i 2602 (marketing) czekają na akceptację. Przy publikacji 2602 trzeba:
   1. Skrócić tytuł, czyli usunąć „(szkic do akceptacji)”.
   2. Po zgodzie klienta dodać linki przychodzące według `szkice/marketing/linki.md` (punkt 4, pytanie L02).

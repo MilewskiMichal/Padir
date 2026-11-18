@@ -40,6 +40,10 @@ STRONY = {
     # trzeba tylko skrocic tytul
     "marketing": {"slug": "uslugi-dla-marketingu",
                   "tytul": "Usługi dla marketingu (szkic do akceptacji)", "pdl": True},
+    # case study w ukladzie .pdz (jak /case-study/zamek-sulkowskich/), podstrona /case-study/ (2487);
+    # z rozmowy z 18.11.2026, szare pola to miejsca na zdjecia
+    "case-sruba": {"slug": "sruba-zablokowana-klejem",
+                   "tytul": "Śruba, której nie dało się wykręcić (szkic do akceptacji)", "pdz": True, "rodzic": 2487},
 }
 PRODUKCYJNE = {456, 1011, 1019, 1397, 2264, 2283}
 SZABLON = "page-no-title"
@@ -60,7 +64,8 @@ def main():
 
     print(f"szkic: {klucz}  ({len(tresc)} znaków)")
     wynik = subprocess.run([sys.executable, "-I", os.path.join(NARZEDZIA, "sprawdz_szkic.py"),
-                            plik, "--szkic"] + (["--pdl"] if cfg.get("pdl") else []),
+                            plik, "--szkic"] + (["--pdl"] if cfg.get("pdl") else [])
+                           + (["--pdz"] if cfg.get("pdz") else []),
                            capture_output=True, text=True)
     print("  " + wynik.stdout.strip().splitlines()[0])
     if wynik.returncode != 0:
@@ -95,6 +100,8 @@ def main():
 
     cialo = {"title": cfg["tytul"], "slug": cfg["slug"], "status": "draft",
              "template": SZABLON, "content": tresc, "comment_status": "closed"}
+    if cfg.get("rodzic"):
+        cialo["parent"] = cfg["rodzic"]
     st2, r = call("POST", f"/wp/v2/pages/{p['id']}" if p else "/wp/v2/pages", body=cialo)
     print(f"\nzapis: HTTP {st2}")
     if st2 not in (200, 201):

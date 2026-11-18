@@ -5,7 +5,7 @@ Kazda regula tutaj to blad, ktory juz raz poszedl na produkcje albo prawie
 poszedl. Skrypt nie ocenia jakosci tekstu ani wygladu, tylko rzeczy,
 ktore da sie sprawdzic maszynowo i ktorych czlowiek nie zauwazy w podgladzie.
 
-    python3 -I sprawdz_szkic.py plik.html [--szkic] [--pdl] [--json]
+    python3 -I sprawdz_szkic.py plik.html [--szkic] [--pdl | --pdz] [--json]
 
   --szkic   tryb wersji do akceptacji: zolte ramki `pdw-uwaga` sa dozwolone
             (i liczone), bo tak oznaczamy rzeczy do potwierdzenia z klientem.
@@ -14,6 +14,11 @@ ktore da sie sprawdzic maszynowo i ktorych czlowiek nie zauwazy w podgladzie.
             kontener <div class="pdl">, hero to <section class="pdl-hero">,
             zamiast formularza przycisk do /kontakt/, a kolor h3 ustawia
             arkusz (.pdl h3{...!important}).
+  --pdz     strona case study w szablonie .pdz (jak /case-study/zamek-sulkowskich/):
+            kontener <div class="pdz">, hero to <header class="hero">, zamiast
+            formularza przycisk do /kontakt/, kolor h3 ustawia arkusz
+            (.owijka h3{color:...!important}). Szare pola `ramka miejsce`
+            (miejsca na zdjecia) wolno zostawic tylko w szkicu.
   --json    wynik jako JSON (dla agentow).
 
 Kod wyjscia 0 = brak bledow, 1 = sa bledy. Ostrzezenia nie zmieniaja kodu.
@@ -48,6 +53,7 @@ def main():
     argv = [a for a in sys.argv[1:] if not a.startswith("--")]
     szkic = "--szkic" in sys.argv
     pdl = "--pdl" in sys.argv
+    pdz = "--pdz" in sys.argv
     jako_json = "--json" in sys.argv
     if not argv:
         print(__doc__)
@@ -97,7 +103,10 @@ def main():
 
     # 5. Naglowki h3: motyw ma `div div div h3{color:...base!important}`,
     #    ktory maluje je na bialo. Tylko inline z !important to przebija.
-    arkusz_h3 = pdl and re.search(r"\.pdl h3[^{]*\{[^}]*color:[^}]*!important", t)
+    arkusz_h3 = (pdl and re.search(r"\.pdl h3[^{]*\{[^}]*color:[^}]*!important", t)) or \
+                (pdz and re.search(r"\.owijka h3\{[^}]*color:[^}]*!important", t))
+    if pdz and not arkusz_h3:
+        blad("h3-kolor", "w arkuszu .pdz brak reguły .owijka h3{color:...!important}")
     if pdl and not arkusz_h3:
         blad("h3-kolor", "w arkuszu .pdl brak reguły .pdl h3{color:...!important}")
     for m in ([] if arkusz_h3 else re.finditer(r"<h3\b([^>]*)>", t)):
@@ -216,9 +225,10 @@ def main():
         blad("html", f"…i jeszcze {len(lp.problemy) - 12} problemów ze znacznikami")
 
     # 9. Kontener i formularz.
-    if pdl:
-        if not re.search(r'<div class="pdl"', t):
-            blad("kontener", "brak kontenera <div class=\"pdl\">, arkusz jest zawężony do .pdl")
+    if pdl or pdz:
+        kl = "pdl" if pdl else "pdz"
+        if not re.search(rf'<div class="{kl}"', t):
+            blad("kontener", f"brak kontenera <div class=\"{kl}\">, arkusz jest zawężony do .{kl}")
         if not re.search(r'href="(?:https://grawerowanie-laserowe\.pl)?/kontakt/"', t):
             blad("kontakt", "brak przycisku do /kontakt/ (strony branżowe nie mają formularza)")
     else:
@@ -270,9 +280,15 @@ def main():
     # 13. Znaczniki wersji roboczej.
     uwagi = len(re.findall(r'class="pdw-uwaga"', t))
     info["ramek_pdw_uwaga"] = uwagi
+    # Bez arkuszy i skryptow: fonty wklejone w base64 potrafia zawierac np. „XXX”.
+    bez_arkuszy = re.sub(r"<script\b.*?</script>|<style\b.*?</style>", " ", t, flags=re.S)
     for slad in ("blob:", "SZKIC", "Lorem", "lorem ipsum", "TODO", "XXX", "[[", "]]"):
-        if slad in t:
+        if slad in (t if slad == "blob:" else bez_arkuszy):
             blad("slad", f"pozostałość w treści: „{slad}”")
+    miejsca = len(re.findall(r'class="ramka miejsce"', t))
+    info["miejsc_na_zdjecia"] = miejsca
+    if not szkic and miejsca:
+        blad("szkic", f"{miejsca} miejsc na zdjęcia; przed publikacją podmień je na zdjęcia")
     if not szkic and uwagi:
         blad("szkic", f"{uwagi} ramek pdw-uwaga - na produkcję nie mogą trafić")
     if not szkic and "Wersja robocza" in t:
