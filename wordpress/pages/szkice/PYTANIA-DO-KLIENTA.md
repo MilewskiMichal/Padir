@@ -19,6 +19,8 @@ Podgląd szkiców (po zalogowaniu do panelu WordPressa):
 - 05.11: Grawerowanie laserowe opublikowane: treść szkicu 2584 jest na stronie 456 (/grawerowanie-laserowe/), szablon page-no-title. Adres, podstrony, menu, tytuł SEO i opis zostały bez zmian, dane strukturalne Service przeniesione ze starej strony. Karta „Marketing i wydarzenia” jest na razie bez linku, bo /uslugi-dla-marketingu/ (2602) to wciąż szkic. Po publikacji tamtej strony trzeba przywrócić link „Grawer dla marketingu”, zdanie nad kartami („Każda z trzech branż ma u nas osobną stronę...”) i margines 14px akapitu karty (skrypt wordpress/pages/grawerowanie/branze_bez_marketingu.py, kopia obok). Kopia starej strony: wordpress/pages/grawerowanie/backup-456-przed-publikacja-nowej-strony.json.
 - 05.11: Frezowanie CNC (żywa strona 1011), sekcja „Frezujemy dla przemysłu i dla gastronomii”: na karcie HoReCa zamiast napisu „Tea” (cięty laserem) jest frez w drewnianej płycie klejonej. W galerii realizacji (1397) karty „Tea” i „Team” nadal mają plakietkę „Frezowanie” i kategorię CNC; zleceniodawca przenosi je na wycinanie laserowe.
 
+- 25.11: Zdjęcia dzbanka i szklanki z logo LOT można pokazywać. Karta dodana na początek galerii 1397 (45 kart); przy okazji poprawione liczby przy filtrach, które po usunięciu karty w październiku zostały nieaktualne (Grawerowanie 25, Wycinanie 19, Frezowanie 6).
+
 ## Grawerowanie laserowe (szkic 2584)
 
 1. Czy torebka „Lago di Garda” ze zdjęcia jest ze skóry naturalnej (tak podaje galeria realizacji), czy ze sklejki (tak podpisano ją na stronie Produkty)? Jeśli ze sklejki, w tej karcie damy skórzany kapelusz z galerii.
@@ -72,6 +74,6 @@ Zdjęcia (18.11): ze zdjęć i filmu z 13.10.2026 na stronie jest 5 plików, med
 
 Podgląd: https://grawerowanie-laserowe.pl/?p=2644&preview=true. Zdjęcia zestawu od zleceniodawcy z 25.11.2026 (media 2641-2643); pozostałe zdjęcia z biblioteki (2345, 2341, 1891).
 
-1. Na zdjęciach widać logo klienta (dzbanek i szklanka z grawerem). Czy klient zgadza się na pokazanie tych zdjęć na blogu? Czy możemy podać jego nazwę? Serwis nie wymienia go nigdzie, więc tekst, podpisy i opisy zdjęć mówią tylko o „logo klienta”.
+1. Ustalone 25.11.2026: zdjęcia z logo LOT możemy pokazywać. Zestaw jest w galerii realizacji jako „Dzbanek i szklanka „LOT”” (pierwsza karta). We wpisie tekst i podpisy mówią nadal o „logo klienta”.
 2. Którym laserem robiliście dzbanek (stal) i którym szklankę? Tekst mówi ogólnie: metal laserem fiber, szkło laserem CO₂, tak jak strony Grawerowanie i HoReCa.
 3. Czy filiżanki do espresso z porcelany i drewniane podkładki pod filiżanki to rzeczy, które realnie grawerujecie dla kawiarni? Lista „Co jeszcze z kawowego zestawu” bierze je ze strony HoReCa.

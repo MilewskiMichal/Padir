@@ -39,7 +39,7 @@ Repozytorium do obsługi serwisu pracowni Padir (WordPress) i materiałów marke
 | 456 | /grawerowanie-laserowe/ | nowy układ od 05.11.2026, treść ze szkicu 2584, szablon `page-no-title` |
 | 1011 | /frezowanie-cnc/ | stary układ; nowy czeka w szkicu 2585 |
 | 20 | /kontakt/ | używa tego samego formularza 480 co strony `.pdw`, więc szablonu formularza nie zmieniamy |
-| 1397 | /przykladkowe-realizacje/ | galeria `.pdr-card` |
+| 1397 | /przykladkowe-realizacje/ | galeria `.pdr-card`, 45 kart; liczby przy filtrach (`.pdr-n`) i licznik są wpisane na sztywno, skrypty `pages/realizacje/realizacja_dodaj.py` i `realizacja_usun.py` |
 | 2283 | /uslugi-dla-horeca/ | strona branżowa, szablon `.pdl` |
 | 2264 | /uslugi-dla-przemyslu/ | strona branżowa, szablon `.pdl` |
 | 2602 | /uslugi-dla-marketingu/ | **szkic**, strona branżowa `.pdl`, czeka na akceptację |
@@ -130,7 +130,7 @@ Przeglądarka ma zalogowane konta Michała: WhitePress, Webpozycja, Senuto, pane
   - Zasady: jasne slajdy białe albo #F5F5F5, ciemne tylko w bardzo ciemnym granacie #16264D (nie czarne, nie #12388C, nie cała prezentacja na niebiesko), bez elementów udających przyciski.
   - Ostatni slajd: kontakt do Kariny (e-mail i telefon wpisał zleceniodawca).
 - **Case study 2626** „Urwana śrubka w broni za kilkadziesiąt tysięcy” (szkic z 18.11; źródło: `szkice/case-sruba/rozmowa.md`; trzy śrubki 2 mm zalane Loctite, podstawka co do 0,01 mm, właściciel przy broni, grawer broni dla KGP). Zdjęcia i film są na stronie (media 2628-2633), kontrola produkcyjna `--pdz` przechodzi z 0 błędów. Do publikacji brakuje odpowiedzi klienta: `PYTANIA-DO-KLIENTA.md`, sekcja case study.
-- **Wpis 2644** „Logo na dzbanku do mleka i szklance do latte” (szkic z 25.11; luka na blogu: nic o sprzęcie do kawy). Na zdjęciach logo klienta, w tekście bez nazwy marki; czeka na zgodę klienta na zdjęcia (`PYTANIA-DO-KLIENTA.md`).
+- **Wpis 2644** „Logo na dzbanku do mleka i szklance do latte” (szkic z 25.11; luka na blogu: nic o sprzęcie do kawy). Na zdjęciach logo LOT; zgoda na pokazywanie zdjęć jest (25.11), zestaw jest też pierwszą kartą w galerii 1397. W tekście nadal „logo klienta”. Czeka na decyzję o publikacji.
 - **Szkice** 2585 (frezowanie) i 2602 (marketing) czekają na akceptację. Przy publikacji 2602 trzeba:
   1. Skrócić tytuł, czyli usunąć „(szkic do akceptacji)”.
   2. Po zgodzie klienta dodać linki przychodzące według `szkice/marketing/linki.md` (punkt 4, pytanie L02).
