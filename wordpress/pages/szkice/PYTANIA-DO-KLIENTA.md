@@ -67,3 +67,11 @@ Zdjęcia (18.11): ze zdjęć i filmu z 13.10.2026 na stronie jest 5 plików, med
 8. Czy grawer na broni to stała usługa, także dla klientów prywatnych? Na jakich częściach broni grawerujecie?
 9. Czy wypowiedź z rozmowy możemy podpisać imieniem i nazwiskiem?
 10. Czy zostaje adres /case-study/sruba-zablokowana-klejem/? Po publikacji: karta tej historii na stronie /case-study/ (2487).
+
+## Wpis „Logo na dzbanku do mleka i szklance do latte” (szkic wpisu 2644)
+
+Podgląd: https://grawerowanie-laserowe.pl/?p=2644&preview=true. Zdjęcia zestawu od zleceniodawcy z 25.11.2026 (media 2641-2643); pozostałe zdjęcia z biblioteki (2345, 2341, 1891).
+
+1. Na zdjęciach widać logo klienta (dzbanek i szklanka z grawerem). Czy klient zgadza się na pokazanie tych zdjęć na blogu? Czy możemy podać jego nazwę? Serwis nie wymienia go nigdzie, więc tekst, podpisy i opisy zdjęć mówią tylko o „logo klienta”.
+2. Którym laserem robiliście dzbanek (stal) i którym szklankę? Tekst mówi ogólnie: metal laserem fiber, szkło laserem CO₂, tak jak strony Grawerowanie i HoReCa.
+3. Czy filiżanki do espresso z porcelany i drewniane podkładki pod filiżanki to rzeczy, które realnie grawerujecie dla kawiarni? Lista „Co jeszcze z kawowego zestawu” bierze je ze strony HoReCa.

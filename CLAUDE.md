@@ -46,6 +46,7 @@ Repozytorium do obsługi serwisu pracowni Padir (WordPress) i materiałów marke
 | 2585 | frezowanie-cnc-szkic | **szkic** nowej strony Frezowanie CNC |
 | 2530 | wycinanie-laserowe-szkic | dawny szkic wycinania, wzór konwencji szkicu |
 | 2487 | /case-study/ | lista case study (szablon `.pdl`); 2470 Zamek Sułkowskich i 12 WOŚP to opublikowane historie |
+| 2644 | /blog/grawer-dzbanek-do-mleka-szklanka-do-latte/ | **szkic wpisu** o graweru na sprzęcie do kawy (25.11.2026), źródło `wordpress/wpisy/grawer-sprzet-do-kawy/` |
 | 2626 | /case-study/sruba-zablokowana-klejem/ | **szkic** case study w układzie `.pdz`, z szarymi miejscami na zdjęcia |
 | 8 | /produkty/ | |
 | 1812, 2228 | podstrony 456 | prezenty, grawerowanie na nożu |
@@ -58,7 +59,7 @@ Podgląd szkicu po zalogowaniu: `https://grawerowanie-laserowe.pl/?page_id=<id>&
 
 - `wordpress/wp.py`: klient REST API. Poświadczenia bierze ze zmiennych `PADIR_WP_USER` i `PADIR_WP_APP_PASSWORD` albo z pliku `wordpress/wp.creds.json` (chmod 600, w .gitignore).
 - `wordpress/narzedzia/`:
-  - `sprawdz_szkic.py`: kontrola treści przed zapisem. Flaga `--szkic` dla szkiców do akceptacji, `--pdl` dla stron branżowych, `--pdz` dla case study, `--json` dla agentów.
+  - `sprawdz_szkic.py`: kontrola treści przed zapisem. Flaga `--szkic` dla szkiców do akceptacji, `--pdl` dla stron branżowych, `--pdz` dla case study, `--wpis` dla wpisów na blogu, `--json` dla agentów.
   - `odswiez_zrodla.py`: zapisuje do `narzedzia/zrodla/` spis stron i wpisów (`SPIS.json`) oraz bibliotekę mediów (`media.json`). Tylko te dwa pliki. Bez nich sprawdzarka pomija kontrolę linków i zdjęć, zgłaszając tylko ostrzeżenie.
   - `podglad_szkicu.py` i `zywa_strona.py`: wierny podgląd strony z motywem.
   - `kontaktowka.py`: miniatury zdjęć. Nie zgaduj treści zdjęcia z nazwy pliku.
@@ -66,6 +67,7 @@ Podgląd szkicu po zalogowaniu: `https://grawerowanie-laserowe.pl/?page_id=<id>&
   - Każdy szkic ma `<klucz>/strona.html` plus fakty, linki i poprawki. `szkic_wdroz.py` zapisuje go jako draft.
   - Wzorce układu: `wzorzec.md` (`.pdw`, strony usług) i `marketing/wzorzec-pdl.md` z `wzorzec-pdl-dopisek.css` (`.pdl`, strony branżowe). Kod opakowania strony bierz z gotowych `szkice/*/strona.html`.
 - **Czego nie ma w repo:** briefy (`BRIEF*.md`), `wzorzec.md` i `fakty.md` odwołują się do starego katalogu roboczego sesji w chmurze (`S/`, `praca/`, `zrodla/pages-*.txt`, `zrodla/1019-sekcje/`). Tych plików już nie ma. Cytaty z `fakty.md` sprawdzaj na serwowanej stronie.
+- `wordpress/wpisy/`: wpisy na blogu w stylu `.padir-art` (arkusz `styl-padir-art.css` z wpisu 2550). Każdy wpis: `<klucz>/wpis.json` (slug, tytuł, zajawka, kategorie, obrazek, Yoast) i `tresc-body.html`; `wpis_wdroz.py <klucz> [--wdroz]` skleja treść, sprawdza ją z `--wpis` i zapisuje wyłącznie jako szkic.
 - `wordpress/pages/<strona>/`: jednorazowe skrypty zmian na żywych stronach, z kopiami `backup-*.json` sprzed zmiany. To zapis historii, nie uruchamiaj ich ponownie bez potrzeby.
 - `wordpress/formularz-cf7/`: autoresponder formularza i `zgloszenia_z_mbox.py` (zgłoszenia z eksportu Gmaila do CSV). Eksport `.mbox` i wynikowe CSV zawierają dane klientów, więc są w .gitignore.
 - `wordpress/adres/`, `wordpress/popup/`: przeprowadzka i popup o zmianie hali.
@@ -128,6 +130,7 @@ Przeglądarka ma zalogowane konta Michała: WhitePress, Webpozycja, Senuto, pane
   - Zasady: jasne slajdy białe albo #F5F5F5, ciemne tylko w bardzo ciemnym granacie #16264D (nie czarne, nie #12388C, nie cała prezentacja na niebiesko), bez elementów udających przyciski.
   - Ostatni slajd: kontakt do Kariny (e-mail i telefon wpisał zleceniodawca).
 - **Case study 2626** „Urwana śrubka w broni za kilkadziesiąt tysięcy” (szkic z 18.11; źródło: `szkice/case-sruba/rozmowa.md`; trzy śrubki 2 mm zalane Loctite, podstawka co do 0,01 mm, właściciel przy broni, grawer broni dla KGP). Zdjęcia i film są na stronie (media 2628-2633), kontrola produkcyjna `--pdz` przechodzi z 0 błędów. Do publikacji brakuje odpowiedzi klienta: `PYTANIA-DO-KLIENTA.md`, sekcja case study.
+- **Wpis 2644** „Logo na dzbanku do mleka i szklance do latte” (szkic z 25.11; luka na blogu: nic o sprzęcie do kawy). Na zdjęciach logo klienta, w tekście bez nazwy marki; czeka na zgodę klienta na zdjęcia (`PYTANIA-DO-KLIENTA.md`).
 - **Szkice** 2585 (frezowanie) i 2602 (marketing) czekają na akceptację. Przy publikacji 2602 trzeba:
   1. Skrócić tytuł, czyli usunąć „(szkic do akceptacji)”.
   2. Po zgodzie klienta dodać linki przychodzące według `szkice/marketing/linki.md` (punkt 4, pytanie L02).

@@ -1,0 +1,22 @@
+{
+ "slug": "grawer-dzbanek-do-mleka-szklanka-do-latte",
+ "tytul": "Logo na dzbanku do mleka i szklance do latte. Grawer na sprzęcie do kawy",
+ "zajawka": "Dzbanek do mleka i szklanka do latte są na widoku przez całe zamówienie. Pokazujemy, jak ten sam znak wygląda na stali i na szkle, gdzie go umieścić i jak zamówić serię.",
+ "kategorie": [5],
+ "obrazek": 2641,
+ "yoast": {
+  "focuskw": "grawer na dzbanku do mleka",
+  "title": "Grawer na dzbanku do mleka i szklance do latte | Padir",
+  "metadesc": "Logo kawiarni na stalowym dzbanku do mleka i szklance do latte. Czym różni się grawer na stali i na szkle, gdzie postawić znak i ile wytrzyma."
+ },
+ "css_dopisek": "/* zdjecie pionowe nie rozpycha wpisu na cala wysokosc ekranu */\n.padir-art .pa-fig--pion img{max-width:min(100%,440px)}",
+ "zrodla_faktow": {
+  "laser fiber do metalu": "/grawerowanie-laserowe/ (456)",
+  "szklo laserem CO2, matowy grawer, ponad 2000 cykli zmywarki": "/uslugi-dla-horeca/ (2283) i wpis 2550",
+  "stalowe akcesoria odporne na zmywarke i detergenty": "/uslugi-dla-horeca/ (2283), karta Sztucce i akcesoria barowe",
+  "porcelana: grawer powierzchniowy w jednym kolorze, filizanki do espresso": "/uslugi-dla-horeca/ (2283)",
+  "probka do akceptacji przed seria, ta sama pozycja na kazdej sztuce": "/uslugi-dla-horeca/ (2283), Jak to dziala",
+  "grawer na zastawie, ktora lokal juz ma": "/uslugi-dla-horeca/ (2283) i wpis 2550",
+  "zestaw dzbanek i szklanka z logo": "zdjecia od zleceniodawcy z 25.11.2026 (IMG_4823, 4827, 4832)"
+ }
+}

@@ -1,0 +1,207 @@
+<style data-no-optimize="1" data-no-ucss="1" data-wp-block-html="css">
+.padir-art{
+  --pa-accent:#1E73BE;
+  --pa-accent-dark:#15568D;
+  --pa-tint:#F2F7FC;
+  --pa-line:#D9E6F2;
+  --pa-text:#2B2B2B;
+  --pa-muted:#5F6B77;
+  color:var(--pa-text);
+  font-size:1.05rem;
+  line-height:1.75;
+}
+
+/* --- lead --- */
+.padir-art .pa-lead{
+  font-size:1.15rem;
+  line-height:1.7;
+}
+
+/* --- spis treści --- */
+.padir-art .pa-toc{
+  background:var(--pa-tint);
+  border-left:4px solid var(--pa-accent);
+  border-radius:0 10px 10px 0;
+  padding:1.1rem 1.4rem;
+  margin:1.6rem 0 2rem;
+}
+.padir-art .pa-toc h4{
+  margin:0 0 .6rem;
+  font-size:1rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  color:var(--pa-accent-dark);
+}
+.padir-art .pa-toc ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.padir-art .pa-toc li{
+  padding:.18rem 0;
+}
+.padir-art .pa-toc li::before{
+  content:"- ";
+  color:var(--pa-accent);
+  font-weight:700;
+}
+.padir-art .pa-toc a{
+  color:var(--pa-text);
+  text-decoration:none;
+  border-bottom:1px solid transparent;
+  transition:.15s;
+}
+.padir-art .pa-toc a:hover{
+  color:var(--pa-accent-dark);
+  border-bottom-color:var(--pa-accent);
+}
+
+/* --- nagłówki sekcji (pogrubione) --- */
+.padir-art h2{
+  font-weight:700;
+  margin:2.4rem 0 1rem;
+  padding-bottom:.45rem;
+  position:relative;
+  scroll-margin-top:110px; /* kotwice spisu treści nie chowają się pod menu */
+}
+.padir-art h2::after{
+  content:"";
+  position:absolute;
+  left:0; bottom:0;
+  width:56px; height:3px;
+  background:var(--pa-accent);
+  border-radius:2px;
+}
+.padir-art h4{
+  font-weight:700;
+  margin:1.8rem 0 .7rem;
+  color:var(--pa-text);
+}
+
+/* --- linki w treści --- */
+.padir-art a{
+  color:var(--pa-accent-dark);
+  text-decoration:underline;
+  text-decoration-color:var(--pa-line);
+  text-underline-offset:3px;
+  transition:.15s;
+}
+.padir-art a:hover{
+  color:var(--pa-accent);
+  text-decoration-color:var(--pa-accent);
+}
+
+/* --- tabela materiałów --- */
+.padir-art .pa-tablewrap{
+  overflow-x:auto;
+  margin:1.4rem 0;
+}
+.padir-art .pa-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:.98rem;
+  min-width:560px;
+}
+.padir-art .pa-table th{
+  background:var(--pa-tint);
+  color:var(--pa-accent-dark);
+  text-align:left;
+  font-weight:700;
+  padding:.7rem .9rem;
+  border-bottom:2px solid var(--pa-accent);
+}
+.padir-art .pa-table td{
+  padding:.65rem .9rem;
+  border-bottom:1px solid var(--pa-line);
+  vertical-align:top;
+}
+.padir-art .pa-table tr:nth-child(even) td{
+  background:#F8FBFE;
+}
+
+/* --- listy --- */
+.padir-art .pa-list li,
+.padir-art .pa-steps li{
+  margin:.45rem 0;
+}
+.padir-art .pa-steps{
+  counter-reset:pa-step;
+  list-style:none;
+  padding-left:0;
+}
+.padir-art .pa-steps li{
+  counter-increment:pa-step;
+  position:relative;
+  padding:.35rem 0 .35rem 3rem;
+}
+.padir-art .pa-steps li::before{
+  content:counter(pa-step);
+  position:absolute;
+  left:0; top:.35rem;
+  width:2.1rem; height:2.1rem;
+  border-radius:50%;
+  background:var(--pa-accent);
+  color:#fff;
+  font-weight:700;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* --- zdjęcia i infografiki --- */
+.padir-art .pa-fig{
+  margin:2rem 0;
+  text-align:center;
+}
+.padir-art .pa-fig img{
+  max-width:100%;
+  height:auto;
+  border-radius:12px;
+  box-shadow:0 6px 22px rgba(21,60,100,.10);
+}
+.padir-art .pa-fig figcaption{
+  margin-top:.55rem;
+  font-size:.88rem;
+  color:var(--pa-muted);
+}
+
+/* --- blok CTA --- */
+.padir-art .pa-cta{
+  background:var(--pa-tint);
+  border:1px solid var(--pa-line);
+  border-radius:14px;
+  padding:1.6rem 1.8rem;
+  margin:2.6rem 0 1rem;
+  text-align:center;
+}
+.padir-art .pa-cta p{
+  margin:0 0 1.1rem;
+}
+.padir-art .pa-btn{
+  display:inline-block;
+  background:var(--pa-accent);
+  color:#fff !important;
+  text-decoration:none !important;
+  font-weight:700;
+  padding:.85rem 1.9rem;
+  border-radius:999px;
+  transition:.15s;
+  box-shadow:0 4px 14px rgba(30,115,190,.35);
+}
+.padir-art .pa-btn:hover{
+  background:var(--pa-accent-dark);
+  transform:translateY(-1px);
+}
+
+/* --- mobile --- */
+@media (max-width:600px){
+  .padir-art{font-size:1rem;}
+  .padir-art .pa-lead{font-size:1.06rem;}
+  .padir-art .pa-toc{padding:1rem 1.1rem;}
+  .padir-art .pa-cta{padding:1.3rem 1.1rem;}
+}
+
+.padir-art h3{color:#15568D!important;}
+.padir-art .pa-btn--obrys{background:transparent!important;color:#15568D!important;box-shadow:inset 0 0 0 2px #15568D;}
+.padir-art .pa-btn--obrys:hover{background:#15568D!important;color:#fff!important;}</style>

@@ -1,0 +1,302 @@
+<!-- wp:html -->
+<div class="padir-art">
+<style data-no-optimize="1" data-no-ucss="1" data-wp-block-html="css">
+.padir-art{
+  --pa-accent:#1E73BE;
+  --pa-accent-dark:#15568D;
+  --pa-tint:#F2F7FC;
+  --pa-line:#D9E6F2;
+  --pa-text:#2B2B2B;
+  --pa-muted:#5F6B77;
+  color:var(--pa-text);
+  font-size:1.05rem;
+  line-height:1.75;
+}
+
+/* --- lead --- */
+.padir-art .pa-lead{
+  font-size:1.15rem;
+  line-height:1.7;
+}
+
+/* --- spis treści --- */
+.padir-art .pa-toc{
+  background:var(--pa-tint);
+  border-left:4px solid var(--pa-accent);
+  border-radius:0 10px 10px 0;
+  padding:1.1rem 1.4rem;
+  margin:1.6rem 0 2rem;
+}
+.padir-art .pa-toc h4{
+  margin:0 0 .6rem;
+  font-size:1rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  color:var(--pa-accent-dark);
+}
+.padir-art .pa-toc ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.padir-art .pa-toc li{
+  padding:.18rem 0;
+}
+.padir-art .pa-toc li::before{
+  content:"- ";
+  color:var(--pa-accent);
+  font-weight:700;
+}
+.padir-art .pa-toc a{
+  color:var(--pa-text);
+  text-decoration:none;
+  border-bottom:1px solid transparent;
+  transition:.15s;
+}
+.padir-art .pa-toc a:hover{
+  color:var(--pa-accent-dark);
+  border-bottom-color:var(--pa-accent);
+}
+
+/* --- nagłówki sekcji (pogrubione) --- */
+.padir-art h2{
+  font-weight:700;
+  margin:2.4rem 0 1rem;
+  padding-bottom:.45rem;
+  position:relative;
+  scroll-margin-top:110px; /* kotwice spisu treści nie chowają się pod menu */
+}
+.padir-art h2::after{
+  content:"";
+  position:absolute;
+  left:0; bottom:0;
+  width:56px; height:3px;
+  background:var(--pa-accent);
+  border-radius:2px;
+}
+.padir-art h4{
+  font-weight:700;
+  margin:1.8rem 0 .7rem;
+  color:var(--pa-text);
+}
+
+/* --- linki w treści --- */
+.padir-art a{
+  color:var(--pa-accent-dark);
+  text-decoration:underline;
+  text-decoration-color:var(--pa-line);
+  text-underline-offset:3px;
+  transition:.15s;
+}
+.padir-art a:hover{
+  color:var(--pa-accent);
+  text-decoration-color:var(--pa-accent);
+}
+
+/* --- tabela materiałów --- */
+.padir-art .pa-tablewrap{
+  overflow-x:auto;
+  margin:1.4rem 0;
+}
+.padir-art .pa-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:.98rem;
+  min-width:560px;
+}
+.padir-art .pa-table th{
+  background:var(--pa-tint);
+  color:var(--pa-accent-dark);
+  text-align:left;
+  font-weight:700;
+  padding:.7rem .9rem;
+  border-bottom:2px solid var(--pa-accent);
+}
+.padir-art .pa-table td{
+  padding:.65rem .9rem;
+  border-bottom:1px solid var(--pa-line);
+  vertical-align:top;
+}
+.padir-art .pa-table tr:nth-child(even) td{
+  background:#F8FBFE;
+}
+
+/* --- listy --- */
+.padir-art .pa-list li,
+.padir-art .pa-steps li{
+  margin:.45rem 0;
+}
+.padir-art .pa-steps{
+  counter-reset:pa-step;
+  list-style:none;
+  padding-left:0;
+}
+.padir-art .pa-steps li{
+  counter-increment:pa-step;
+  position:relative;
+  padding:.35rem 0 .35rem 3rem;
+}
+.padir-art .pa-steps li::before{
+  content:counter(pa-step);
+  position:absolute;
+  left:0; top:.35rem;
+  width:2.1rem; height:2.1rem;
+  border-radius:50%;
+  background:var(--pa-accent);
+  color:#fff;
+  font-weight:700;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* --- zdjęcia i infografiki --- */
+.padir-art .pa-fig{
+  margin:2rem 0;
+  text-align:center;
+}
+.padir-art .pa-fig img{
+  max-width:100%;
+  height:auto;
+  border-radius:12px;
+  box-shadow:0 6px 22px rgba(21,60,100,.10);
+}
+.padir-art .pa-fig figcaption{
+  margin-top:.55rem;
+  font-size:.88rem;
+  color:var(--pa-muted);
+}
+
+/* --- blok CTA --- */
+.padir-art .pa-cta{
+  background:var(--pa-tint);
+  border:1px solid var(--pa-line);
+  border-radius:14px;
+  padding:1.6rem 1.8rem;
+  margin:2.6rem 0 1rem;
+  text-align:center;
+}
+.padir-art .pa-cta p{
+  margin:0 0 1.1rem;
+}
+.padir-art .pa-btn{
+  display:inline-block;
+  background:var(--pa-accent);
+  color:#fff !important;
+  text-decoration:none !important;
+  font-weight:700;
+  padding:.85rem 1.9rem;
+  border-radius:999px;
+  transition:.15s;
+  box-shadow:0 4px 14px rgba(30,115,190,.35);
+}
+.padir-art .pa-btn:hover{
+  background:var(--pa-accent-dark);
+  transform:translateY(-1px);
+}
+
+/* --- mobile --- */
+@media (max-width:600px){
+  .padir-art{font-size:1rem;}
+  .padir-art .pa-lead{font-size:1.06rem;}
+  .padir-art .pa-toc{padding:1rem 1.1rem;}
+  .padir-art .pa-cta{padding:1.3rem 1.1rem;}
+}
+
+.padir-art h3{color:#15568D!important;}
+.padir-art .pa-btn--obrys{background:transparent!important;color:#15568D!important;box-shadow:inset 0 0 0 2px #15568D;}
+.padir-art .pa-btn--obrys:hover{background:#15568D!important;color:#fff!important;}
+/* zdjecie pionowe nie rozpycha wpisu na cala wysokosc ekranu */
+.padir-art .pa-fig--pion img{max-width:min(100%,440px)}
+</style>
+
+<p class="pa-lead">W kawiarni gość patrzy na ręce baristy. Najpierw widzi stalowy dzbanek, z którego mleko spływa do filiżanki, potem dostaje szklankę z latte. Obie rzeczy są na widoku przez całe zamówienie, a w większości lokali żadna z nich nie mówi, gdzie gość właściwie jest.</p>
+
+<p>Na zdjęciach jest zestaw, który niedawno grawerowaliśmy: dzbanek do spieniania mleka ze stali nierdzewnej i szklanka do latte z tym samym logo. Na tym przykładzie pokazujemy, czym różni się grawer na stali i na szkle, gdzie postawić znak i jak zamówić całą serię.</p>
+
+<figure class="pa-fig"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/11/padir-grawer-dzbanek-do-mleka-i-szklanka-latte.jpg" alt="Stalowy dzbanek do spieniania mleka i szklanka do latte z tym samym wygrawerowanym logo" width="1600" height="1200" loading="lazy" decoding="async"><figcaption>Dzbanek do mleka ze stali nierdzewnej i szklanka do latte z tym samym logo klienta.</figcaption></figure>
+
+<div class="pa-toc">
+<h4>W tym tekście</h4>
+<ul>
+<li><a href="#dlaczego">Dlaczego warto zacząć od sprzętu do kawy</a></li>
+<li><a href="#dzbanek">Dzbanek do mleka ze stali nierdzewnej</a></li>
+<li><a href="#szklanka">Szklanka do latte</a></li>
+<li><a href="#jeden-znak">Jeden znak na stali i na szkle</a></li>
+<li><a href="#zestaw">Co jeszcze z kawowego zestawu</a></li>
+<li><a href="#zamowienie">Jak zamówić serię</a></li>
+</ul>
+</div>
+
+<h2 id="dlaczego">Dlaczego warto zacząć od sprzętu do kawy</h2>
+
+<p>Szyld lokalu gość widzi przez chwilę przy wejściu. Dzbanek baristy ma przed oczami przez kilka minut, a szklankę z latte trzyma w dłoni tak długo, jak pije. Przy barze, na którym ekspres stoi na widoku, sprzęt jest częścią pokazu: gość patrzy, jak spienia się mleko i jak powstaje wzór na kawie.</p>
+
+<p>Latte w przezroczystej szklance często trafia też na zdjęcia, które goście wrzucają do mediów społecznościowych. Znak wygrawerowany w szkle jest wtedy w kadrze bez żadnej dodatkowej pracy po stronie lokalu.</p>
+
+<p>Szerzej o tym, dlaczego lokale sygnują zastawę, piszemy we wpisie <a href="/blog/grawer-w-horeca-detal-ktorego-dotyka-gosc/">Dlaczego dobre lokale sygnują swoje rzeczy</a>. Tutaj zostajemy przy kawie.</p>
+
+<h2 id="dzbanek">Dzbanek do mleka ze stali nierdzewnej</h2>
+
+<p>Metal znakujemy laserem fiber. Na polerowanej stali znak wychodzi matowy i jasnoszary, więc odcina się od lustrzanej powierzchni pod każdym kątem, także wtedy, gdy dzbanek odbija światło z okna. Na zdjęciu niżej widać, że czytelny jest nawet drobny napis nad logo.</p>
+
+<figure class="pa-fig"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/11/padir-grawer-dzbanek-stal-nierdzewna-zblizenie.jpg" alt="Matowe logo wygrawerowane laserem na polerowanym dzbanku do mleka ze stali nierdzewnej" width="1600" height="1064" loading="lazy" decoding="async"><figcaption>Na polerowanej stali znak jest matowy i jasnoszary. Drobny napis nad logo też jest czytelny.</figcaption></figure>
+
+<p>Grawer to nie farba ani naklejka. Laser zmienia samą powierzchnię metalu, więc gąbka nie ma czego zetrzeć, a gorąco i wilgoć przy spienianiu mleka nie mają czego odkleić. Grawer na stalowych akcesoriach baru i kuchni wytrzymuje zmywarkę i detergenty.</p>
+
+<p>Przed zamówieniem warto ustalić z baristą jedną rzecz: którą stroną dzbanek jest zwrócony do gościa, kiedy mleko trafia do filiżanki. To zależy od tego, którą ręką barista nalewa, i od ustawienia baru. Logo po tej stronie będzie widać przy każdym zamówieniu.</p>
+
+<figure class="pa-fig"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-znakowanie-laserowe-sztuccow.jpg" alt="Laser znakuje stalową łyżkę ułożoną w przyrządzie z plexi" width="1000" height="430" loading="lazy" decoding="async"><figcaption>W ten sam sposób znakujemy sztućce i inne akcesoria ze stali nierdzewnej.</figcaption></figure>
+
+<h2 id="szklanka">Szklanka do latte</h2>
+
+<p>Szkło grawerujemy laserem CO₂. Wiązka usuwa cienką warstwę materiału, więc znak jest matowy i wtopiony w szkło. W odróżnieniu od nadruku nie ma na nim warstwy, która z czasem zaczęłaby schodzić przy krawędzi. W gastronomii taki grawer wytrzymuje ponad 2000 cykli zmywarki bez śladu zużycia.</p>
+
+<figure class="pa-fig pa-fig--pion"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/11/padir-grawer-szklanka-do-latte-logo.jpg" alt="Szklanka do latte z matowym logo wygrawerowanym nisko nad stopką, obok stalowy dzbanek" width="1200" height="1600" loading="lazy" decoding="async"><figcaption>Logo na szklance do latte. Grawer jest matowy i wtopiony w szkło.</figcaption></figure>
+
+<p>Na zdjęciu logo stoi nisko, tuż nad stopką. Wysokość warto sprawdzić na próbce z napojem w środku. W latte mleko, kawa i pianka układają się warstwami, a matowy znak wygląda inaczej na tle białego mleka i inaczej na tle ciemnej kawy. Dlatego przed serią grawerujemy jedną sztukę do akceptacji.</p>
+
+<figure class="pa-fig"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2026/08/padir-realizacja-grawer-szkla-na-laserze.jpg" alt="Szklane naczynie podczas graweru laserowego w pracowni Padir" width="1000" height="667" loading="lazy" decoding="async"><figcaption>Grawer szkła w naszej pracowni.</figcaption></figure>
+
+<h2 id="jeden-znak">Jeden znak na stali i na szkle</h2>
+
+<p>Na stali logo jest matowe na tle połysku, na szkle mlecznobiałe na przezroczystym tle. To ten sam znak w dwóch różnych odsłonach. Zestaw wygląda spójnie, a każdy przedmiot zachowuje swój charakter.</p>
+
+<p>Do obu materiałów wystarczy jeden plik wektorowy z logo. Jak go przygotować, opisujemy w poradniku <a href="/blog/jak-przygotowac-projekt-do-grawerowania-laserowego/">jak przygotować projekt do grawerowania</a>.</p>
+
+<p>Rozmiar dobieramy osobno do każdego przedmiotu. Na dzbanku logo może być większe, bo ścianka jest prosta i szeroka. Na szklance do latte wychodzi zwykle mniejsze, bo szkło zwęża się ku dołowi. Na pierwszym zdjęciu dobrze widać tę różnicę.</p>
+
+<h2 id="zestaw">Co jeszcze z kawowego zestawu</h2>
+
+<p>Dzbanek i szklanka to dobry początek. Ten sam znak można przenieść na inne rzeczy, które gość ma przed sobą przy kawie:</p>
+
+<ul>
+<li><strong>łyżeczki</strong>, z logo na trzonku albo w czerpaku,</li>
+<li><strong>filiżanki do espresso z porcelany</strong>, z grawerem powierzchniowym w jednym kolorze,</li>
+<li><strong>kubki termiczne</strong> na kawę na wynos, które gość zabiera ze sobą,</li>
+<li><strong>podkładki i deski z drewna</strong> pod filiżankę i ciasto.</li>
+</ul>
+
+<figure class="pa-fig"><img src="https://grawerowanie-laserowe.pl/wp-content/uploads/2025/02/IMG_9004-1024x768.jpg" alt="Dwie łyżeczki z grawerem na trzonkach i w czerpakach" width="1024" height="768" loading="lazy" decoding="async"><figcaption>Łyżeczki z grawerem na trzonkach i w czerpakach.</figcaption></figure>
+
+<p>Pełny zakres dla hoteli, restauracji i kawiarni opisujemy na stronie <a href="/uslugi-dla-horeca/">usług dla HoReCa</a>.</p>
+
+<h2 id="zamowienie">Jak zamówić serię</h2>
+
+<ol>
+<li>Prześlij zdjęcie sprzętu albo nazwę modelu, plik z logo i liczbę sztuk.</li>
+<li>Grawerujemy próbkę. Na własnym dzbanku i własnej szklance zobaczysz wielkość i miejsce znaku.</li>
+<li>Po akceptacji robimy całą serię, ze znakiem w tym samym miejscu na każdej sztuce.</li>
+</ol>
+
+<p>Grawerujemy też sprzęt, który lokal już ma. Nie trzeba kupować nowych dzbanków ani szklanek, żeby mieć na nich logo.</p>
+
+<div class="pa-cta">
+<h3 style="color:#15568D!important">Prowadzisz kawiarnię, hotel albo bar?</h3>
+<p>Napisz, jaki sprzęt chcesz oznaczyć i ile sztuk. Odpowiemy z wyceną i propozycją miejsca na logo.</p>
+<p><a href="/kontakt/">Napisz do nas</a> albo zobacz <a href="/uslugi-dla-horeca/">zakres dla HoReCa</a>.</p>
+</div>
+
+</div>
+<!-- /wp:html -->

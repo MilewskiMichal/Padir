@@ -5,7 +5,7 @@ Kazda regula tutaj to blad, ktory juz raz poszedl na produkcje albo prawie
 poszedl. Skrypt nie ocenia jakosci tekstu ani wygladu, tylko rzeczy,
 ktore da sie sprawdzic maszynowo i ktorych czlowiek nie zauwazy w podgladzie.
 
-    python3 -I sprawdz_szkic.py plik.html [--szkic] [--pdl | --pdz] [--json]
+    python3 -I sprawdz_szkic.py plik.html [--szkic] [--pdl | --pdz | --wpis] [--json]
 
   --szkic   tryb wersji do akceptacji: zolte ramki `pdw-uwaga` sa dozwolone
             (i liczone), bo tak oznaczamy rzeczy do potwierdzenia z klientem.
@@ -19,6 +19,8 @@ ktore da sie sprawdzic maszynowo i ktorych czlowiek nie zauwazy w podgladzie.
             formularza przycisk do /kontakt/, kolor h3 ustawia arkusz
             (.owijka h3{color:...!important}). Szare pola `ramka miejsce`
             (miejsca na zdjecia) wolno zostawic tylko w szkicu.
+  --wpis    wpis na blogu w stylu .padir-art (jak wpis 2550): kontener
+            <div class="padir-art">, zero <h1> (tytul dodaje motyw), bez formularza.
   --json    wynik jako JSON (dla agentow).
 
 Kod wyjscia 0 = brak bledow, 1 = sa bledy. Ostrzezenia nie zmieniaja kodu.
@@ -54,6 +56,7 @@ def main():
     szkic = "--szkic" in sys.argv
     pdl = "--pdl" in sys.argv
     pdz = "--pdz" in sys.argv
+    wpis = "--wpis" in sys.argv
     jako_json = "--json" in sys.argv
     if not argv:
         print(__doc__)
@@ -119,7 +122,9 @@ def main():
     # 6. Dokladnie jeden h1.
     h1 = len(re.findall(r"<h1\b", t))
     info["h1"] = h1
-    if h1 != 1:
+    if wpis and h1:
+        blad("h1", f"liczba <h1>: {h1}; we wpisie tytuł dodaje motyw, w treści ma nie być <h1>")
+    elif not wpis and h1 != 1:
         blad("h1", f"liczba <h1>: {h1}, ma być dokładnie 1")
 
     # 7. Obrazki: alt, ladowanie, zrodla.
@@ -225,7 +230,10 @@ def main():
         blad("html", f"…i jeszcze {len(lp.problemy) - 12} problemów ze znacznikami")
 
     # 9. Kontener i formularz.
-    if pdl or pdz:
+    if wpis:
+        if not re.search(r'<div class="padir-art"', t):
+            blad("kontener", "brak kontenera <div class=\"padir-art\">, arkusz wpisu jest zawężony do .padir-art")
+    elif pdl or pdz:
         kl = "pdl" if pdl else "pdz"
         if not re.search(rf'<div class="{kl}"', t):
             blad("kontener", f"brak kontenera <div class=\"{kl}\">, arkusz jest zawężony do .{kl}")
